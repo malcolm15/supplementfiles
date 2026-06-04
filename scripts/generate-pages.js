@@ -8,26 +8,95 @@ const path = require('path');
 const BASE_URL       = 'https://supplementfiles.com';
 const CURRENT_DATE   = '2026-06-03';
 const FORMATTED_DATE = 'June 3, 2026';
-const DATA_FILE      = path.join(__dirname, '../data/supplement_mvp_final_v2.json');
+const DATA_FILE      = path.join(__dirname, '../data/supplement_full_catalog.json');
 const OUT_DIR        = path.join(__dirname, '../docs');
 const GA4_ID         = 'G-6VHWEWTGNM'; // SupplementFiles GA4 property
 
 // ─── Category labels (by brand family / product name substring) ───────────────
 const CATEGORY_MAP = [
+  // Multivitamins
   ['Centrum Silver',        'Multivitamin'],
   ['Centrum',               'Multivitamin'],
   ['One A Day',             'Multivitamin'],
   ['Flintstones',           "Children's Multivitamin"],
+  ['Flinstones',            "Children's Multivitamin"],
+  ['Rainbow Light',         'Multivitamin'],
+  ['Garden of Life',        'Multivitamin'],
+  ['Nature Made',           'Multivitamin'],
+  ['Nature\'s Bounty',      'Supplement'],
+  ['Thorne',                'Supplement'],
+  ['Ritual',                'Supplement'],
+  ['New Chapter',           'Supplement'],
+  // Eye health
   ['PreserVision',          'Eye Health Supplement'],
-  ['Super Beta Prostate',   'Prostate Health Supplement'],
+  ['Ocuvite',               'Eye Health Supplement'],
+  // Calcium / bone
   ['Citracal',              'Calcium Supplement'],
+  ['Caltrate',              'Calcium Supplement'],
+  ['Slow Fe',               'Iron Supplement'],
+  // Weight loss
   ['Hydroxycut',            'Weight Loss Supplement'],
+  ['OxyElite',              'Weight Loss Supplement'],
+  ['Oxyelite',              'Weight Loss Supplement'],
+  ['Relacore',              'Weight Loss Supplement'],
+  ['Leptiburn',             'Weight Loss Supplement'],
+  ['Modere',                'Weight Management Supplement'],
+  ['Plexus',                'Wellness Supplement'],
+  // Energy / sports
   ['5 Hour Energy',         'Energy Supplement'],
-  ['Kratom',                'Botanical Supplement'],
-  ['Benefiber',             'Fiber Supplement'],
-  ['Nutrafol',              'Hair Growth Supplement'],
-  ['Virility',              'Male Enhancement Supplement'],
   ['All Day Energy',        'Energy Supplement'],
+  ['No Xplode',             'Sports Supplement'],
+  // Prostate / men
+  ['Super Beta Prostate',   'Prostate Health Supplement'],
+  ['Super Beta',            'Men\'s Health Supplement'],
+  ['Ageless Male',          'Men\'s Health Supplement'],
+  ['Extenze',               'Men\'s Health Supplement'],
+  ['Virility',              'Men\'s Health Supplement'],
+  ['Triverex',              'Men\'s Health Supplement'],
+  // Botanical / herbal
+  ['Kratom',                'Botanical Supplement'],
+  ['Reumofan',              'Herbal Supplement'],
+  ['Artri',                 'Herbal Supplement'],
+  // Hair
+  ['Nutrafol',              'Hair Growth Supplement'],
+  // Fiber / digestive
+  ['Benefiber',             'Fiber Supplement'],
+  ['Metamucil',             'Fiber Supplement'],
+  ['Phillips\' Colon',      'Digestive Supplement'],
+  ['Florastor',             'Probiotic Supplement'],
+  ['Trubiotics',            'Probiotic Supplement'],
+  ['Culturelle',            'Probiotic Supplement'],
+  ['Align',                 'Probiotic Supplement'],
+  // MLM / wellness
+  ['Herbalife',             'Herbalife Supplement'],
+  ['Arbonne',               'Wellness Supplement'],
+  ['Isagenix',              'Weight Management Supplement'],
+  ['Xyngular',              'Wellness Supplement'],
+  ['USANA',                 'Wellness Supplement'],
+  ['Nutrilite',             'Supplement'],
+  ['Amway',                 'Supplement'],
+  ['Ionix',                 'Wellness Supplement'],
+  // Immune / vitamin C
+  ['Emergen-c',             'Vitamin C Supplement'],
+  ['Emergen-C',             'Vitamin C Supplement'],
+  ['Ester-C',               'Vitamin C Supplement'],
+  ['Airborne',              'Immune Support Supplement'],
+  ['Zicam',                 'Immune Support Supplement'],
+  // Brain / memory
+  ['Prevagen',              'Memory Supplement'],
+  ['Gundry',                'Dietary Supplement'],
+  // AG1
+  ['AG1',                   'Greens Supplement'],
+  ['Athletic Greens',       'Greens Supplement'],
+  ['Balance Of Nature',     'Fruit & Vegetable Supplement'],
+  // Protein / collagen
+  ['Vital Proteins',        'Protein Supplement'],
+  // Other
+  ['Liquid IV',             'Electrolyte Supplement'],
+  ['OLLY',                  'Gummy Supplement'],
+  ['Lactaid',               'Digestive Supplement'],
+  ['Azo',                   'Urinary Health Supplement'],
+  ['Protandim',             'Antioxidant Supplement'],
 ];
 
 function getCategory(p) {
