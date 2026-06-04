@@ -5,7 +5,7 @@
     "type": "branded",
     "brand_family": "Centrum Silver",
     "contamination_flag": "",
-    "total_reports": 1415,
+    "total_reports": 1495,
     "total_reports_csv": 1415,
     "page_eligible": true,
     "raw_strings": [
@@ -25,7 +25,8 @@
       "CENTRUM SILVER WOMEN\u0092S 50+ MULTIMINERALS MULTIVITAMIN TABLET",
       "CENTRUM SILVER WOMENS 50 PLUS MULTIMINERALS MULTIVITAMINS TABLET",
       "CENTRUM SILVER WOMEN\u0092S 50+ (MULTIMINERALS MULTIVITAMINS) TABLET",
-      "CENTRUM SILVER WOMEN'S 50+(MUL TIMINERALS, MULTIVITAMINS) TABLET"
+      "CENTRUM SILVER WOMEN'S 50+(MUL TIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER WOMEN'S 50+ MULTIMINERALS, MULTIVITAMINS TABLET"
     ],
     "data_character": "organic",
     "cluster_context": "Reports distributed across 2011\u20132025 consistent with organic consumer reporting.",
@@ -33,212 +34,212 @@
       "top_reactions": [
         {
           "term": "Choking",
-          "count": 962,
-          "pct": 67.99
+          "count": 1015,
+          "pct": 67.89
         },
         {
           "term": "Dysphagia",
-          "count": 524,
-          "pct": 37.03
+          "count": 557,
+          "pct": 37.26
         },
         {
           "term": "FOREIGN BODY TRAUMA",
-          "count": 206,
-          "pct": 14.56
+          "count": 216,
+          "pct": 14.45
         },
         {
           "term": "Throat irritation",
-          "count": 118,
-          "pct": 8.34
+          "count": 122,
+          "pct": 8.16
         },
         {
           "term": "Retching",
-          "count": 88,
-          "pct": 6.22
+          "count": 94,
+          "pct": 6.29
         },
         {
           "term": "Foreign body",
-          "count": 84,
-          "pct": 5.94
+          "count": 89,
+          "pct": 5.95
         },
         {
           "term": "Dyspnoea",
           "count": 51,
-          "pct": 3.6
+          "pct": 3.41
         },
         {
           "term": "Vomiting",
-          "count": 50,
-          "pct": 3.53
+          "count": 51,
+          "pct": 3.41
         },
         {
           "term": "Oropharyngeal pain",
-          "count": 41,
-          "pct": 2.9
+          "count": 43,
+          "pct": 2.88
         },
         {
           "term": "Coeliac disease",
-          "count": 39,
-          "pct": 2.76
+          "count": 40,
+          "pct": 2.68
         },
         {
           "term": "Malaise",
-          "count": 32,
-          "pct": 2.26
+          "count": 33,
+          "pct": 2.21
         },
         {
           "term": "Nausea",
-          "count": 30,
-          "pct": 2.12
+          "count": 31,
+          "pct": 2.07
         },
         {
           "term": "Feeling abnormal",
           "count": 28,
-          "pct": 1.98
+          "pct": 1.87
         },
         {
           "term": "Foreign body in throat",
           "count": 27,
-          "pct": 1.91
+          "pct": 1.81
         },
         {
           "term": "Fear",
           "count": 25,
-          "pct": 1.77
+          "pct": 1.67
         },
         {
           "term": "Cough",
           "count": 24,
-          "pct": 1.7
+          "pct": 1.61
         },
         {
           "term": "Hypersensitivity",
-          "count": 18,
+          "count": 19,
           "pct": 1.27
         },
         {
           "term": "Abdominal pain upper",
-          "count": 17,
+          "count": 18,
           "pct": 1.2
         },
         {
           "term": "Diarrhoea",
           "count": 17,
-          "pct": 1.2
-        },
-        {
-          "term": "Pharyngeal injury",
-          "count": 16,
-          "pct": 1.13
+          "pct": 1.14
         },
         {
           "term": "Body height decreased",
           "count": 16,
-          "pct": 1.13
+          "pct": 1.07
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 16,
+          "pct": 1.07
+        },
+        {
+          "term": "Pharyngeal injury",
+          "count": 16,
+          "pct": 1.07
         },
         {
           "term": "Pain",
           "count": 16,
-          "pct": 1.13
+          "pct": 1.07
         },
         {
-          "term": "Cerebrovascular accident",
+          "term": "Choking sensation",
           "count": 15,
-          "pct": 1.06
+          "pct": 1.0
+        },
+        {
+          "term": "OESOPHAGEAL INJURY",
+          "count": 14,
+          "pct": 0.94
+        },
+        {
+          "term": "Constipation",
+          "count": 14,
+          "pct": 0.94
+        },
+        {
+          "term": "Dyspepsia",
+          "count": 14,
+          "pct": 0.94
         },
         {
           "term": "Macular degeneration",
           "count": 14,
-          "pct": 0.99
-        },
-        {
-          "term": "Choking sensation",
-          "count": 14,
-          "pct": 0.99
-        },
-        {
-          "term": "OESOPHAGEAL INJURY",
-          "count": 13,
-          "pct": 0.92
+          "pct": 0.94
         },
         {
           "term": "Neoplasm malignant",
-          "count": 13,
-          "pct": 0.92
-        },
-        {
-          "term": "Dyspepsia",
-          "count": 13,
-          "pct": 0.92
+          "count": 14,
+          "pct": 0.94
         },
         {
           "term": "Death",
-          "count": 12,
-          "pct": 0.85
-        },
-        {
-          "term": "Constipation",
-          "count": 12,
-          "pct": 0.85
+          "count": 13,
+          "pct": 0.87
         }
       ],
-      "note": "case-normalised; computed from full local dataset"
+      "note": "case-normalised; merged from garbled raw strings"
     },
     "outcomes": {
       "Other Serious or Important Medical Event": {
-        "count": 1308,
-        "pct": 92.44
+        "count": 1385,
+        "pct": 92.64
       },
       "Hospitalization": {
-        "count": 102,
-        "pct": 7.21
+        "count": 106,
+        "pct": 7.09
       },
       "Visited a Health Care Provider": {
-        "count": 49,
-        "pct": 3.46
+        "count": 50,
+        "pct": 3.34
       },
       "Other Serious Outcome": {
         "count": 25,
-        "pct": 1.77
+        "pct": 1.67
       },
       "Visited Emergency Room": {
         "count": 17,
-        "pct": 1.2
+        "pct": 1.14
       },
       "Death": {
-        "count": 12,
-        "pct": 0.85
+        "count": 13,
+        "pct": 0.87
       },
       "Other Outcome": {
         "count": 12,
-        "pct": 0.85
+        "pct": 0.8
+      },
+      "Disability": {
+        "count": 4,
+        "pct": 0.27
       },
       "Life Threatening": {
         "count": 4,
-        "pct": 0.28
-      },
-      "Disability": {
-        "count": 3,
-        "pct": 0.21
+        "pct": 0.27
       }
     },
     "demographics": {
       "gender": {
-        "Female": 1334,
-        "Unknown/Not Reported": 69,
+        "Female": 1409,
+        "Unknown/Not Reported": 74,
         "Male": 12
       },
       "age_bands": {
         "under_18": 5,
         "18_34": 1,
         "35_49": 9,
-        "50_64": 117,
-        "65_79": 340,
-        "80_plus": 347,
-        "unknown": 596,
+        "50_64": 120,
+        "65_79": 359,
+        "80_plus": 366,
+        "unknown": 635,
         "median_age": 77.0,
-        "mean_age": 75.5,
-        "n_with_age": 819
+        "mean_age": 75.6,
+        "n_with_age": 860
       },
       "age_note": "all matched records"
     },
@@ -251,10 +252,10 @@
       "2009": 0,
       "2010": 0,
       "2011": 2,
-      "2012": 203,
-      "2013": 418,
-      "2014": 274,
-      "2015": 97,
+      "2012": 211,
+      "2013": 456,
+      "2014": 282,
+      "2015": 123,
       "2016": 68,
       "2017": 65,
       "2018": 64,
@@ -270,10 +271,10 @@
     "year_histogram": {
       "nonzero": {
         "2011": 2,
-        "2012": 203,
-        "2013": 418,
-        "2014": 274,
-        "2015": 97,
+        "2012": 211,
+        "2013": 456,
+        "2014": 282,
+        "2015": 123,
         "2016": 68,
         "2017": 65,
         "2018": 64,
@@ -286,17 +287,17 @@
         "2025": 27
       },
       "true_peak_year": "2013",
-      "true_peak_pct": 29.5,
-      "true_top2_pct": 48.9,
+      "true_peak_pct": 30.5,
+      "true_top2_pct": 49.4,
       "source": "full_local_data"
     },
     "sanity_checks": {
-      "deaths": 12,
-      "total_reports": 1415,
+      "deaths": 13,
+      "total_reports": 1495,
       "deaths_lte_total_reports": true
     },
     "data_source": "bulk_local_match",
-    "query_timestamp": "2026-06-04T20:56:35.541337Z"
+    "query_timestamp": "2026-06-04T22:23:03.657189Z"
   },
   "Super Beta Prostate": {
     "canonical_display_name": "Super Beta Prostate",
@@ -876,7 +877,7 @@
     "type": "branded",
     "brand_family": "Centrum Silver",
     "contamination_flag": "",
-    "total_reports": 782,
+    "total_reports": 809,
     "total_reports_csv": 785,
     "page_eligible": true,
     "raw_strings": [
@@ -889,7 +890,9 @@
       "Centrum Silver",
       "CENTRUM SILVER MULTIVITAMIN",
       "CENTRUM SILVER MULTIMINERALS MULTIVITAMINS CHEWABLE TABLET",
-      "CENTRUM SILVER TABLET"
+      "CENTRUM SILVER TABLET",
+      "CENTRUM SILVER MULTIMINERALS, MULTIVITAMINS TABLET",
+      "CENTRUM SILVER MULTIMINERALS, MULTIVITAMINS"
     ],
     "data_character": "organic",
     "cluster_context": "Reports distributed across 2004\u20132025 consistent with organic consumer reporting.",
@@ -897,220 +900,220 @@
       "top_reactions": [
         {
           "term": "Choking",
-          "count": 226,
-          "pct": 28.9
+          "count": 238,
+          "pct": 29.42
         },
         {
           "term": "Dysphagia",
-          "count": 123,
-          "pct": 15.73
+          "count": 130,
+          "pct": 16.07
         },
         {
           "term": "Coeliac disease",
-          "count": 55,
-          "pct": 7.03
+          "count": 58,
+          "pct": 7.17
         },
         {
           "term": "FOREIGN BODY TRAUMA",
-          "count": 49,
-          "pct": 6.27
+          "count": 52,
+          "pct": 6.43
         },
         {
           "term": "Nausea",
           "count": 40,
-          "pct": 5.12
+          "pct": 4.94
         },
         {
           "term": "Diarrhoea",
           "count": 34,
-          "pct": 4.35
+          "pct": 4.2
         },
         {
           "term": "Abdominal pain upper",
-          "count": 26,
-          "pct": 3.32
+          "count": 27,
+          "pct": 3.34
+        },
+        {
+          "term": "Death",
+          "count": 23,
+          "pct": 2.84
+        },
+        {
+          "term": "Malaise",
+          "count": 23,
+          "pct": 2.84
         },
         {
           "term": "Dyspnoea",
           "count": 23,
-          "pct": 2.94
+          "pct": 2.84
         },
         {
-          "term": "Malaise",
+          "term": "Weight decreased",
           "count": 22,
-          "pct": 2.81
-        },
-        {
-          "term": "Dizziness",
-          "count": 21,
-          "pct": 2.69
-        },
-        {
-          "term": "Death",
-          "count": 21,
-          "pct": 2.69
+          "pct": 2.72
         },
         {
           "term": "Asthenia",
           "count": 21,
-          "pct": 2.69
+          "pct": 2.6
         },
         {
-          "term": "Weight decreased",
-          "count": 20,
-          "pct": 2.56
+          "term": "Dizziness",
+          "count": 21,
+          "pct": 2.6
+        },
+        {
+          "term": "Foreign body",
+          "count": 21,
+          "pct": 2.6
         },
         {
           "term": "Throat irritation",
           "count": 20,
-          "pct": 2.56
+          "pct": 2.47
         },
         {
           "term": "Blood pressure increased",
           "count": 19,
-          "pct": 2.43
-        },
-        {
-          "term": "Foreign body",
-          "count": 19,
-          "pct": 2.43
+          "pct": 2.35
         },
         {
           "term": "Pain",
-          "count": 18,
-          "pct": 2.3
+          "count": 19,
+          "pct": 2.35
         },
         {
           "term": "Vomiting",
           "count": 18,
-          "pct": 2.3
+          "pct": 2.22
         },
         {
           "term": "Cerebrovascular accident",
-          "count": 16,
-          "pct": 2.05
+          "count": 17,
+          "pct": 2.1
         },
         {
           "term": "Hypersensitivity",
-          "count": 15,
-          "pct": 1.92
+          "count": 17,
+          "pct": 2.1
+        },
+        {
+          "term": "Neoplasm malignant",
+          "count": 16,
+          "pct": 1.98
+        },
+        {
+          "term": "Retching",
+          "count": 16,
+          "pct": 1.98
         },
         {
           "term": "Headache",
           "count": 15,
-          "pct": 1.92
+          "pct": 1.85
         },
         {
           "term": "Cough",
           "count": 15,
-          "pct": 1.92
-        },
-        {
-          "term": "Retching",
-          "count": 15,
-          "pct": 1.92
-        },
-        {
-          "term": "Pruritus",
-          "count": 13,
-          "pct": 1.66
+          "pct": 1.85
         },
         {
           "term": "Dysgeusia",
-          "count": 13,
-          "pct": 1.66
+          "count": 14,
+          "pct": 1.73
         },
         {
           "term": "Abdominal pain",
           "count": 13,
-          "pct": 1.66
+          "pct": 1.61
         },
         {
-          "term": "Neoplasm malignant",
+          "term": "Pruritus",
           "count": 13,
-          "pct": 1.66
+          "pct": 1.61
         },
         {
           "term": "Constipation",
           "count": 12,
-          "pct": 1.53
-        },
-        {
-          "term": "Macular degeneration",
-          "count": 12,
-          "pct": 1.53
+          "pct": 1.48
         },
         {
           "term": "Myocardial infarction",
           "count": 12,
-          "pct": 1.53
+          "pct": 1.48
+        },
+        {
+          "term": "Macular degeneration",
+          "count": 12,
+          "pct": 1.48
         }
       ],
-      "note": "case-normalised; computed from full local dataset"
+      "note": "case-normalised; merged from garbled raw strings"
     },
     "outcomes": {
       "Other Serious or Important Medical Event": {
-        "count": 672,
-        "pct": 85.93
+        "count": 697,
+        "pct": 86.16
       },
       "Hospitalization": {
-        "count": 98,
-        "pct": 12.53
+        "count": 102,
+        "pct": 12.61
       },
       "Visited a Health Care Provider": {
-        "count": 94,
-        "pct": 12.02
+        "count": 95,
+        "pct": 11.74
+      },
+      "Other Serious Outcome": {
+        "count": 46,
+        "pct": 5.69
       },
       "Visited Emergency Room": {
         "count": 46,
-        "pct": 5.88
-      },
-      "Other Serious Outcome": {
-        "count": 45,
-        "pct": 5.75
+        "pct": 5.69
       },
       "Death": {
-        "count": 21,
-        "pct": 2.69
+        "count": 23,
+        "pct": 2.84
       },
       "Other Outcome": {
         "count": 16,
-        "pct": 2.05
+        "pct": 1.98
       },
       "Disability": {
         "count": 12,
-        "pct": 1.53
+        "pct": 1.48
       },
       "Life Threatening": {
         "count": 12,
-        "pct": 1.53
+        "pct": 1.48
       },
       "Required Intervention": {
         "count": 4,
-        "pct": 0.51
+        "pct": 0.49
       },
       "Allergic Reaction": {
         "count": 1,
-        "pct": 0.13
+        "pct": 0.12
       }
     },
     "demographics": {
       "gender": {
-        "Female": 546,
-        "Male": 200,
-        "Unknown/Not Reported": 36
+        "Female": 562,
+        "Male": 210,
+        "Unknown/Not Reported": 37
       },
       "age_bands": {
         "under_18": 1,
         "18_34": 1,
         "35_49": 13,
-        "50_64": 92,
-        "65_79": 205,
-        "80_plus": 152,
-        "unknown": 318,
+        "50_64": 94,
+        "65_79": 215,
+        "80_plus": 154,
+        "unknown": 331,
         "median_age": 74.5,
         "mean_age": 72.9,
-        "n_with_age": 464
+        "n_with_age": 478
       },
       "age_note": "all matched records"
     },
@@ -1122,13 +1125,13 @@
       "2008": 18,
       "2009": 28,
       "2010": 39,
-      "2011": 153,
-      "2012": 97,
-      "2013": 72,
-      "2014": 42,
-      "2015": 59,
+      "2011": 154,
+      "2012": 101,
+      "2013": 79,
+      "2014": 44,
+      "2015": 71,
       "2016": 77,
-      "2017": 56,
+      "2017": 57,
       "2018": 30,
       "2019": 44,
       "2020": 36,
@@ -1146,13 +1149,13 @@
         "2008": 18,
         "2009": 28,
         "2010": 39,
-        "2011": 153,
-        "2012": 97,
-        "2013": 72,
-        "2014": 42,
-        "2015": 59,
+        "2011": 154,
+        "2012": 101,
+        "2013": 79,
+        "2014": 44,
+        "2015": 71,
         "2016": 77,
-        "2017": 56,
+        "2017": 57,
         "2018": 30,
         "2019": 44,
         "2020": 36,
@@ -1163,17 +1166,17 @@
         "2025": 3
       },
       "true_peak_year": "2011",
-      "true_peak_pct": 19.6,
-      "true_top2_pct": 32.0,
+      "true_peak_pct": 19.0,
+      "true_top2_pct": 31.5,
       "source": "full_local_data"
     },
     "sanity_checks": {
-      "deaths": 21,
-      "total_reports": 782,
+      "deaths": 23,
+      "total_reports": 809,
       "deaths_lte_total_reports": true
     },
     "data_source": "bulk_local_match",
-    "query_timestamp": "2026-06-04T20:56:35.541337Z"
+    "query_timestamp": "2026-06-04T22:23:03.657189Z"
   },
   "Preservision AREDS 2 Formula": {
     "canonical_display_name": "Preservision AREDS 2 Formula",
@@ -9288,7 +9291,8 @@
       "deaths_lte_total_reports": true
     },
     "data_source": "bulk_local_match",
-    "query_timestamp": "2026-06-04T20:56:35.541337Z"
+    "query_timestamp": "2026-06-04T20:56:35.541337Z",
+    "hold_reason": "food_contamination_excluded"
   },
   "Plexus Slim": {
     "canonical_display_name": "Plexus Slim",
@@ -11764,7 +11768,8 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "garbled_name_trailing_comma"
+    "hold_reason": "garbled_merged_into_canonical",
+    "merged_into": "Centrum Silver Women's 50+"
   },
   "Phillips' Colon Health": {
     "canonical_display_name": "Phillips' Colon Health",
@@ -13936,7 +13941,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Patriot Power Greens": {
     "canonical_display_name": "Patriot Power Greens",
@@ -15288,7 +15293,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Vit D": {
     "canonical_display_name": "Vit D",
@@ -15573,7 +15578,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Herbalife Cell-u-loss": {
     "canonical_display_name": "Herbalife Cell-u-loss",
@@ -18268,7 +18273,8 @@
       "deaths_lte_total_reports": true
     },
     "data_source": "bulk_local_match",
-    "query_timestamp": "2026-06-04T20:56:35.541337Z"
+    "query_timestamp": "2026-06-04T20:56:35.541337Z",
+    "hold_reason": "food_contamination_excluded"
   },
   "Natural Accelerator": {
     "canonical_display_name": "Natural Accelerator",
@@ -19627,7 +19633,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Ageless Male": {
     "canonical_display_name": "Ageless Male",
@@ -22556,7 +22562,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Arbonne Essentials Daily Fiber Boost": {
     "canonical_display_name": "Arbonne Essentials Daily Fiber Boost",
@@ -23102,7 +23108,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Citracal Maximum Plus": {
     "canonical_display_name": "Citracal Maximum Plus",
@@ -23877,7 +23883,8 @@
       "deaths_lte_total_reports": true
     },
     "data_source": "bulk_local_match",
-    "query_timestamp": "2026-06-04T20:56:35.541337Z"
+    "query_timestamp": "2026-06-04T20:56:35.541337Z",
+    "hold_reason": "food_contamination_excluded"
   },
   "Glucosamine Chondroitin": {
     "canonical_display_name": "Glucosamine Chondroitin",
@@ -24166,7 +24173,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Citracal Maximum Bayer": {
     "canonical_display_name": "Citracal Maximum Bayer",
@@ -24905,7 +24912,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "General Mills Lucky Charms": {
     "canonical_display_name": "General Mills Lucky Charms",
@@ -25167,7 +25174,8 @@
       "deaths_lte_total_reports": true
     },
     "data_source": "bulk_local_match",
-    "query_timestamp": "2026-06-04T20:56:35.541337Z"
+    "query_timestamp": "2026-06-04T20:56:35.541337Z",
+    "hold_reason": "food_contamination_excluded"
   },
   "Citracal Calcium + D Slow Release 1200": {
     "canonical_display_name": "Citracal Calcium + D Slow Release 1200",
@@ -26198,7 +26206,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Balance Of Nature Whole Produce Veggies": {
     "canonical_display_name": "Balance Of Nature Whole Produce Veggies",
@@ -28058,7 +28066,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "One A Day": {
     "canonical_display_name": "One A Day",
@@ -29679,7 +29687,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "DHEA": {
     "canonical_display_name": "DHEA",
@@ -29964,7 +29972,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Herbalife Multivitamin Complex Formula 2": {
     "canonical_display_name": "Herbalife Multivitamin Complex Formula 2",
@@ -30480,7 +30488,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Plexus Probio 5": {
     "canonical_display_name": "Plexus Probio 5",
@@ -31249,7 +31257,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Benefiber With Wheat Dextrin (Nch) Wheat Dextrin": {
     "canonical_display_name": "Benefiber With Wheat Dextrin (Nch) Wheat Dextrin",
@@ -31770,7 +31778,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Hydroxycut Max Liquid Caps": {
     "canonical_display_name": "Hydroxycut Max Liquid Caps",
@@ -33613,7 +33621,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Gundry Md Bio Complete 3": {
     "canonical_display_name": "Gundry Md Bio Complete 3",
@@ -37961,12 +37969,12 @@
     "contamination_flag": "",
     "total_reports": 31,
     "total_reports_csv": 28,
-    "page_eligible": false,
+    "page_eligible": true,
     "raw_strings": [
       "NUTRAFOL MEN HAIR GROWTH NUTRACEUTICAL"
     ],
-    "data_character": "held",
-    "cluster_context": "Reports extremely concentrated in 2025 (81% of total), suggesting a single filing event rather than organic consumer reporting. Held pending editorial review.",
+    "data_character": "organic_recent_emerging",
+    "cluster_context": "Reports concentrated in 2024\u20132025 (6 and 25 respectively), reflecting rapid growth in the men's hair loss supplement category \u2014 the same upward trajectory seen in Nutrafol Women's. Consistent with a product gaining market share rather than a filing event.",
     "reactions": {
       "top_reactions": [
         {
@@ -38204,7 +38212,8 @@
       "deaths_lte_total_reports": true
     },
     "data_source": "bulk_local_match",
-    "query_timestamp": "2026-06-04T20:56:35.541337Z"
+    "query_timestamp": "2026-06-04T20:56:35.541337Z",
+    "hold_reason": ""
   },
   "5-Hour Energy Berry": {
     "canonical_display_name": "5-Hour Energy Berry",
@@ -39265,7 +39274,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Hydroxycut With Ephedra": {
     "canonical_display_name": "Hydroxycut With Ephedra",
@@ -40315,7 +40324,8 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "garbled_name_trailing_comma"
+    "hold_reason": "garbled_merged_into_canonical",
+    "merged_into": "Centrum Silver"
   },
   "Citracal Maximum Cholecalciferol Calcium Citrate": {
     "canonical_display_name": "Citracal Maximum Cholecalciferol Calcium Citrate",
@@ -41117,7 +41127,7 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z",
-    "hold_reason": "generic_ingredient_misclassified"
+    "hold_reason": "phase2_ingredient"
   },
   "Arbonne Essentials Energy Fizz Sticks-citrus": {
     "canonical_display_name": "Arbonne Essentials Energy Fizz Sticks-citrus",
@@ -54921,7 +54931,8 @@
       "deaths_lte_total_reports": true
     },
     "data_source": "bulk_local_match",
-    "query_timestamp": "2026-06-04T20:56:35.541337Z"
+    "query_timestamp": "2026-06-04T20:56:35.541337Z",
+    "hold_reason": "food_contamination_excluded"
   },
   "Nutrafol Women's Balance": {
     "canonical_display_name": "Nutrafol Women's Balance",
@@ -79892,7 +79903,8 @@
       "deaths_lte_total_reports": true
     },
     "data_source": "bulk_local_match",
-    "query_timestamp": "2026-06-04T20:56:35.541337Z"
+    "query_timestamp": "2026-06-04T20:56:35.541337Z",
+    "hold_reason": "food_contamination_excluded"
   },
   "Naturemade Super B Complex": {
     "canonical_display_name": "Naturemade Super B Complex",
