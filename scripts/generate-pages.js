@@ -5,7 +5,7 @@ const fs   = require('fs');
 const path = require('path');
 
 // ─── Config ───────────────────────────────────────────────────────────────────
-const BASE_URL       = 'https://supplementsignal.com';
+const BASE_URL       = 'https://supplementfiles.com';
 const CURRENT_DATE   = '2026-06-03';
 const FORMATTED_DATE = 'June 3, 2026';
 const DATA_FILE      = path.join(__dirname, '../data/supplement_mvp_final_v2.json');
@@ -264,11 +264,22 @@ const INLINE_CSS = `
   .footer-inner a:hover{color:var(--primary)}
   .footer-links{display:flex;flex-wrap:wrap;gap:.875rem;margin-bottom:.25rem}
 
-  /* ── Methodology page ────────────────────────────────────────────────────── */
+  /* ── Content pages (methodology, about, privacy, terms, faq, contact) ────── */
   .meth-body h2{font-size:1.05rem;font-weight:700;color:var(--text);margin:1.75rem 0 .4rem}
   .meth-body p{font-size:.9375rem;color:var(--text);margin-bottom:.875rem;max-width:64ch}
   .meth-body ul{padding-left:1.25rem;margin-bottom:.875rem}
   .meth-body li{font-size:.9375rem;color:var(--text);margin-bottom:.3rem;max-width:64ch}
+  .meth-body a{color:var(--primary)}
+  .meth-body strong{font-weight:700}
+
+  /* ── FAQ ─────────────────────────────────────────────────────────────────── */
+  .faq-list{display:flex;flex-direction:column}
+  .faq-q{font-weight:700;font-size:.95rem;color:var(--text);margin:1.25rem 0 .3rem}
+  .faq-a{font-size:.9375rem;color:var(--text);max-width:64ch;padding-left:1rem;border-left:3px solid var(--border);line-height:1.65}
+
+  /* ── TODO placeholder markers ────────────────────────────────────────────── */
+  .todo{background:#fff3cd;color:#856404;border:1px solid #ffc107;border-radius:3px;padding:.1em .35em;font-family:monospace;font-size:.85em;font-weight:700;white-space:nowrap}
+  [data-theme="dark"] .todo{background:#332d00;color:#ffc107;border-color:#664f00}
 
   /* ── Homepage hero ───────────────────────────────────────────────────────── */
   .home-hero{text-align:center;padding:3rem 1rem 2.5rem;max-width:680px;margin:0 auto}
@@ -378,7 +389,7 @@ function pageShell({ title, description, canonical, jsonLd, body }) {
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
   <meta property="og:url" content="${esc(canonical)}">
-  <meta property="og:site_name" content="SupplementSignal">
+  <meta property="og:site_name" content="SupplementFiles">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="${esc(title)}">
   <meta name="twitter:description" content="${esc(description)}">
@@ -401,17 +412,18 @@ function pageShell({ title, description, canonical, jsonLd, body }) {
 
   <div id="disclaimer-banner">
     <div class="banner-inner">
-      <p>SupplementSignal presents data from FDA's voluntary adverse event reporting system. Reports do not prove that any product caused any effect. Always consult your healthcare provider.</p>
+      <p>SupplementFiles presents data from FDA's voluntary adverse event reporting system. Reports do not prove that any product caused any effect. Always consult your healthcare provider.</p>
       <button id="banner-btn">I understand</button>
     </div>
   </div>
 
   <header class="site-header">
     <div class="inner">
-      <a href="/" class="logo">SupplementSignal</a>
+      <a href="/" class="logo">SupplementFiles</a>
       <nav class="header-nav">
         <a href="/supplements/" class="header-link">Browse</a>
-        <a href="/methodology/" class="header-link">About the data</a>
+        <a href="/about/" class="header-link">About</a>
+        <a href="/methodology/" class="header-link">Methodology</a>
         <button class="theme-toggle" aria-label="Toggle dark mode">${ICON_MOON}${ICON_SUN}</button>
       </nav>
     </div>
@@ -422,12 +434,20 @@ function pageShell({ title, description, canonical, jsonLd, body }) {
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-links">
+        <a href="/about/">About</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/methodology/">Methodology</a>
+        <a href="/supplements/">Browse</a>
+        <a href="/search/">Search</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </div>
+      <div class="footer-links" style="margin-top:.25rem">
         <a href="https://open.fda.gov/food/event/" target="_blank" rel="noopener noreferrer">openFDA CAERS source ↗</a>
-        <a href="/methodology/">About the data</a>
-        <a href="/supplements/">Browse all supplements</a>
       </div>
       <p>Data from FDA's CFSAN Adverse Event Reporting System (CAERS). Reports are voluntary and unverified — they do not establish causation. Last updated ${FORMATTED_DATE}.</p>
-      <p>SupplementSignal is not medical advice. Consult your healthcare provider before making any health decisions.</p>
+      <p>SupplementFiles is not medical advice. Consult your healthcare provider before making any health decisions.</p>
     </div>
   </footer>
 
@@ -580,8 +600,8 @@ function renderProductPage(product, allProducts, slugMap) {
     name: `${name} — FDA Adverse Event Reports`,
     description: `${total} adverse event reports for ${name} submitted to FDA's CAERS database. Includes reactions, outcomes, and demographics.`,
     url: canonical,
-    creator: { '@type': 'Organization', name: 'SupplementSignal' },
-    publisher: { '@type': 'Organization', name: 'SupplementSignal' },
+    creator: { '@type': 'Organization', name: 'SupplementFiles' },
+    publisher: { '@type': 'Organization', name: 'SupplementFiles' },
     dateModified: CURRENT_DATE,
     distribution: [{
       '@type': 'DataDownload',
@@ -658,11 +678,6 @@ function renderProductPage(product, allProducts, slugMap) {
       ${outcomesTableHTML(product.outcomes)}
     </div>
 
-    <div class="aff-slot" id="affiliate" data-pagefind-ignore>
-      <strong>Considering alternatives?</strong>
-      <p>Affiliate placement — coming soon.</p>
-    </div>
-
     <div class="card" id="demographics">
       <h2>Who Reported</h2>
       <p class="section-note">Reporter demographics where available. Many reports do not include age or gender data.</p>
@@ -691,7 +706,7 @@ function renderProductPage(product, allProducts, slugMap) {
   </main>`;
 
   return pageShell({
-    title: `${name} — FDA Adverse Event Reports | SupplementSignal`,
+    title: `${name} — FDA Adverse Event Reports | SupplementFiles`,
     description: `${total} adverse event reports for ${name} submitted to the FDA's CAERS database (${range}). See reported reactions, outcomes, and who reported.`,
     canonical,
     jsonLd,
@@ -711,7 +726,7 @@ function renderHubPage(familyName, skus, slugMap) {
     name: `${familyName} Products — FDA Adverse Event Reports`,
     description: `FDA adverse event reports for ${familyName} product variants, individually tracked from the CAERS database. Counts are per-SKU — never combined.`,
     url: canonical,
-    publisher: { '@type': 'Organization', name: 'SupplementSignal' },
+    publisher: { '@type': 'Organization', name: 'SupplementFiles' },
     dateModified: CURRENT_DATE
   });
 
@@ -762,7 +777,7 @@ function renderHubPage(familyName, skus, slugMap) {
 
   return {
     html: pageShell({
-      title: `${familyName} Products — FDA Adverse Event Reports | SupplementSignal`,
+      title: `${familyName} Products — FDA Adverse Event Reports | SupplementFiles`,
       description: `FDA adverse event reports for ${familyName} product variants, individually tracked. ${sortedSkus.length} SKUs from the CAERS database.`,
       canonical,
       jsonLd,
@@ -772,76 +787,305 @@ function renderHubPage(familyName, skus, slugMap) {
   };
 }
 
-// ─── Methodology page ─────────────────────────────────────────────────────────
+// ─── Methodology page (full content from methodology-page.md) ─────────────────
 function renderMethodologyPage() {
   const canonical = `${BASE_URL}/methodology/`;
   const jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'About the Data — SupplementSignal',
-    description: 'How SupplementSignal sources, processes, and presents FDA dietary supplement adverse event data.',
+    name: 'About the Data &amp; How to Read It — SupplementFiles',
+    description: 'What the FDA CAERS data is, where it comes from, and what it does and does not mean. Read this before drawing conclusions from any product page.',
     url: canonical,
-    publisher: { '@type': 'Organization', name: 'SupplementSignal' },
+    publisher: { '@type': 'Organization', name: 'SupplementFiles' },
     dateModified: CURRENT_DATE
   });
 
   const body = `
   <main>
-    <div class="product-hero">
-      <h1>About the Data</h1>
-      <p class="product-meta">How we source, process, and present FDA dietary supplement adverse event reports.</p>
-    </div>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <h1 style="font-size:clamp(1.5rem,3vw,2rem)">About the Data &amp; How to Read It</h1>
+        <p class="product-meta">SupplementFiles makes a public government dataset — the FDA's records of adverse events reported for dietary supplements — searchable and readable. This page explains exactly what that data is, where it comes from, and what it does and does not mean. Please read it before drawing conclusions from any product page.</p>
+      </div>
 
-    <div class="card meth-body">
-      <h2>What is CAERS?</h2>
-      <p>SupplementSignal uses data from the FDA's <strong>CFSAN Adverse Event Reporting System (CAERS)</strong> — the same database that accepts voluntary reports about dietary supplements, foods, and cosmetics. We access it through the <a href="https://open.fda.gov/food/event/" target="_blank" rel="noopener">openFDA API</a>.</p>
+      <div class="card meth-body">
+        <h2>Where this data comes from</h2>
+        <p>Every figure on this site comes from the <strong>FDA Adverse Event Reporting System for foods and supplements (CAERS)</strong>, published openly by the FDA through its <a href="https://open.fda.gov" target="_blank" rel="noopener noreferrer">openFDA</a> program. CAERS collects reports of health problems that people, health professionals, and manufacturers have associated with a dietary supplement (or food or cosmetic). We download the full public dataset, isolate the dietary-supplement records, and organize them by product.</p>
+        <p>The data covers reports from <strong>2004 to the present</strong> and is refreshed on a <strong>quarterly</strong> basis, in step with the FDA's own update schedule. The "data current as of" date on each page tells you the last time we refreshed.</p>
 
-      <h2>What does a report mean?</h2>
-      <p>A report means someone — a consumer, healthcare provider, or manufacturer — submitted a complaint or adverse event to the FDA. The FDA has not verified that any product caused any reported event. Report counts are a measure of <strong>reporting activity</strong>, not real-world incidence or causation.</p>
+        <h2>The single most important thing to understand</h2>
+        <p><strong>A report is not proof that a product caused harm.</strong> When someone files an adverse event report, they are saying that a health problem occurred <em>while</em> a product was being used — not that the product was tested and found responsible. The FDA does not verify most reports, and it explicitly cautions that when a report names more than one product or more than one symptom, there is no way to know which product, if any, was responsible.</p>
+        <p>So the counts on this site tell you <strong>what has been reported</strong>, not how often a product actually causes a problem, and not whether it causes that problem at all. A report can reflect a coincidence, an unrelated illness, a pre-existing condition, or use of several products at once.</p>
 
-      <h2>Why do counts vary by product?</h2>
-      <p>Many factors influence how many reports a product accumulates:</p>
-      <ul>
-        <li>Product popularity and how long it's been on the market</li>
-        <li>Media coverage, litigation, or regulatory scrutiny</li>
-        <li>Recalls or market withdrawals that trigger retrospective reports</li>
-        <li>Organized reporting campaigns</li>
-      </ul>
-      <p>A product with more reports is <em>not necessarily</em> more dangerous than one with fewer. Never use raw counts as a proxy for risk.</p>
+        <h2>Why we show counts, not rates</h2>
+        <p>You will notice we never display a figure like "X% of users were hospitalized" or a "death rate." That would be misleading, for a simple reason: <strong>the number of reports reflects reporting activity, not real-world frequency.</strong> A product's report count rises when it draws regulatory attention, becomes the subject of a lawsuit, is filed in bulk by a single source, or is simply used by millions of people. It does not tell you your personal odds of anything.</p>
+        <p>Because of this, dividing serious outcomes by total reports produces a number that looks like a risk but isn't one. We show absolute counts and let you see the data for what it is.</p>
 
-      <h2>How we handle brand names</h2>
-      <p>The FDA's raw data contains free-text brand names with inconsistent capitalization and formatting. We apply format normalization: case-folding, stripping dosage-form suffixes (tablet, capsule, soft gel, etc.), and collapsing whitespace. We <strong>never merge distinct SKUs</strong> — "Centrum Silver Women's 50+" and "Centrum Silver Men's 50+" are always counted separately, because they are different products.</p>
+        <h2>How to read a product page</h2>
+        <ul>
+          <li><strong>Total reports</strong> — how many adverse event reports name this exact product.</li>
+          <li><strong>Reactions</strong> — the health effects people reported (for example, nausea, dizziness, or a specific medical event), shown as counts. This list describes symptoms and effects; outcomes like death are shown separately, below.</li>
+          <li><strong>Outcomes</strong> — how serious the reported events were: whether they involved a hospitalization, an emergency room visit, a life-threatening event, or a death. These are counts of how reports were classified, not rates.</li>
+          <li><strong>Who reported</strong> — the age ranges and sexes recorded in the reports, where available.</li>
+          <li><strong>Reports over time</strong> — when the reports were filed. This often matters: a cluster of reports in a single year usually reflects a recall, a wave of litigation, or a batch of reports filed together, rather than a steady ongoing pattern. Where a product's reports concentrate in a particular period, we note it.</li>
+        </ul>
 
-      <h2>What we never publish</h2>
-      <ul>
-        <li>Derived percentages as headline risk metrics (e.g. "death rate," "% serious")</li>
-        <li>Combined counts across a brand family — each SKU's count stands alone</li>
-        <li>Any language implying a product caused a reported event</li>
-      </ul>
+        <h2>How we handle product names</h2>
+        <p>Reports are filed with free-text product names, which arrive inconsistently spelled and capitalized. We clean up these formatting differences so that the same product isn't split across "VITAMIN D" and "Vitamin D." We do <strong>not</strong> combine genuinely different products — "Centrum Silver Women's 50+" and "Centrum Silver Ultra Women's" are kept separate, because they are separate products and their reports belong to them individually. Brand pages that group a product family list each product's count on its own and never blend them into a single figure.</p>
 
-      <h2>Event clusters</h2>
-      <p>Some products show an unusual concentration of reports in a single year — often due to a recall, litigation wave, or batch issue rather than ongoing consumer harm. We detect these clusters and note them on affected pages so context is never missing.</p>
+        <h2>What we include and leave out</h2>
+        <p>We publish a page for a product only when it has enough reports to be meaningful. We also set aside the small number of products whose reports clearly come from a single concentrated filing event rather than from independent reporting, because presenting those as a typical safety profile would mislead. Products below our reporting threshold appear within their brand's listing but do not get a standalone page.</p>
 
-      <h2>Data currency</h2>
-      <p>Our current dataset covers reports through <strong>${FORMATTED_DATE}</strong>. We update quarterly. The openFDA CAERS database covers reports from approximately 2004 to the present.</p>
+        <h2>This is not medical advice</h2>
+        <p>SupplementFiles is an information resource, not a medical provider. Nothing here is a diagnosis, a recommendation, or a substitute for professional guidance. If you have a health concern about a supplement you take, talk to a doctor or pharmacist before making any change.</p>
 
-      <h2>Limitations</h2>
-      <p>CAERS data is voluntary and self-reported. It under-represents actual adverse events (most are never reported) and cannot be used to calculate incidence rates. SupplementSignal is an informational resource, not a medical authority.</p>
+        <h2>Report an adverse event yourself</h2>
+        <p>If you have experienced a problem you believe is connected to a dietary supplement, you can report it directly to the FDA through the <a href="https://www.safetyreporting.hhs.gov" target="_blank" rel="noopener noreferrer">Safety Reporting Portal</a> or MedWatch. Reporting is what makes data like this exist, and it helps the FDA identify problems.</p>
 
-      <h2>Questions or corrections</h2>
-      <p>If you notice a data error or have a question, contact us at <a href="mailto:hello@supplementsignal.com">hello@supplementsignal.com</a>.</p>
+        <h2>Corrections and contact</h2>
+        <p>We want this data represented accurately. If you are a manufacturer or a member of the public who believes something here is wrong or misleading, please reach out — <a href="/contact/">contact us</a> — and we will review it promptly.</p>
 
-      <p style="margin-top:1.5rem;font-size:.8rem;color:var(--muted)">SupplementSignal is not a medical advice service. Nothing on this site should be construed as medical advice. Consult your healthcare provider before making any health decisions.</p>
+        <p style="margin-top:1.5rem;font-size:.8rem;color:var(--muted)"><em>Source: U.S. Food &amp; Drug Administration, CAERS, via openFDA. SupplementFiles is an independent project and is not affiliated with, endorsed by, or operated by the FDA or any government agency.</em></p>
+      </div>
     </div>
   </main>`;
 
   return pageShell({
-    title: 'About the Data — SupplementSignal',
-    description: 'How SupplementSignal sources, processes, and presents FDA dietary supplement adverse event reports from the CAERS database.',
-    canonical,
-    jsonLd,
-    body
+    title: 'About the Data — SupplementFiles',
+    description: 'What the FDA CAERS adverse event data is, where it comes from, and what it does and does not mean. Read before drawing conclusions from any product page.',
+    canonical, jsonLd, body
   });
+}
+
+// ─── About page ────────────────────────────────────────────────────────────────
+function renderAboutPage() {
+  const canonical = `${BASE_URL}/about/`;
+  const jsonLd = JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'AboutPage',
+    name: 'About SupplementFiles',
+    url: canonical,
+    publisher: { '@type': 'Organization', name: 'SupplementFiles' }
+  });
+
+  const body = `
+  <main>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <h1 style="font-size:clamp(1.5rem,3vw,2rem)">About SupplementFiles</h1>
+      </div>
+      <div class="card meth-body">
+        <p>SupplementFiles is a free, independent resource that takes a public government dataset — the U.S. Food &amp; Drug Administration's records of adverse events reported for dietary supplements — and makes it searchable and readable for ordinary people.</p>
+        <p>That data has always been public, but it lives in a database built for researchers and developers, not for someone who simply wants to know what's been reported about a supplement they take. We organize it by product, translate the medical terminology into plain language, and present it honestly — so you can see what people have reported to the FDA and decide what it means for you, in conversation with a healthcare professional.</p>
+
+        <h2>What we do — and what we don't</h2>
+        <p>We <strong>present</strong> the data. We don't rank products, we don't recommend or warn against them, and we don't sell anything based on what the data shows. We're not a substitute for medical advice, and we don't claim any product is safe or dangerous — we show you what has been reported and let the record speak.</p>
+
+        <h2>The standards we hold ourselves to</h2>
+        <p>Because trust in health information has to be earned, here is exactly how we handle the data:</p>
+        <ul>
+          <li><strong>Counts, not rates.</strong> We show the number of reports, never a "death rate" or "risk percentage." Report counts reflect how often something was <em>reported</em> — which is shaped by news coverage, lawsuits, and how many people use a product — not how often it actually happens.</li>
+          <li><strong>Reports are not proof.</strong> A report means a health problem was reported alongside a product, not that the product caused it. We frame every page accordingly.</li>
+          <li><strong>We present the record faithfully.</strong> We report what each FDA record actually says about each specific product, and we don't blend different products together to make a number look bigger or smaller.</li>
+          <li><strong>We correct mistakes.</strong> If we've gotten something wrong, we want to know and we'll fix it — see <a href="/contact/">Contact</a>.</li>
+        </ul>
+
+        <h2>Who we are</h2>
+        <p>SupplementFiles is built and maintained by a small independent team that believes public safety data should actually be usable by the public. We are <strong>not affiliated with, endorsed by, or operated by the FDA or any government agency.</strong> Our source data comes from the FDA's CAERS database via the openFDA program; how we organize and explain it is our own work.</p>
+        <p>For how the data is collected, updated, and interpreted, see our <a href="/methodology/">Methodology</a> page.</p>
+      </div>
+    </div>
+  </main>`;
+
+  return pageShell({
+    title: 'About — SupplementFiles',
+    description: 'SupplementFiles makes FDA dietary supplement adverse event reports searchable and readable for ordinary people. Independent, non-commercial, data-forward.',
+    canonical, jsonLd, body
+  });
+}
+
+// ─── FAQ page ──────────────────────────────────────────────────────────────────
+function renderFaqPage() {
+  const canonical = `${BASE_URL}/faq/`;
+
+  const QA = [
+    { q: 'What is this site?', a: 'SupplementFiles makes the FDA\'s adverse-event reports for dietary supplements searchable and readable. Search any covered product and see what health problems people have reported to the FDA, with the medical terms translated into plain language.' },
+    { q: 'Does a report mean the supplement caused harm?', a: 'No. A report means someone experienced a health problem while using a product and reported it — not that the product was tested and found responsible. The FDA does not verify most reports, and many reports involve several products at once, so there\'s often no way to know which one, if any, was involved.' },
+    { q: 'Why don\'t you show percentages or a "risk rate"?', a: 'Because they would mislead. The number of reports reflects reporting activity — driven by attention, lawsuits, and how many people use a product — not your personal odds of anything. Dividing serious outcomes by total reports produces a figure that looks like a risk but isn\'t one. We show plain counts instead.' },
+    { q: 'Why are all of a product\'s reports from one year?', a: 'For some products, reports cluster in a single period because of a recall, a wave of lawsuits, or a batch of reports filed together. Where that\'s the case, we note it on the page. A cluster is a sign to read the context, not a measure of ongoing risk.' },
+    { q: 'Why does a basic vitamin or fiber supplement show serious outcomes, even deaths?', a: 'Reports often come from people who are elderly or already ill, and a serious event reported alongside a product doesn\'t mean the product caused it. This is exactly why we show counts with context rather than rates.' },
+    { q: 'My company\'s product is listed. How do I respond or request a correction?', a: 'We present public FDA data as filed, without asserting causation. If you believe something is inaccurate or presented misleadingly, contact us (see Contact) and we\'ll review it promptly.' },
+    { q: 'Is this medical advice?', a: 'No. SupplementFiles is an information resource, not a medical provider. Talk to a doctor or pharmacist before making any decision about a supplement.' },
+    { q: 'How current is the data?', a: 'We refresh from the FDA\'s quarterly data releases. Each page shows when it was last updated.' },
+    { q: 'How do I report a problem I had with a supplement?', a: 'Report it directly to the FDA through the Safety Reporting Portal (safetyreporting.hhs.gov) or MedWatch. Reporting is what makes data like this exist.' },
+    { q: 'Where does the data come from?', a: 'The FDA\'s CAERS database, published through the openFDA program. See our Methodology page for the full detail.' },
+  ];
+
+  const jsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: QA.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a }
+    }))
+  });
+
+  const faqHTML = QA.map(({ q, a }) => `
+        <dt class="faq-q">${esc(q)}</dt>
+        <dd class="faq-a">${esc(a)}</dd>`).join('');
+
+  const body = `
+  <main>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <h1 style="font-size:clamp(1.5rem,3vw,2rem)">Frequently Asked Questions</h1>
+      </div>
+      <div class="card meth-body">
+        <dl class="faq-list">${faqHTML}
+        </dl>
+        <p style="margin-top:2rem;font-size:.875rem;color:var(--muted)">More questions? See our <a href="/methodology/">full methodology</a> or <a href="/contact/">contact us</a>.</p>
+      </div>
+    </div>
+  </main>`;
+
+  return pageShell({
+    title: 'FAQ — SupplementFiles',
+    description: 'Answers to common questions about SupplementFiles: what the FDA data means, why we show counts not rates, how to read the reports, and more.',
+    canonical, jsonLd, body
+  });
+}
+
+// ─── Privacy Policy page ───────────────────────────────────────────────────────
+function renderPrivacyPage() {
+  const canonical = `${BASE_URL}/privacy/`;
+  const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', name: 'Privacy Policy — SupplementFiles', url: canonical });
+  const TODO = (text) => `<mark class="todo">${esc(text)}</mark>`;
+
+  const body = `
+  <main>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <h1 style="font-size:clamp(1.5rem,3vw,2rem)">Privacy Policy</h1>
+        <p class="product-meta">Effective ${TODO('[EFFECTIVE DATE]')}</p>
+      </div>
+      <div class="card meth-body">
+        <p>This Privacy Policy explains how SupplementFiles ("we," "us") handles information when you visit supplementfiles.com.</p>
+
+        <h2>Information we collect</h2>
+        <p>We do not ask you to create an account or submit personal information to browse the site. We collect limited information automatically:</p>
+        <ul>
+          <li><strong>Usage and device data</strong> through analytics — pages visited, time on site, approximate (city-level) location, and device and browser type.</li>
+          <li><strong>Server and security logs</strong> kept by our hosting provider (Cloudflare), which may include IP addresses, for security and reliability.</li>
+          <li><strong>Cookies and similar technologies</strong> used by our analytics provider, described below.</li>
+        </ul>
+
+        <h2>Analytics</h2>
+        <p>We use <strong>Google Analytics 4</strong> to understand how visitors use the site so we can improve it. Google Analytics uses cookies and similar identifiers to collect usage data, which is processed in aggregate. You can opt out using the Google Analytics Opt-out Browser Add-on.</p>
+
+        <h2>Your choices and consent</h2>
+        <p>If you are in the European Economic Area, the United Kingdom, or Switzerland, we request your consent for non-essential (analytics) cookies through a consent banner when you arrive, and you can change your choices at any time.</p>
+
+        <h2>Your rights</h2>
+        <p>Depending on where you live, you may have rights to access, correct, or delete your personal information, and to object to or restrict certain processing (under the EU/UK GDPR), or to know about and delete personal information (under the California CCPA/CPRA). We do not sell your personal information. To exercise any right, contact us at ${TODO('[CONTACT EMAIL]')}.</p>
+
+        <h2>Children's privacy</h2>
+        <p>This site is not directed to children under 13, and we do not knowingly collect personal information from them.</p>
+
+        <h2>Changes</h2>
+        <p>We may update this policy; the effective date above reflects the latest version.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about this policy: ${TODO('[CONTACT EMAIL]')}.</p>
+      </div>
+    </div>
+  </main>`;
+
+  return pageShell({ title: 'Privacy Policy — SupplementFiles', description: 'How SupplementFiles collects, uses, and protects your information.', canonical, jsonLd, body });
+}
+
+// ─── Terms of Use page ─────────────────────────────────────────────────────────
+function renderTermsPage() {
+  const canonical = `${BASE_URL}/terms/`;
+  const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', name: 'Terms of Use — SupplementFiles', url: canonical });
+  const TODO = (text) => `<mark class="todo">${esc(text)}</mark>`;
+
+  const body = `
+  <main>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <h1 style="font-size:clamp(1.5rem,3vw,2rem)">Terms of Use &amp; Disclaimer</h1>
+        <p class="product-meta">Effective ${TODO('[EFFECTIVE DATE]')}</p>
+      </div>
+      <div class="card meth-body">
+        <p>By using supplementfiles.com, you agree to these terms. If you do not agree, please do not use the site.</p>
+
+        <h2>Informational purpose only — not medical advice</h2>
+        <p>SupplementFiles provides information drawn from public FDA data for general informational purposes only. <strong>It is not medical advice and is not a substitute for professional diagnosis or treatment.</strong> Always consult a qualified healthcare professional before making any decision about a supplement, medication, or your health. No doctor–patient or professional relationship is created by using this site.</p>
+
+        <h2>About the data and causation</h2>
+        <p>The information on this site comes from adverse-event reports submitted to the U.S. FDA (the CAERS database, via openFDA). These reports are <strong>submitted by the public, health professionals, and manufacturers; they are largely unverified; and they do not establish that any product caused any effect.</strong> We present this data as-is and <strong>do not assert that any product is unsafe, defective, or responsible for any reported outcome</strong>, nor do we endorse, recommend, or disparage any product or brand. Report counts reflect reporting activity, not real-world frequency or risk.</p>
+
+        <h2>No warranty</h2>
+        <p>The site and its contents are provided "as is" and "as available," without warranties of any kind, express or implied, including accuracy, completeness, or fitness for a particular purpose. Data may contain errors, omissions, or inconsistencies originating in the source records.</p>
+
+        <h2>Limitation of liability</h2>
+        <p>To the fullest extent permitted by law, SupplementFiles and its operators will not be liable for any direct, indirect, incidental, consequential, or other damages arising from your use of, or reliance on, the site or its content.</p>
+
+        <h2>Corrections</h2>
+        <p>If you believe information here is inaccurate or misleading, <a href="/contact/">contact us</a> and we will review it.</p>
+
+        <h2>Intellectual property</h2>
+        <p>The underlying FDA data is a public-domain work of the U.S. government. The organization, presentation, written explanations, and design of this site are the property of SupplementFiles and may not be copied wholesale without permission.</p>
+
+        <h2>Third-party links</h2>
+        <p>The site may contain links to third-party sites, which we do not control and are not responsible for.</p>
+
+        <h2>Governing law</h2>
+        <p>These terms are governed by the laws of ${TODO('[STATE/COUNTRY]')}, without regard to conflict-of-laws principles.</p>
+
+        <h2>Changes</h2>
+        <p>We may update these terms; the effective date above reflects the latest version.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about these terms: ${TODO('[CONTACT EMAIL]')}.</p>
+      </div>
+    </div>
+  </main>`;
+
+  return pageShell({ title: 'Terms of Use — SupplementFiles', description: 'Terms of use and disclaimer for SupplementFiles. FDA data is presented for informational purposes only and does not constitute medical advice.', canonical, jsonLd, body });
+}
+
+// ─── Contact page ──────────────────────────────────────────────────────────────
+function renderContactPage() {
+  const canonical = `${BASE_URL}/contact/`;
+  const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Contact — SupplementFiles', url: canonical });
+  const TODO = (text) => `<mark class="todo">${esc(text)}</mark>`;
+
+  const body = `
+  <main>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <h1 style="font-size:clamp(1.5rem,3vw,2rem)">Contact</h1>
+      </div>
+      <div class="card meth-body">
+        <p>SupplementFiles is an independent resource, and we want the information here to be accurate and fair.</p>
+
+        <h2>General questions</h2>
+        <p>${TODO('[CONTACT EMAIL]')}</p>
+
+        <h2>Corrections and right-of-reply</h2>
+        <p>If you are a manufacturer or a member of the public and believe something on the site is inaccurate or presented misleadingly, email us at ${TODO('[CONTACT EMAIL]')} with the product and the specific concern, and we'll review it promptly.</p>
+
+        <h2>Medical emergencies and adverse event reporting</h2>
+        <p><strong>We cannot help with medical emergencies or personal health questions.</strong> If you are experiencing a medical problem, contact a healthcare professional.</p>
+        <p>To report an adverse event you experienced with a supplement, file it directly with the FDA through the <a href="https://www.safetyreporting.hhs.gov" target="_blank" rel="noopener noreferrer">Safety Reporting Portal</a> or MedWatch — that is what allows data like this to exist.</p>
+
+        <p style="margin-top:1.5rem;font-size:.875rem;color:var(--muted)">We read every message but cannot promise individual responses to all of them.</p>
+      </div>
+    </div>
+  </main>`;
+
+  return pageShell({ title: 'Contact — SupplementFiles', description: 'Contact SupplementFiles with questions, corrections, or right-of-reply requests about supplement adverse event data.', canonical, jsonLd, body });
 }
 
 // ─── Homepage ─────────────────────────────────────────────────────────────────
@@ -877,7 +1121,7 @@ function renderHomepage(allProducts, slugMap) {
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      name: 'SupplementSignal',
+      name: 'SupplementFiles',
       url: BASE_URL,
       description: 'FDA dietary supplement adverse event reports, made searchable and legible.',
       potentialAction: {
@@ -889,7 +1133,7 @@ function renderHomepage(allProducts, slugMap) {
     {
       '@context': 'https://schema.org',
       '@type': 'Organization',
-      name: 'SupplementSignal',
+      name: 'SupplementFiles',
       url: BASE_URL
     }
   ]);
@@ -941,7 +1185,7 @@ function renderHomepage(allProducts, slugMap) {
   </main>`;
 
   return pageShell({
-    title: 'SupplementSignal — FDA Supplement Adverse Event Reports',
+    title: 'SupplementFiles — FDA Supplement Adverse Event Reports',
     description: 'Search real FDA adverse event reports for dietary supplements. Data from the FDA\'s CAERS database — reactions, outcomes, and demographics by brand.',
     canonical,
     jsonLd,
@@ -1030,7 +1274,7 @@ function renderBrowsePage(allProducts, slugMap, families) {
     name: 'All Dietary Supplements — FDA Adverse Event Reports',
     description: `Browse ${allProducts.length} dietary supplement products indexed from the FDA's CAERS adverse event database.`,
     url: canonical,
-    publisher: { '@type': 'Organization', name: 'SupplementSignal' },
+    publisher: { '@type': 'Organization', name: 'SupplementFiles' },
     dateModified: CURRENT_DATE
   });
 
@@ -1070,7 +1314,7 @@ function renderBrowsePage(allProducts, slugMap, families) {
   </script>`;
 
   return pageShell({
-    title: 'All Dietary Supplements — FDA Adverse Event Reports | SupplementSignal',
+    title: 'All Dietary Supplements — FDA Adverse Event Reports | SupplementFiles',
     description: `Browse ${allProducts.length} dietary supplement products indexed from the FDA's CAERS database. Reactions, outcomes, and demographics by brand.`,
     canonical,
     jsonLd,
@@ -1084,9 +1328,9 @@ function renderSearchPage() {
   const jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Search — SupplementSignal',
+    name: 'Search — SupplementFiles',
     url: canonical,
-    publisher: { '@type': 'Organization', name: 'SupplementSignal' }
+    publisher: { '@type': 'Organization', name: 'SupplementFiles' }
   });
 
   const body = `
@@ -1117,13 +1361,13 @@ function renderSearchPage() {
     });
   <\/script>`;
 
-  return pageShell({ title: 'Search — SupplementSignal', description: 'Search FDA adverse event reports for dietary supplements by brand name.', canonical, jsonLd, body });
+  return pageShell({ title: 'Search — SupplementFiles', description: 'Search FDA adverse event reports for dietary supplements by brand name.', canonical, jsonLd, body });
 }
 
 // ─── 404 page ──────────────────────────────────────────────────────────────────
 function render404() {
   const canonical = `${BASE_URL}/404.html`;
-  const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', name: 'Page Not Found — SupplementSignal', url: canonical });
+  const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', name: 'Page Not Found — SupplementFiles', url: canonical });
 
   const body = `
   <main>
@@ -1138,7 +1382,7 @@ function render404() {
     </div>
   </main>`;
 
-  return pageShell({ title: 'Page Not Found — SupplementSignal', description: 'The requested page could not be found.', canonical, jsonLd, body });
+  return pageShell({ title: 'Page Not Found — SupplementFiles', description: 'The requested page could not be found.', canonical, jsonLd, body });
 }
 
 // ─── Sitemap ───────────────────────────────────────────────────────────────────
@@ -1147,7 +1391,12 @@ function generateSitemap(productSlugs, hubSlugs) {
     { loc: `${BASE_URL}/`,             priority: '1.0', freq: 'weekly'  },
     { loc: `${BASE_URL}/supplements/`, priority: '0.8', freq: 'weekly'  },
     { loc: `${BASE_URL}/search/`,      priority: '0.5', freq: 'monthly' },
+    { loc: `${BASE_URL}/about/`,       priority: '0.7', freq: 'monthly' },
+    { loc: `${BASE_URL}/faq/`,         priority: '0.7', freq: 'monthly' },
     { loc: `${BASE_URL}/methodology/`, priority: '0.6', freq: 'monthly' },
+    { loc: `${BASE_URL}/privacy/`,     priority: '0.3', freq: 'yearly'  },
+    { loc: `${BASE_URL}/terms/`,       priority: '0.3', freq: 'yearly'  },
+    { loc: `${BASE_URL}/contact/`,     priority: '0.4', freq: 'monthly' },
     ...productSlugs.map(s => ({ loc: `${BASE_URL}/supplements/${s}/`, priority: '0.8', freq: 'monthly' })),
     ...hubSlugs.map(s    => ({ loc: `${BASE_URL}/supplements/${s}/`, priority: '0.7', freq: 'monthly' })),
   ];
@@ -1213,11 +1462,21 @@ function main() {
     count++;
   }
 
-  // Methodology page
-  ensure(path.join(OUT_DIR, 'methodology'));
-  fs.writeFileSync(path.join(OUT_DIR, 'methodology', 'index.html'), renderMethodologyPage(), 'utf8');
-  console.log('  ✓ /methodology/');
-  count++;
+  // Methodology + supporting pages
+  const SUPPORT_PAGES = [
+    ['methodology', renderMethodologyPage],
+    ['about',       renderAboutPage],
+    ['faq',         renderFaqPage],
+    ['privacy',     renderPrivacyPage],
+    ['terms',       renderTermsPage],
+    ['contact',     renderContactPage],
+  ];
+  for (const [dir, fn] of SUPPORT_PAGES) {
+    ensure(path.join(OUT_DIR, dir));
+    fs.writeFileSync(path.join(OUT_DIR, dir, 'index.html'), fn(), 'utf8');
+    console.log(`  ✓ /${dir}/`);
+    count++;
+  }
 
   // Homepage
   fs.writeFileSync(path.join(OUT_DIR, 'index.html'), renderHomepage(allProducts, slugMap), 'utf8');
