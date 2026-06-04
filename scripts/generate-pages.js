@@ -1273,7 +1273,7 @@ function renderHomepage(allProducts, slugMap) {
       <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:3rem">
         <a href="/supplements/" style="padding:.75rem 1.5rem;background:var(--primary);color:#fff;border-radius:8px;font-weight:600;font-size:.9375rem">Browse all ${allProducts.length} products →</a>
         <a href="/methodology/" style="padding:.75rem 1.5rem;border:1px solid var(--border);border-radius:8px;font-weight:600;font-size:.9375rem;color:var(--text)">About the data</a>
-        <a href="/guides/how-to-read-fda-adverse-event-reports/" style="padding:.75rem 1.5rem;border:1px solid var(--border);border-radius:8px;font-weight:600;font-size:.9375rem;color:var(--text)">How to read this data</a>
+        <a href="/guides/" style="padding:.75rem 1.5rem;border:1px solid var(--border);border-radius:8px;font-weight:600;font-size:.9375rem;color:var(--text)">Guides &amp; explainers</a>
       </div>
     </div>
   </main>`;
@@ -1493,6 +1493,7 @@ function generateSitemap(productSlugs, hubSlugs) {
     { loc: `${BASE_URL}/contact/`,     priority: '0.4', freq: 'monthly' },
     { loc: `${BASE_URL}/guides/`,      priority: '0.7', freq: 'monthly' },
     { loc: `${BASE_URL}/guides/how-to-read-fda-adverse-event-reports/`, priority: '0.8', freq: 'monthly' },
+    { loc: `${BASE_URL}/guides/are-supplements-safe-what-fda-reports-show/`,  priority: '0.8', freq: 'monthly' },
     ...productSlugs.map(s => ({ loc: `${BASE_URL}/supplements/${s}/`, priority: '0.8', freq: 'monthly' })),
     ...hubSlugs.map(s    => ({ loc: `${BASE_URL}/supplements/${s}/`, priority: '0.7', freq: 'monthly' })),
   ];
@@ -1578,7 +1579,10 @@ function renderHowToReadGuide() {
           <a href="/supplements/hydroxycut-regular/">Hydroxycut Regular — 353 reports</a>
           <a href="/supplements/5-hour-energy/">5-Hour Energy — 129 reports</a>
         </div>
-        <p style="margin-top:.75rem;font-size:.8rem;color:var(--muted)">
+        <p style="margin-top:.875rem;font-size:.875rem;color:var(--muted)">
+          Also in this series: <a href="/guides/are-supplements-safe-what-fda-reports-show/" style="font-weight:500;color:var(--primary)">Are Supplements Safe? What 54,000 FDA Reports Actually Show →</a>
+        </p>
+        <p style="margin-top:.5rem;font-size:.8rem;color:var(--muted)">
           For full data methodology: <a href="/methodology/">About the data</a>
         </p>
       </div>
@@ -1588,6 +1592,92 @@ function renderHowToReadGuide() {
   return pageShell({
     title: 'How to Read FDA Adverse Event Reports for Supplements — SupplementFiles',
     description: 'A plain-English guide to reading supplement adverse event data without overinterpreting it. What counts mean, what they don\'t, and how to read a product page.',
+    canonical, jsonLd, body
+  });
+}
+
+// ─── Guide: Are Supplements Safe? ──────────────────────────────────────────────
+function renderAreSupplementsSafeGuide() {
+  const canonical = `${BASE_URL}/guides/are-supplements-safe-what-fda-reports-show/`;
+  const PUB_DATE  = '2026-06-04';
+
+  const jsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: 'Are Supplements Safe? What 54,000 FDA Reports Actually Show',
+    description: 'What 54,000 FDA adverse-event reports say about supplement safety — which risks are real, which are overstated, and what the data actually tells you.',
+    url: canonical,
+    datePublished: PUB_DATE,
+    dateModified:  CURRENT_DATE,
+    author:    { '@type': 'Organization', name: 'SupplementFiles', url: BASE_URL },
+    publisher: { '@type': 'Organization', name: 'SupplementFiles', url: BASE_URL },
+    mainEntityOfPage: canonical
+  });
+
+  const body = `
+  <main data-pagefind-body>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <nav data-pagefind-ignore>
+        <p class="breadcrumb"><a href="/">SupplementFiles</a> › <a href="/guides/">Guides</a> › Are supplements safe?</p>
+      </nav>
+
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <span class="cat-pill">Guide</span>
+        <h1 data-pagefind-meta="title" style="font-size:clamp(1.5rem,3.5vw,2.1rem)">Are Supplements Safe? What 54,000 FDA Reports Actually Show</h1>
+        <p class="article-byline">By SupplementFiles · ${PUB_DATE}</p>
+      </div>
+
+      <div class="article-body">
+        <p class="article-lede">Americans spend tens of billions of dollars a year on dietary supplements, and most of us take them on a quiet assumption: that "natural" means "safe," and that anything sold on a pharmacy shelf has been vetted. We went through the full set of dietary-supplement adverse-event reports in the FDA's public database — more than 54,000 of them — and sorted every one by product.</p>
+        <p>A caveat has to come first, because it shapes everything below: this data cannot tell you how <em>risky</em> supplements are. These are reports of problems people experienced while using a product, not verified findings that the product caused anything, and the count of reports reflects how much something gets <em>reported</em> — driven by popularity, lawsuits, and news — not how often it actually happens. (We wrote a <a href="/guides/how-to-read-fda-adverse-event-reports/">separate guide on reading these reports without being misled</a>.) What the data <em>can</em> do is show you what tens of thousands of people actually reported. And the picture is both more reassuring and more pointed than "natural equals safe."</p>
+
+        <h2>The most-reported problem is one nobody warns you about</h2>
+        <p>We expected the top complaints to be exotic — liver damage, dangerous interactions. They're not. The most frequently reported reactions are stubbornly ordinary: nausea, vomiting, diarrhea, dizziness. The kind of thing that sends you to lie down, not to the emergency room.</p>
+        <p>And the single most-reported reaction of all, by a wide margin, is <strong>choking</strong>. People struggling to get large pills down — disproportionately older adults and children. It's mundane, it's almost never discussed, and it's the clearest everyday signal in the entire dataset. If there's one practical takeaway from 54,000 reports, it might simply be: mind the pill size, especially for the very old and the very young.</p>
+
+        <h2>Serious outcomes are real, rare in the data, and concentrated</h2>
+        <p>None of that means nothing serious shows up. Across the whole database, roughly 12,800 reports mention a hospitalization and about 1,300 mention a death. Those are not small human numbers, and we don't wave them away.</p>
+        <p>But two things matter for reading them honestly. First, they're a small slice of 54,000 reports, and a report of a death alongside a product is not evidence the product caused it — many involve people who were already seriously ill. Second, they're concentrated. A large share of the death reports trace to a single product, <a href="/supplements/kratom/">kratom</a>, and when you read those reports, most involve several substances taken together — so the data genuinely cannot pin the outcome on kratom alone. "Deaths appear in the data" is a very different statement from "supplements are killing people," and the gap between those two is exactly where careless reporting goes wrong.</p>
+
+        <h2>Why the household brands top the list (and why that's misleading)</h2>
+        <p>If you rank products by report count, the leaders are names from every medicine cabinet: <a href="/supplements/centrum-silver/">Centrum</a>, <a href="/supplements/one-a-day/">One A Day</a>, the big multivitamins. It would be easy to read that as "the popular ones are the dangerous ones." It's the opposite of that.</p>
+        <p>These products generate the most reports for the least interesting reason — tens of millions of people take them, so even a tiny reporting rate produces a large pile of reports. And when you actually open those pages, the reactions are overwhelmingly the mundane GI complaints from above. High report counts here are a measure of ubiquity, not danger. This is the whole reason we never show a "risk rate": the math would make the most popular products look the scariest, which is precisely backwards.</p>
+
+        <h2>A few categories do carry a heavier story</h2>
+        <p>Where the data earns real attention is in specific categories rather than supplements as a whole. Weight-loss products are the clearest case — <a href="/supplements/hydroxycut/">Hydroxycut</a>'s reports cluster tightly around 2009, the year it was recalled over liver-injury concerns, and that history is written right into the timing of its reports. Energy products show a different signature: strip out death as an outcome and <a href="/supplements/5-hour-energy/">5-Hour Energy</a>'s reactions lead with cardiac events — heart attack, chest pain — which lines up with the scrutiny regulators gave it years ago. Certain herbal and botanical products, <a href="/supplements/kratom/">kratom</a> chief among them, carry the most serious profiles of all.</p>
+        <p>The pattern is worth holding onto: a basic vitamin and a stimulant-based fat burner are not the same risk proposition, and the data reflects that even though both are sold as "supplements."</p>
+
+        <h2>The reason this data exists at all</h2>
+        <p>Here's the piece most people don't know, and it's the reason a database like this matters so much. Dietary supplements are not approved by the FDA for safety before they go on sale. Under the law that governs them, they're regulated more like food than like medicine — the manufacturer is responsible for safety, and the FDA mostly steps in <em>after</em> problems are reported. There's no pre-market safety review standing between a new supplement and the shelf.</p>
+        <p>That makes post-market adverse-event reports one of the only safety signals that exist for an entire, lightly-regulated industry. The data is imperfect and easily misread — but for a category with no gatekeeper, it's a great deal better than nothing, which is why we think it's worth dragging out of a government database and into plain view.</p>
+
+        <h2>So, are supplements safe?</h2>
+        <p>The honest answer is that this data can't hand you a yes or no — it was never built to. But it can replace a blanket assumption with something better. Most reported problems are minor. Genuinely serious outcomes are rare in the record and hard to attribute to any single product. A handful of categories — weight loss, energy, certain botanicals — deserve more caution than a daily multivitamin. And the most underrated everyday risk isn't poisoning; it's a large pill and a small throat.</p>
+        <p>The useful move isn't "supplements are dangerous" or "supplements are fine." It's to look up the specific product you're considering, read what people actually reported about <em>it</em>, and take that — counts and all, causation unproven and all — into a conversation with a doctor or pharmacist. That's what this data is good for, and it's the only thing it's good for.</p>
+      </div>
+
+      <div class="guide-link-card" data-pagefind-ignore>
+        <h3>Products mentioned in this guide</h3>
+        <div class="link-list">
+          <a href="/supplements/kratom/">Kratom — 421 reports</a>
+          <a href="/supplements/hydroxycut/">Hydroxycut products</a>
+          <a href="/supplements/5-hour-energy/">5-Hour Energy — 129 reports</a>
+          <a href="/supplements/centrum-silver/">Centrum Silver products</a>
+          <a href="/supplements/one-a-day/">One A Day products</a>
+        </div>
+        <p style="margin-top:.875rem;font-size:.875rem;color:var(--muted)">
+          Also in this series: <a href="/guides/how-to-read-fda-adverse-event-reports/" style="font-weight:500;color:var(--primary)">How to Read FDA Adverse Event Reports for Supplements →</a>
+        </p>
+        <p style="margin-top:.5rem;font-size:.8rem;color:var(--muted)">
+          For full data methodology: <a href="/methodology/">About the data</a>
+        </p>
+      </div>
+    </div>
+  </main>`;
+
+  return pageShell({
+    title: 'Are Supplements Safe? What 54,000 FDA Reports Actually Show — SupplementFiles',
+    description: 'What 54,000 FDA adverse-event reports say about supplement safety. Most risks are mundane. A few categories deserve real attention. Here\'s what the data actually shows.',
     canonical, jsonLd, body
   });
 }
@@ -1612,6 +1702,11 @@ function renderGuidesIndex() {
         <p class="product-meta">Plain-English guides to reading and understanding FDA supplement adverse event data.</p>
       </div>
       <div class="guides-list">
+        <div class="guide-card">
+          <div class="guide-card-meta">June 4, 2026</div>
+          <h2><a href="/guides/are-supplements-safe-what-fda-reports-show/">Are Supplements Safe? What 54,000 FDA Reports Actually Show</a></h2>
+          <p class="guide-card-desc">A data overview: what 54,000 FDA adverse-event reports say about supplement safety, which categories carry heavier stories, and what the choking numbers really mean.</p>
+        </div>
         <div class="guide-card">
           <div class="guide-card-meta">June 4, 2026</div>
           <h2><a href="/guides/how-to-read-fda-adverse-event-reports/">How to Read FDA Adverse Event Reports for Supplements</a></h2>
@@ -1691,13 +1786,16 @@ function main() {
   ];
 
   // Guide articles (each lives under /guides/<slug>/)
-  ensure(path.join(OUT_DIR, 'guides', 'how-to-read-fda-adverse-event-reports'));
-  fs.writeFileSync(
-    path.join(OUT_DIR, 'guides', 'how-to-read-fda-adverse-event-reports', 'index.html'),
-    renderHowToReadGuide(), 'utf8'
-  );
-  console.log('  ✓ /guides/how-to-read-fda-adverse-event-reports/');
-  count++;
+  const GUIDE_ARTICLES = [
+    ['how-to-read-fda-adverse-event-reports',  renderHowToReadGuide],
+    ['are-supplements-safe-what-fda-reports-show', renderAreSupplementsSafeGuide],
+  ];
+  for (const [slug, fn] of GUIDE_ARTICLES) {
+    ensure(path.join(OUT_DIR, 'guides', slug));
+    fs.writeFileSync(path.join(OUT_DIR, 'guides', slug, 'index.html'), fn(), 'utf8');
+    console.log(`  ✓ /guides/${slug}/`);
+    count++;
+  }
   for (const [dir, fn] of SUPPORT_PAGES) {
     ensure(path.join(OUT_DIR, dir));
     fs.writeFileSync(path.join(OUT_DIR, dir, 'index.html'), fn(), 'utf8');
