@@ -350,6 +350,27 @@ const INLINE_CSS = `
   .todo{background:#fff3cd;color:#856404;border:1px solid #ffc107;border-radius:3px;padding:.1em .35em;font-family:monospace;font-size:.85em;font-weight:700;white-space:nowrap}
   [data-theme="dark"] .todo{background:#332d00;color:#ffc107;border-color:#664f00}
 
+  /* ── Article / guides ────────────────────────────────────────────────────── */
+  .article-body{max-width:68ch}
+  .article-body h2{font-size:1.1rem;font-weight:700;color:var(--text);margin:2rem 0 .5rem;line-height:1.3}
+  .article-body p{font-size:1rem;color:var(--text);line-height:1.78;margin-bottom:1.1rem}
+  .article-body strong{font-weight:700;color:var(--text)}
+  .article-body a{color:var(--primary);font-weight:500}
+  .article-lede{font-size:1.0625rem;color:var(--muted);line-height:1.75;margin-bottom:1.75rem;font-style:italic}
+  .article-byline{font-size:.8rem;color:var(--muted);margin-top:.4rem}
+  .guide-link-card{border:1px solid var(--border);border-radius:8px;padding:1rem 1.25rem;margin-top:2rem;font-size:.875rem}
+  .guide-link-card h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:.6rem}
+  .guide-link-card .link-list{display:flex;flex-wrap:wrap;gap:.4rem .75rem}
+  .guide-link-card a{color:var(--primary);font-weight:500}
+  .guides-list{display:flex;flex-direction:column;gap:.875rem}
+  .guide-card{border:1px solid var(--border);border-radius:10px;padding:1.25rem;background:var(--bg);transition:border-color .15s,box-shadow .15s}
+  .guide-card:hover{border-color:var(--primary);box-shadow:0 2px 10px rgba(0,166,126,.08)}
+  .guide-card h2{font-size:1rem;font-weight:700;margin-bottom:.3rem}
+  .guide-card h2 a{color:var(--text)}
+  .guide-card h2 a:hover{color:var(--primary);text-decoration:none}
+  .guide-card-meta{font-size:.78rem;color:var(--muted);margin-bottom:.4rem}
+  .guide-card-desc{font-size:.875rem;color:var(--muted);line-height:1.55}
+
   /* ── Homepage hero ───────────────────────────────────────────────────────── */
   .home-hero{text-align:center;padding:3rem 1rem 2.5rem;max-width:680px;margin:0 auto}
   .home-hero h1{font-size:clamp(1.75rem,4vw,2.5rem);font-weight:800;letter-spacing:-.03em;color:var(--text);margin-bottom:.75rem}
@@ -506,6 +527,7 @@ function pageShell({ title, description, canonical, jsonLd, body }) {
         <a href="/about/">About</a>
         <a href="/faq/">FAQ</a>
         <a href="/methodology/">Methodology</a>
+        <a href="/guides/">Guides</a>
         <a href="/supplements/">Browse</a>
         <a href="/search/">Search</a>
         <a href="/privacy/">Privacy</a>
@@ -771,6 +793,8 @@ function renderProductPage(product, allProducts, slugMap) {
       <a href="https://open.fda.gov/food/event/" target="_blank" rel="noopener noreferrer" style="font-size:.875rem;font-weight:600">View openFDA CAERS data ↗</a>
       &nbsp;·&nbsp;
       <a href="/methodology/" style="font-size:.875rem">About our methodology</a>
+      &nbsp;·&nbsp;
+      <a href="/guides/how-to-read-fda-adverse-event-reports/" style="font-size:.875rem">How to read this data</a>
     </div>
   </main>`;
 
@@ -1249,6 +1273,7 @@ function renderHomepage(allProducts, slugMap) {
       <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:3rem">
         <a href="/supplements/" style="padding:.75rem 1.5rem;background:var(--primary);color:#fff;border-radius:8px;font-weight:600;font-size:.9375rem">Browse all ${allProducts.length} products →</a>
         <a href="/methodology/" style="padding:.75rem 1.5rem;border:1px solid var(--border);border-radius:8px;font-weight:600;font-size:.9375rem;color:var(--text)">About the data</a>
+        <a href="/guides/how-to-read-fda-adverse-event-reports/" style="padding:.75rem 1.5rem;border:1px solid var(--border);border-radius:8px;font-weight:600;font-size:.9375rem;color:var(--text)">How to read this data</a>
       </div>
     </div>
   </main>`;
@@ -1466,6 +1491,8 @@ function generateSitemap(productSlugs, hubSlugs) {
     { loc: `${BASE_URL}/privacy/`,     priority: '0.3', freq: 'yearly'  },
     { loc: `${BASE_URL}/terms/`,       priority: '0.3', freq: 'yearly'  },
     { loc: `${BASE_URL}/contact/`,     priority: '0.4', freq: 'monthly' },
+    { loc: `${BASE_URL}/guides/`,      priority: '0.7', freq: 'monthly' },
+    { loc: `${BASE_URL}/guides/how-to-read-fda-adverse-event-reports/`, priority: '0.8', freq: 'monthly' },
     ...productSlugs.map(s => ({ loc: `${BASE_URL}/supplements/${s}/`, priority: '0.8', freq: 'monthly' })),
     ...hubSlugs.map(s    => ({ loc: `${BASE_URL}/supplements/${s}/`, priority: '0.7', freq: 'monthly' })),
   ];
@@ -1478,6 +1505,127 @@ function generateSitemap(productSlugs, hubSlugs) {
 // ─── Robots.txt ────────────────────────────────────────────────────────────────
 function generateRobots() {
   return `User-agent: *\nAllow: /\n\nSitemap: ${BASE_URL}/sitemap.xml\n`;
+}
+
+// ─── Guide: How to Read FDA Adverse Event Reports ─────────────────────────────
+function renderHowToReadGuide() {
+  const canonical = `${BASE_URL}/guides/how-to-read-fda-adverse-event-reports/`;
+  const PUB_DATE  = '2026-06-04';
+
+  const jsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: 'How to Read FDA Adverse Event Reports for Supplements',
+    description: 'A plain-English guide to reading FDA adverse event data without overinterpreting it — what counts mean, what they don\'t, and how to read a product page.',
+    url: canonical,
+    datePublished: PUB_DATE,
+    dateModified:  CURRENT_DATE,
+    author:    { '@type': 'Organization', name: 'SupplementFiles', url: BASE_URL },
+    publisher: { '@type': 'Organization', name: 'SupplementFiles', url: BASE_URL },
+    mainEntityOfPage: canonical
+  });
+
+  const body = `
+  <main data-pagefind-body>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <nav data-pagefind-ignore>
+        <p class="breadcrumb"><a href="/">SupplementFiles</a> › <a href="/guides/">Guides</a> › How to read FDA adverse event reports</p>
+      </nav>
+
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <span class="cat-pill">Guide</span>
+        <h1 data-pagefind-meta="title" style="font-size:clamp(1.5rem,3.5vw,2.1rem)">How to Read FDA Adverse Event Reports for Supplements</h1>
+        <p class="article-byline">By SupplementFiles · ${PUB_DATE}</p>
+      </div>
+
+      <div class="article-body">
+        <p class="article-lede">When we started pulling apart the FDA's supplement adverse-event data — more than 54,000 reports — we expected the most common complaint to be something dramatic. A liver problem, maybe, or a racing heart. It wasn't. The single most-reported reaction, by a wide margin, was <strong>choking</strong>. People struggling to swallow large pills, mostly older adults and kids. It's the kind of thing that never makes a headline, and it tells you something important about how to read this data: it rarely says what you assume it says.</p>
+        <p>So before you read a number on one of our product pages and draw a conclusion, here's how to read it the way it actually deserves — carefully, and without scaring yourself over something the data can't support.</p>
+
+        <h2>A report is a notification, not a finding</h2>
+        <p>Every figure on this site traces back to a report someone filed with the FDA saying a health problem happened while they were using a supplement. Those reports come from consumers, from doctors and pharmacists, and from the manufacturers themselves.</p>
+        <p>What trips most people up is this: the FDA does not investigate and confirm most of them. A report records that an experience was <em>reported</em> — not that anyone established the product was responsible. It's a notification, full stop.</p>
+        <p>That distinction isn't pedantic; it's the whole game. Take <a href="/supplements/kratom/">kratom</a>, which has one of the highest death counts in our data. Read the underlying reports and a pattern emerges fast: most of them involve several substances at once. The data genuinely cannot tell you kratom alone was responsible for those deaths — only that kratom was named in reports where someone died. Read every reaction on this site that way: "this was reported alongside the product," never "this product causes this."</p>
+
+        <h2>Why we refuse to show you a "risk rate"</h2>
+        <p>You will not find a figure like "4% of users had a serious reaction" anywhere on this site, and that's deliberate. A number like that would be worse than useless — it would be actively misleading.</p>
+        <p>The reason is that report counts measure <em>reporting</em>, not risk. They climb when a product gets sued, when it's in the news, or simply when a lot of people take it. A blockbuster multivitamin collects more reports than a niche one for the obvious reason that more people use it — not because it's more dangerous. Divide serious outcomes by total reports and you get a percentage that looks like your personal odds but isn't, because the people in that denominator aren't "everyone who used it" — they're "the small slice who reported." So we show counts, plainly, and leave the false precision out.</p>
+
+        <h2>What the timing usually tells you</h2>
+        <p>One of the most useful things on a product page is the least obvious: when the reports were filed.</p>
+        <p><a href="/supplements/hydroxycut/">Hydroxycut</a> is the clean example. Its reports don't trickle in steadily over the years — they pile up around 2009 to 2011, the window of its FDA recall over liver-injury concerns. That cluster isn't a measure of your risk if you bought it last week; it's the fingerprint of a specific historical event. We see the same shape again and again — a recall, a wave of litigation, or a batch of reports filed together, all compressed into one or two years. When a product's reports concentrate like that, we flag it on the page. Treat a spike as a reason to go read what happened that year, not as a verdict on today.</p>
+
+        <h2>What these numbers can and can't do</h2>
+        <p>They <em>can</em> show you that reports exist, roughly how many, what kinds of effects people described, and how serious those reports were. They're a real, public record of human experience, and that's worth something.</p>
+        <p>They <em>can't</em> tell you your personal odds of anything, whether the product actually caused a reported effect, or how common that effect is among everyone who takes it. The skill is holding both of those at once — taking the data seriously without overreading it.</p>
+
+        <h2>Reading a product page, section by section</h2>
+        <p>Each page is laid out to support exactly that careful reading:</p>
+        <p>The <strong>total reports</strong> number is just how many reports name that specific product. The <strong>reactions</strong> are the effects people described, translated out of medical jargon and shown as counts — a picture of what was reported, not a ranking of danger. <strong>Outcomes</strong> tell you how serious things got (a doctor's visit, a hospitalization) as counts, never rates. <strong>Who reported</strong> shows the ages and sexes on record. And <strong>reports over time</strong> is the timing signal from above — often the most revealing part of the page.</p>
+        <p>One more deliberate choice worth knowing: we list death only under outcomes, never as a "reaction." When we first generated these pages, a product like <a href="/supplements/5-hour-energy/">5-Hour Energy</a> led with "death" at the top of its reaction list, which is both miscategorized and needlessly alarming. Move death to where it belongs — outcomes — and the genuine signal surfaces underneath: for 5-Hour Energy, that's cardiac events, heart attack and chest pain, which actually match the concerns regulators raised about it. That's the data being useful instead of just frightening.</p>
+
+        <h2>What to do with any of this</h2>
+        <p>Think of a product page as the start of a conversation, not the end of one.</p>
+        <p>If something here worries you about a supplement you take, bring it to a doctor or pharmacist — someone who can weigh it against your real health, your other medications, and the broader evidence. This site is information, not medical advice, and a single alarming-looking count is exactly the thing you now know not to panic over. And if <em>you've</em> had a problem with a supplement, report it to the FDA through the Safety Reporting Portal or MedWatch. Every page on this site exists because people did exactly that.</p>
+        <p>Read counts as reports, not rates. Read reactions as "reported," not "caused." Read a spike as an event, not a trend. Do that, and this becomes what it should be — one honest input into a decision you make with a professional, and never a substitute for one.</p>
+      </div>
+
+      <div class="guide-link-card" data-pagefind-ignore>
+        <h3>Products mentioned in this guide</h3>
+        <div class="link-list">
+          <a href="/supplements/kratom/">Kratom — 421 reports</a>
+          <a href="/supplements/hydroxycut/">Hydroxycut products</a>
+          <a href="/supplements/hydroxycut-regular/">Hydroxycut Regular — 353 reports</a>
+          <a href="/supplements/5-hour-energy/">5-Hour Energy — 129 reports</a>
+        </div>
+        <p style="margin-top:.75rem;font-size:.8rem;color:var(--muted)">
+          For full data methodology: <a href="/methodology/">About the data</a>
+        </p>
+      </div>
+    </div>
+  </main>`;
+
+  return pageShell({
+    title: 'How to Read FDA Adverse Event Reports for Supplements — SupplementFiles',
+    description: 'A plain-English guide to reading supplement adverse event data without overinterpreting it. What counts mean, what they don\'t, and how to read a product page.',
+    canonical, jsonLd, body
+  });
+}
+
+// ─── Guides index page ─────────────────────────────────────────────────────────
+function renderGuidesIndex() {
+  const canonical = `${BASE_URL}/guides/`;
+  const jsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Guides — SupplementFiles',
+    description: 'Plain-English guides to reading and understanding FDA supplement adverse event data.',
+    url: canonical,
+    publisher: { '@type': 'Organization', name: 'SupplementFiles', url: BASE_URL }
+  });
+
+  const body = `
+  <main>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <h1 style="font-size:clamp(1.5rem,3vw,2rem)">Guides</h1>
+        <p class="product-meta">Plain-English guides to reading and understanding FDA supplement adverse event data.</p>
+      </div>
+      <div class="guides-list">
+        <div class="guide-card">
+          <div class="guide-card-meta">June 4, 2026</div>
+          <h2><a href="/guides/how-to-read-fda-adverse-event-reports/">How to Read FDA Adverse Event Reports for Supplements</a></h2>
+          <p class="guide-card-desc">What report counts mean, what they don't, why we refuse to show risk rates, and how to read each section of a product page without overinterpreting the data.</p>
+        </div>
+      </div>
+    </div>
+  </main>`;
+
+  return pageShell({
+    title: 'Guides — SupplementFiles',
+    description: 'Plain-English guides to reading and understanding FDA supplement adverse event reports.',
+    canonical, jsonLd, body
+  });
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -1539,7 +1687,17 @@ function main() {
     ['privacy',     renderPrivacyPage],
     ['terms',       renderTermsPage],
     ['contact',     renderContactPage],
+    ['guides',      renderGuidesIndex],
   ];
+
+  // Guide articles (each lives under /guides/<slug>/)
+  ensure(path.join(OUT_DIR, 'guides', 'how-to-read-fda-adverse-event-reports'));
+  fs.writeFileSync(
+    path.join(OUT_DIR, 'guides', 'how-to-read-fda-adverse-event-reports', 'index.html'),
+    renderHowToReadGuide(), 'utf8'
+  );
+  console.log('  ✓ /guides/how-to-read-fda-adverse-event-reports/');
+  count++;
   for (const [dir, fn] of SUPPORT_PAGES) {
     ensure(path.join(OUT_DIR, dir));
     fs.writeFileSync(path.join(OUT_DIR, dir, 'index.html'), fn(), 'utf8');
