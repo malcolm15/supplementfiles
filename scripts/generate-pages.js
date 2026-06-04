@@ -10,7 +10,7 @@ const CURRENT_DATE   = '2026-06-03';
 const FORMATTED_DATE = 'June 3, 2026';
 const DATA_FILE      = path.join(__dirname, '../data/supplement_mvp_final_v2.json');
 const OUT_DIR        = path.join(__dirname, '../docs');
-const GA4_ID         = ''; // Set your GA4 measurement ID (G-XXXXXXXXXX) here, then regenerate
+const GA4_ID         = 'G-6VHWEWTGNM'; // SupplementFiles GA4 property
 
 // ─── Category labels (by brand family / product name substring) ───────────────
 const CATEGORY_MAP = [
