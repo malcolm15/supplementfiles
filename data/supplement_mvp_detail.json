@@ -1,0 +1,8513 @@
+{
+  "Centrum Silver Women's 50+": {
+    "canonical_display_name": "Centrum Silver Women's 50+",
+    "normalized_key": "centrum silver women's 50+",
+    "type": "branded",
+    "brand_family": "Centrum Silver",
+    "contamination_flag": "",
+    "total_reports": 1117,
+    "total_reports_csv": 1117,
+    "page_eligible": true,
+    "raw_strings": [
+      "CENTRUM SILVER WOMEN'S 50+ (MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER WOMEN'S 50+",
+      "CENTRUM SILVER WOMEN'S 50+ MULTIMINERALS MULTIVITAMINS TABLET",
+      "CENTRUM SILVER WOMEN'S 50+(MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER WOMEN'S 50+ (MULTIMINERALS MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER WOMEN'S 50 PLUS MULTIMINERALS MULTIVITAMINS TABLET",
+      "CENTRUM SILVER WOMEN'S 50 PLUS",
+      "CENTRUM SILVER WOMEN'S 50+ TABLET",
+      "CENTRUM SILVER WOMEN'S 50 PLUS (MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER WOMEN'S 50+(MUL TIMINERALS, MULTIVITAMINS) TABLET"
+    ],
+    "query_timestamp": "2026-06-02T06:49:48.494008Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 774,
+          "pct": 69.29
+        },
+        {
+          "term": "Dysphagia",
+          "count": 401,
+          "pct": 35.9
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 183,
+          "pct": 16.38
+        },
+        {
+          "term": "Throat irritation",
+          "count": 101,
+          "pct": 9.04
+        },
+        {
+          "term": "Foreign body",
+          "count": 73,
+          "pct": 6.54
+        },
+        {
+          "term": "Retching",
+          "count": 70,
+          "pct": 6.27
+        },
+        {
+          "term": "Vomiting",
+          "count": 43,
+          "pct": 3.85
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 42,
+          "pct": 3.76
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "count": 33,
+          "pct": 2.95
+        },
+        {
+          "term": "Coeliac disease",
+          "count": 28,
+          "pct": 2.51
+        },
+        {
+          "term": "Nausea",
+          "count": 26,
+          "pct": 2.33
+        },
+        {
+          "term": "Malaise",
+          "count": 24,
+          "pct": 2.15
+        },
+        {
+          "term": "Feeling abnormal",
+          "count": 22,
+          "pct": 1.97
+        },
+        {
+          "term": "Cough",
+          "count": 21,
+          "pct": 1.88
+        },
+        {
+          "term": "FEAR",
+          "count": 20,
+          "pct": 1.79
+        },
+        {
+          "term": "Body height decreased",
+          "count": 15,
+          "pct": 1.34
+        },
+        {
+          "term": "Hypersensitivity",
+          "count": 14,
+          "pct": 1.25
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 14,
+          "pct": 1.25
+        },
+        {
+          "term": "Macular degeneration",
+          "count": 14,
+          "pct": 1.25
+        },
+        {
+          "term": "Pain",
+          "count": 12,
+          "pct": 1.07
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 12,
+          "pct": 1.07
+        },
+        {
+          "term": "PHARYNGEAL INJURY",
+          "count": 11,
+          "pct": 0.98
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 11,
+          "pct": 0.98
+        },
+        {
+          "term": "Constipation",
+          "count": 10,
+          "pct": 0.9
+        },
+        {
+          "term": "OESOPHAGEAL INJURY",
+          "count": 10,
+          "pct": 0.9
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 9,
+          "pct": 0.81
+        },
+        {
+          "term": "Rash",
+          "count": 9,
+          "pct": 0.81
+        },
+        {
+          "term": "Breast cancer",
+          "count": 9,
+          "pct": 0.81
+        },
+        {
+          "term": "Choking sensation",
+          "count": 9,
+          "pct": 0.81
+        },
+        {
+          "term": "Condition aggravated",
+          "count": 9,
+          "pct": 0.81
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 1034,
+        "pct": 92.57
+      },
+      "Hospitalization": {
+        "count": 84,
+        "pct": 7.52
+      },
+      "Visited a Health Care Provider": {
+        "count": 36,
+        "pct": 3.22
+      },
+      "Other Serious Outcome": {
+        "count": 24,
+        "pct": 2.15
+      },
+      "Visited Emergency Room": {
+        "count": 12,
+        "pct": 1.07
+      },
+      "Death": {
+        "count": 10,
+        "pct": 0.9
+      },
+      "Other Outcome": {
+        "count": 4,
+        "pct": 0.36
+      },
+      "Disability": {
+        "count": 3,
+        "pct": 0.27
+      },
+      "Life Threatening": {
+        "count": 2,
+        "pct": 0.18
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 1117
+      },
+      "age_bands": {
+        "under_18": 1,
+        "18_34": 0,
+        "35_49": 3,
+        "50_64": 21,
+        "65_79": 84,
+        "80_plus": 65,
+        "unknown": 126,
+        "median_age": 77.0,
+        "mean_age": 75.4,
+        "n_with_age": 174
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 10,
+      "total_reports": 1117,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Super Beta Prostate": {
+    "canonical_display_name": "Super Beta Prostate",
+    "normalized_key": "super beta prostate",
+    "type": "branded",
+    "brand_family": "Super Beta",
+    "contamination_flag": "",
+    "total_reports": 1108,
+    "total_reports_csv": 1108,
+    "page_eligible": true,
+    "raw_strings": [
+      "SUPER BETA PROSTATE"
+    ],
+    "query_timestamp": "2026-06-02T06:50:03.424965Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Blood urine present",
+          "count": 268,
+          "pct": 24.19
+        },
+        {
+          "term": "Haemorrhage",
+          "count": 92,
+          "pct": 8.3
+        },
+        {
+          "term": "Haematochezia",
+          "count": 87,
+          "pct": 7.85
+        },
+        {
+          "term": "Urinary retention",
+          "count": 66,
+          "pct": 5.96
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 58,
+          "pct": 5.23
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 53,
+          "pct": 4.78
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 43,
+          "pct": 3.88
+        },
+        {
+          "term": "Dizziness",
+          "count": 37,
+          "pct": 3.34
+        },
+        {
+          "term": "Myocardial infarction",
+          "count": 34,
+          "pct": 3.07
+        },
+        {
+          "term": "Hospitalisation",
+          "count": 32,
+          "pct": 2.89
+        },
+        {
+          "term": "Malaise",
+          "count": 31,
+          "pct": 2.8
+        },
+        {
+          "term": "Urinary tract infection",
+          "count": 28,
+          "pct": 2.53
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 27,
+          "pct": 2.44
+        },
+        {
+          "term": "Rectal haemorrhage",
+          "count": 27,
+          "pct": 2.44
+        },
+        {
+          "term": "Prostatomegaly",
+          "count": 26,
+          "pct": 2.35
+        },
+        {
+          "term": "Vomiting",
+          "count": 24,
+          "pct": 2.17
+        },
+        {
+          "term": "Hypertension",
+          "count": 23,
+          "pct": 2.08
+        },
+        {
+          "term": "Renal failure",
+          "count": 23,
+          "pct": 2.08
+        },
+        {
+          "term": "Dysuria",
+          "count": 22,
+          "pct": 1.99
+        },
+        {
+          "term": "Constipation",
+          "count": 21,
+          "pct": 1.9
+        },
+        {
+          "term": "PAIN",
+          "count": 17,
+          "pct": 1.53
+        },
+        {
+          "term": "Renal disorder",
+          "count": 17,
+          "pct": 1.53
+        },
+        {
+          "term": "Hypersensitivity",
+          "count": 17,
+          "pct": 1.53
+        },
+        {
+          "term": "Nephrolithiasis",
+          "count": 17,
+          "pct": 1.53
+        },
+        {
+          "term": "LOSS OF CONSCIOUSNESS",
+          "count": 16,
+          "pct": 1.44
+        },
+        {
+          "term": "Chest pain",
+          "count": 16,
+          "pct": 1.44
+        },
+        {
+          "term": "Haematospermia",
+          "count": 15,
+          "pct": 1.35
+        },
+        {
+          "term": "Infection",
+          "count": 15,
+          "pct": 1.35
+        },
+        {
+          "term": "Prostate cancer",
+          "count": 14,
+          "pct": 1.26
+        },
+        {
+          "term": "BLOOD GLUCOSE INCREASED",
+          "count": 12,
+          "pct": 1.08
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 895,
+        "pct": 80.78
+      },
+      "Hospitalization": {
+        "count": 341,
+        "pct": 30.78
+      },
+      "Visited Emergency Room": {
+        "count": 181,
+        "pct": 16.34
+      },
+      "Visited a Health Care Provider": {
+        "count": 169,
+        "pct": 15.25
+      },
+      "Other Serious Outcome": {
+        "count": 116,
+        "pct": 10.47
+      },
+      "Life Threatening": {
+        "count": 20,
+        "pct": 1.81
+      },
+      "Death": {
+        "count": 2,
+        "pct": 0.18
+      },
+      "Required Intervention": {
+        "count": 2,
+        "pct": 0.18
+      },
+      "Disability": {
+        "count": 1,
+        "pct": 0.09
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 1108
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 3,
+        "50_64": 43,
+        "65_79": 60,
+        "80_plus": 34,
+        "unknown": 160,
+        "median_age": 70.0,
+        "mean_age": 70.6,
+        "n_with_age": 140
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 2,
+      "total_reports": 1108,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Preservision AREDS 2": {
+    "canonical_display_name": "Preservision AREDS 2",
+    "normalized_key": "preservision areds 2",
+    "type": "branded",
+    "brand_family": "PreserVision AREDS 2",
+    "contamination_flag": "",
+    "total_reports": 980,
+    "total_reports_csv": 979,
+    "page_eligible": true,
+    "raw_strings": [
+      "PRESERVISION AREDS 2",
+      "PRESERVISION AREDS 2 SOFT GELS (CAPSULE, SOFT)",
+      "PRESERVISION AREDS 2 MULTIVITAMIN",
+      "PRESERVISION AREDS 2 MULTIVITAMIN SOFT GELS",
+      "PRESERVISION AREDS 2 SOFT GELS"
+    ],
+    "query_timestamp": "2026-06-02T06:50:56.121753Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Macular degeneration",
+          "count": 121,
+          "pct": 12.35
+        },
+        {
+          "term": "Condition aggravated",
+          "count": 68,
+          "pct": 6.94
+        },
+        {
+          "term": "Age-related macular degeneration",
+          "count": 67,
+          "pct": 6.84
+        },
+        {
+          "term": "Choking",
+          "count": 61,
+          "pct": 6.22
+        },
+        {
+          "term": "Foreign body",
+          "count": 60,
+          "pct": 6.12
+        },
+        {
+          "term": "Dysphagia",
+          "count": 60,
+          "pct": 6.12
+        },
+        {
+          "term": "Visual impairment",
+          "count": 59,
+          "pct": 6.02
+        },
+        {
+          "term": "Death",
+          "count": 51,
+          "pct": 5.2
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 47,
+          "pct": 4.8
+        },
+        {
+          "term": "Cataract",
+          "count": 42,
+          "pct": 4.29
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 38,
+          "pct": 3.88
+        },
+        {
+          "term": "Nausea",
+          "count": 37,
+          "pct": 3.78
+        },
+        {
+          "term": "Blindness",
+          "count": 35,
+          "pct": 3.57
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 26,
+          "pct": 2.65
+        },
+        {
+          "term": "Dizziness",
+          "count": 25,
+          "pct": 2.55
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 23,
+          "pct": 2.35
+        },
+        {
+          "term": "Weight decreased",
+          "count": 21,
+          "pct": 2.14
+        },
+        {
+          "term": "Constipation",
+          "count": 21,
+          "pct": 2.14
+        },
+        {
+          "term": "Eye haemorrhage",
+          "count": 21,
+          "pct": 2.14
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 19,
+          "pct": 1.94
+        },
+        {
+          "term": "Headache",
+          "count": 18,
+          "pct": 1.84
+        },
+        {
+          "term": "Vision blurred",
+          "count": 17,
+          "pct": 1.73
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 16,
+          "pct": 1.63
+        },
+        {
+          "term": "Blood glucose increased",
+          "count": 16,
+          "pct": 1.63
+        },
+        {
+          "term": "Haemorrhage",
+          "count": 16,
+          "pct": 1.63
+        },
+        {
+          "term": "Malaise",
+          "count": 15,
+          "pct": 1.53
+        },
+        {
+          "term": "Eye disorder",
+          "count": 15,
+          "pct": 1.53
+        },
+        {
+          "term": "Fatigue",
+          "count": 15,
+          "pct": 1.53
+        },
+        {
+          "term": "Blindness unilateral",
+          "count": 15,
+          "pct": 1.53
+        },
+        {
+          "term": "Atrial fibrillation",
+          "count": 14,
+          "pct": 1.43
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 834,
+        "pct": 85.1
+      },
+      "Hospitalization": {
+        "count": 121,
+        "pct": 12.35
+      },
+      "Visited a Health Care Provider": {
+        "count": 89,
+        "pct": 9.08
+      },
+      "Death": {
+        "count": 51,
+        "pct": 5.2
+      },
+      "Visited Emergency Room": {
+        "count": 16,
+        "pct": 1.63
+      },
+      "Other Outcome": {
+        "count": 12,
+        "pct": 1.22
+      },
+      "Disability": {
+        "count": 10,
+        "pct": 1.02
+      },
+      "Other Serious Outcome": {
+        "count": 7,
+        "pct": 0.71
+      },
+      "Life Threatening": {
+        "count": 7,
+        "pct": 0.71
+      },
+      "Allergic Reaction": {
+        "count": 2,
+        "pct": 0.2
+      },
+      "Required Intervention": {
+        "count": 2,
+        "pct": 0.2
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 980
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 1,
+        "50_64": 6,
+        "65_79": 73,
+        "80_plus": 133,
+        "unknown": 87,
+        "median_age": 82.0,
+        "mean_age": 81.1,
+        "n_with_age": 213
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 51,
+      "total_reports": 980,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Centrum Silver": {
+    "canonical_display_name": "Centrum Silver",
+    "normalized_key": "centrum silver",
+    "type": "branded",
+    "brand_family": "Centrum Silver",
+    "contamination_flag": "",
+    "total_reports": 785,
+    "total_reports_csv": 785,
+    "page_eligible": true,
+    "raw_strings": [
+      "CENTRUM SILVER",
+      "CENTRUM SILVER (MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER (MULTIMINERALS, MULTIVITAMINS)",
+      "CENTRUM SILVER MULTIMINERALS MULTIVITAMINS TABLET",
+      "CENTRUM SILVER MULTIMINERALS MULTIVITAMINS",
+      "CENTRUM SILVER (MULTIMINERALS, MULTIVITAMINS) CHEWABLE TABLET",
+      "Centrum Silver",
+      "CENTRUM SILVER MULTIVITAMIN",
+      "CENTRUM SILVER MULTIMINERALS MULTIVITAMINS CHEWABLE TABLET",
+      "CENTRUM SILVER TABLET"
+    ],
+    "query_timestamp": "2026-06-02T06:52:35.490070Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 227,
+          "pct": 28.92
+        },
+        {
+          "term": "Dysphagia",
+          "count": 125,
+          "pct": 15.92
+        },
+        {
+          "term": "Coeliac disease",
+          "count": 55,
+          "pct": 7.01
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 49,
+          "pct": 6.24
+        },
+        {
+          "term": "Nausea",
+          "count": 40,
+          "pct": 5.1
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 34,
+          "pct": 4.33
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 26,
+          "pct": 3.31
+        },
+        {
+          "term": "DYSPNOEA",
+          "count": 22,
+          "pct": 2.8
+        },
+        {
+          "term": "Malaise",
+          "count": 22,
+          "pct": 2.8
+        },
+        {
+          "term": "Asthenia",
+          "count": 21,
+          "pct": 2.68
+        },
+        {
+          "term": "Dizziness",
+          "count": 21,
+          "pct": 2.68
+        },
+        {
+          "term": "Death",
+          "count": 20,
+          "pct": 2.55
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 19,
+          "pct": 2.42
+        },
+        {
+          "term": "Foreign body",
+          "count": 19,
+          "pct": 2.42
+        },
+        {
+          "term": "THROAT IRRITATION",
+          "count": 19,
+          "pct": 2.42
+        },
+        {
+          "term": "Vomiting",
+          "count": 18,
+          "pct": 2.29
+        },
+        {
+          "term": "WEIGHT DECREASED",
+          "count": 18,
+          "pct": 2.29
+        },
+        {
+          "term": "Pain",
+          "count": 18,
+          "pct": 2.29
+        },
+        {
+          "term": "Cough",
+          "count": 15,
+          "pct": 1.91
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 15,
+          "pct": 1.91
+        },
+        {
+          "term": "Headache",
+          "count": 14,
+          "pct": 1.78
+        },
+        {
+          "term": "Hypersensitivity",
+          "count": 14,
+          "pct": 1.78
+        },
+        {
+          "term": "Neoplasm malignant",
+          "count": 14,
+          "pct": 1.78
+        },
+        {
+          "term": "Abdominal pain",
+          "count": 13,
+          "pct": 1.66
+        },
+        {
+          "term": "Pruritus",
+          "count": 13,
+          "pct": 1.66
+        },
+        {
+          "term": "Retching",
+          "count": 13,
+          "pct": 1.66
+        },
+        {
+          "term": "Constipation",
+          "count": 12,
+          "pct": 1.53
+        },
+        {
+          "term": "Decreased appetite",
+          "count": 11,
+          "pct": 1.4
+        },
+        {
+          "term": "Macular degeneration",
+          "count": 11,
+          "pct": 1.4
+        },
+        {
+          "term": "Myocardial infarction",
+          "count": 11,
+          "pct": 1.4
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 675,
+        "pct": 85.99
+      },
+      "Hospitalization": {
+        "count": 98,
+        "pct": 12.48
+      },
+      "Visited a Health Care Provider": {
+        "count": 94,
+        "pct": 11.97
+      },
+      "Visited Emergency Room": {
+        "count": 46,
+        "pct": 5.86
+      },
+      "Other Serious Outcome": {
+        "count": 45,
+        "pct": 5.73
+      },
+      "Death": {
+        "count": 21,
+        "pct": 2.68
+      },
+      "Other Outcome": {
+        "count": 16,
+        "pct": 2.04
+      },
+      "Disability": {
+        "count": 12,
+        "pct": 1.53
+      },
+      "Life Threatening": {
+        "count": 12,
+        "pct": 1.53
+      },
+      "Required Intervention": {
+        "count": 4,
+        "pct": 0.51
+      },
+      "Allergic Reaction": {
+        "count": 1,
+        "pct": 0.13
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 785
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 9,
+        "50_64": 39,
+        "65_79": 100,
+        "80_plus": 66,
+        "unknown": 86,
+        "median_age": 75.0,
+        "mean_age": 73.0,
+        "n_with_age": 214
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 21,
+      "total_reports": 785,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Preservision AREDS 2 Formula": {
+    "canonical_display_name": "Preservision AREDS 2 Formula",
+    "normalized_key": "preservision areds 2 formula",
+    "type": "branded",
+    "brand_family": "PreserVision AREDS 2",
+    "contamination_flag": "",
+    "total_reports": 769,
+    "total_reports_csv": 769,
+    "page_eligible": true,
+    "raw_strings": [
+      "PRESERVISION AREDS 2 FORMULA SOFT GELS",
+      "PRESERVISION AREDS 2 FORMULA SOFT GELS (CAPSULE, SOFT)",
+      "PRESERVISION AREDS 2 FORMULA",
+      "PRESERVISION AREDS 2 FORMULA CHEWABLES"
+    ],
+    "query_timestamp": "2026-06-02T06:53:18.524369Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Dysphagia",
+          "count": 77,
+          "pct": 10.01
+        },
+        {
+          "term": "Death",
+          "count": 60,
+          "pct": 7.8
+        },
+        {
+          "term": "Macular degeneration",
+          "count": 58,
+          "pct": 7.54
+        },
+        {
+          "term": "Foreign body",
+          "count": 50,
+          "pct": 6.5
+        },
+        {
+          "term": "Choking",
+          "count": 48,
+          "pct": 6.24
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 43,
+          "pct": 5.59
+        },
+        {
+          "term": "Condition aggravated",
+          "count": 41,
+          "pct": 5.33
+        },
+        {
+          "term": "Nausea",
+          "count": 37,
+          "pct": 4.81
+        },
+        {
+          "term": "Cataract",
+          "count": 32,
+          "pct": 4.16
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 31,
+          "pct": 4.03
+        },
+        {
+          "term": "Dizziness",
+          "count": 30,
+          "pct": 3.9
+        },
+        {
+          "term": "Blindness",
+          "count": 29,
+          "pct": 3.77
+        },
+        {
+          "term": "Neovascular age-related macular degeneration",
+          "count": 28,
+          "pct": 3.64
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 25,
+          "pct": 3.25
+        },
+        {
+          "term": "Age-related macular degeneration",
+          "count": 22,
+          "pct": 2.86
+        },
+        {
+          "term": "Cough",
+          "count": 22,
+          "pct": 2.86
+        },
+        {
+          "term": "Visual impairment",
+          "count": 20,
+          "pct": 2.6
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 20,
+          "pct": 2.6
+        },
+        {
+          "term": "Hospitalisation",
+          "count": 18,
+          "pct": 2.34
+        },
+        {
+          "term": "Constipation",
+          "count": 18,
+          "pct": 2.34
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 18,
+          "pct": 2.34
+        },
+        {
+          "term": "Fall",
+          "count": 18,
+          "pct": 2.34
+        },
+        {
+          "term": "Headache",
+          "count": 17,
+          "pct": 2.21
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 17,
+          "pct": 2.21
+        },
+        {
+          "term": "Weight decreased",
+          "count": 17,
+          "pct": 2.21
+        },
+        {
+          "term": "Blindness unilateral",
+          "count": 15,
+          "pct": 1.95
+        },
+        {
+          "term": "Atrial fibrillation",
+          "count": 14,
+          "pct": 1.82
+        },
+        {
+          "term": "Vomiting",
+          "count": 13,
+          "pct": 1.69
+        },
+        {
+          "term": "Eye haemorrhage",
+          "count": 13,
+          "pct": 1.69
+        },
+        {
+          "term": "Blood glucose increased",
+          "count": 13,
+          "pct": 1.69
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 640,
+        "pct": 83.22
+      },
+      "Hospitalization": {
+        "count": 112,
+        "pct": 14.56
+      },
+      "Visited a Health Care Provider": {
+        "count": 76,
+        "pct": 9.88
+      },
+      "Death": {
+        "count": 60,
+        "pct": 7.8
+      },
+      "Visited Emergency Room": {
+        "count": 15,
+        "pct": 1.95
+      },
+      "Disability": {
+        "count": 7,
+        "pct": 0.91
+      },
+      "Life Threatening": {
+        "count": 6,
+        "pct": 0.78
+      },
+      "Other Serious Outcome": {
+        "count": 4,
+        "pct": 0.52
+      },
+      "Injury": {
+        "count": 2,
+        "pct": 0.26
+      },
+      "Allergic Reaction": {
+        "count": 1,
+        "pct": 0.13
+      },
+      "Other Outcome": {
+        "count": 1,
+        "pct": 0.13
+      },
+      "Congenital Anomaly": {
+        "count": 1,
+        "pct": 0.13
+      },
+      "Required Intervention": {
+        "count": 1,
+        "pct": 0.13
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 769
+      },
+      "age_bands": {
+        "under_18": 1,
+        "18_34": 0,
+        "35_49": 1,
+        "50_64": 6,
+        "65_79": 56,
+        "80_plus": 105,
+        "unknown": 131,
+        "median_age": 83.0,
+        "mean_age": 81.6,
+        "n_with_age": 169
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 60,
+      "total_reports": 769,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Citracal Maximum": {
+    "canonical_display_name": "Citracal Maximum",
+    "normalized_key": "citracal maximum",
+    "type": "branded",
+    "brand_family": "Citracal",
+    "contamination_flag": "",
+    "total_reports": 592,
+    "total_reports_csv": 592,
+    "page_eligible": true,
+    "raw_strings": [
+      "CITRACAL MAXIMUM",
+      "CITRACAL MAXIMUM (CHOLECALCIFEROL + CALCIUM CITRATE) FILM-COATED TABLET",
+      "CITRACAL MAXIMUM (CHOLECALCIFEROL +CALCIUM CITRATE) FILM-COATED TABLET",
+      "CITRACAL MAXIMUM(CHOLECALCIFEROL +CALCIUM CITRATE) FILM-COATED TABLET",
+      "CITRACAL MAXIMUM FILM-COATED TABLET",
+      "CITRACAL MAXIMUM (CHOLECALCIFEROL + CALCIUM CITRATE) FILM COATED TABLET"
+    ],
+    "query_timestamp": "2026-06-02T06:54:20.619334Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 385,
+          "pct": 65.03
+        },
+        {
+          "term": "Foreign body",
+          "count": 111,
+          "pct": 18.75
+        },
+        {
+          "term": "Foreign body in throat",
+          "count": 65,
+          "pct": 10.98
+        },
+        {
+          "term": "Dysphagia",
+          "count": 54,
+          "pct": 9.12
+        },
+        {
+          "term": "Throat irritation",
+          "count": 38,
+          "pct": 6.42
+        },
+        {
+          "term": "Retching",
+          "count": 32,
+          "pct": 5.41
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 27,
+          "pct": 4.56
+        },
+        {
+          "term": "Pharyngeal injury",
+          "count": 22,
+          "pct": 3.72
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "count": 20,
+          "pct": 3.38
+        },
+        {
+          "term": "Vomiting",
+          "count": 18,
+          "pct": 3.04
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 16,
+          "pct": 2.7
+        },
+        {
+          "term": "Cough",
+          "count": 14,
+          "pct": 2.36
+        },
+        {
+          "term": "Nephrolithiasis",
+          "count": 13,
+          "pct": 2.2
+        },
+        {
+          "term": "Nausea",
+          "count": 9,
+          "pct": 1.52
+        },
+        {
+          "term": "Constipation",
+          "count": 8,
+          "pct": 1.35
+        },
+        {
+          "term": "Regurgitation",
+          "count": 8,
+          "pct": 1.35
+        },
+        {
+          "term": "Pain",
+          "count": 7,
+          "pct": 1.18
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 6,
+          "pct": 1.01
+        },
+        {
+          "term": "Choking sensation",
+          "count": 6,
+          "pct": 1.01
+        },
+        {
+          "term": "Anxiety",
+          "count": 6,
+          "pct": 1.01
+        },
+        {
+          "term": "Malaise",
+          "count": 5,
+          "pct": 0.84
+        },
+        {
+          "term": "Laceration",
+          "count": 5,
+          "pct": 0.84
+        },
+        {
+          "term": "COELIAC DISEASE",
+          "count": 5,
+          "pct": 0.84
+        },
+        {
+          "term": "Sensation of foreign body",
+          "count": 4,
+          "pct": 0.68
+        },
+        {
+          "term": "Chest pain",
+          "count": 4,
+          "pct": 0.68
+        },
+        {
+          "term": "Fear",
+          "count": 4,
+          "pct": 0.68
+        },
+        {
+          "term": "ABDOMINAL PAIN UPPER",
+          "count": 4,
+          "pct": 0.68
+        },
+        {
+          "term": "Odynophagia",
+          "count": 3,
+          "pct": 0.51
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 3,
+          "pct": 0.51
+        },
+        {
+          "term": "Osteopenia",
+          "count": 3,
+          "pct": 0.51
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 510,
+        "pct": 86.15
+      },
+      "Other Serious Outcome": {
+        "count": 104,
+        "pct": 17.57
+      },
+      "Life Threatening": {
+        "count": 18,
+        "pct": 3.04
+      },
+      "Hospitalization": {
+        "count": 7,
+        "pct": 1.18
+      },
+      "Visited a Health Care Provider": {
+        "count": 4,
+        "pct": 0.68
+      },
+      "Other Outcome": {
+        "count": 3,
+        "pct": 0.51
+      },
+      "Death": {
+        "count": 3,
+        "pct": 0.51
+      },
+      "Visited Emergency Room": {
+        "count": 3,
+        "pct": 0.51
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 592
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 3,
+        "50_64": 18,
+        "65_79": 86,
+        "80_plus": 81,
+        "unknown": 112,
+        "median_age": 77.0,
+        "mean_age": 76.2,
+        "n_with_age": 188
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 3,
+      "total_reports": 592,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Kratom": {
+    "canonical_display_name": "Kratom",
+    "normalized_key": "kratom",
+    "type": "branded",
+    "brand_family": "",
+    "contamination_flag": "regulatory_gray_zone_kept",
+    "total_reports": 431,
+    "total_reports_csv": 429,
+    "page_eligible": true,
+    "raw_strings": [
+      "KRATOM",
+      "Kratom"
+    ],
+    "query_timestamp": "2026-06-02T06:54:45.126172Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Death",
+          "count": 187,
+          "pct": 43.39
+        },
+        {
+          "term": "Dependence",
+          "count": 109,
+          "pct": 25.29
+        },
+        {
+          "term": "Toxicity to various agents",
+          "count": 104,
+          "pct": 24.13
+        },
+        {
+          "term": "Accidental death",
+          "count": 37,
+          "pct": 8.58
+        },
+        {
+          "term": "Vomiting",
+          "count": 35,
+          "pct": 8.12
+        },
+        {
+          "term": "Overdose",
+          "count": 31,
+          "pct": 7.19
+        },
+        {
+          "term": "Pulmonary oedema",
+          "count": 29,
+          "pct": 6.73
+        },
+        {
+          "term": "Convulsion",
+          "count": 28,
+          "pct": 6.5
+        },
+        {
+          "term": "Withdrawal syndrome",
+          "count": 27,
+          "pct": 6.26
+        },
+        {
+          "term": "Nausea",
+          "count": 26,
+          "pct": 6.03
+        },
+        {
+          "term": "Drug screen positive",
+          "count": 22,
+          "pct": 5.1
+        },
+        {
+          "term": "Drug withdrawal syndrome",
+          "count": 20,
+          "pct": 4.64
+        },
+        {
+          "term": "Depression",
+          "count": 18,
+          "pct": 4.18
+        },
+        {
+          "term": "Headache",
+          "count": 17,
+          "pct": 3.94
+        },
+        {
+          "term": "Malaise",
+          "count": 17,
+          "pct": 3.94
+        },
+        {
+          "term": "Brain oedema",
+          "count": 16,
+          "pct": 3.71
+        },
+        {
+          "term": "Tremor",
+          "count": 16,
+          "pct": 3.71
+        },
+        {
+          "term": "Hyperhidrosis",
+          "count": 16,
+          "pct": 3.71
+        },
+        {
+          "term": "Insomnia",
+          "count": 16,
+          "pct": 3.71
+        },
+        {
+          "term": "Anxiety",
+          "count": 15,
+          "pct": 3.48
+        },
+        {
+          "term": "Toxicologic test abnormal",
+          "count": 14,
+          "pct": 3.25
+        },
+        {
+          "term": "Pulmonary congestion",
+          "count": 13,
+          "pct": 3.02
+        },
+        {
+          "term": "Unresponsive to stimuli",
+          "count": 13,
+          "pct": 3.02
+        },
+        {
+          "term": "Cardiac arrest",
+          "count": 12,
+          "pct": 2.78
+        },
+        {
+          "term": "Seizure",
+          "count": 12,
+          "pct": 2.78
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 12,
+          "pct": 2.78
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 12,
+          "pct": 2.78
+        },
+        {
+          "term": "Cardiomegaly",
+          "count": 11,
+          "pct": 2.55
+        },
+        {
+          "term": "Fatigue",
+          "count": 11,
+          "pct": 2.55
+        },
+        {
+          "term": "Weight decreased",
+          "count": 11,
+          "pct": 2.55
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Death": {
+        "count": 187,
+        "pct": 43.39
+      },
+      "Other Serious or Important Medical Event": {
+        "count": 154,
+        "pct": 35.73
+      },
+      "Hospitalization": {
+        "count": 104,
+        "pct": 24.13
+      },
+      "Disability": {
+        "count": 49,
+        "pct": 11.37
+      },
+      "Life Threatening": {
+        "count": 45,
+        "pct": 10.44
+      },
+      "Visited Emergency Room": {
+        "count": 40,
+        "pct": 9.28
+      },
+      "Visited a Health Care Provider": {
+        "count": 40,
+        "pct": 9.28
+      },
+      "Other Outcome": {
+        "count": 24,
+        "pct": 5.57
+      },
+      "Other Serious Outcome": {
+        "count": 11,
+        "pct": 2.55
+      },
+      "Required Intervention": {
+        "count": 3,
+        "pct": 0.7
+      },
+      "Injury": {
+        "count": 1,
+        "pct": 0.23
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 431
+      },
+      "age_bands": {
+        "under_18": 2,
+        "18_34": 124,
+        "35_49": 104,
+        "50_64": 32,
+        "65_79": 7,
+        "80_plus": 1,
+        "unknown": 30,
+        "median_age": 35.0,
+        "mean_age": 36.9,
+        "n_with_age": 270
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 187,
+      "total_reports": 431,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Citracal Petites": {
+    "canonical_display_name": "Citracal Petites",
+    "normalized_key": "citracal petites",
+    "type": "branded",
+    "brand_family": "Citracal",
+    "contamination_flag": "",
+    "total_reports": 416,
+    "total_reports_csv": 416,
+    "page_eligible": true,
+    "raw_strings": [
+      "CITRACAL PETITES",
+      "CITRACAL PETITES (CHOLECALCIFEROL + CALCIUM CITRATE) FILM-COATED TABLET",
+      "CITRACAL PETITES (CHOLECALCIFEROL +CALCIUM CITRATE) FILM-COATED TABLET",
+      "CITRACAL PETITES(CHOLECALCIFEROL +CALCIUM CITRATE) FILM-COATED TABLET",
+      "CITRACAL PETITES FILM-COATED TABLET",
+      "CITRACAL PETITES (CALCIUM CITRATE)",
+      "CITRACAL PETITES (CHOLECALCIFEROL + CALCIUM CITRATE) FILM COATED TABLET"
+    ],
+    "query_timestamp": "2026-06-02T06:55:57.076094Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 298,
+          "pct": 71.63
+        },
+        {
+          "term": "Dysphagia",
+          "count": 76,
+          "pct": 18.27
+        },
+        {
+          "term": "Foreign body",
+          "count": 68,
+          "pct": 16.35
+        },
+        {
+          "term": "Retching",
+          "count": 24,
+          "pct": 5.77
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 24,
+          "pct": 5.77
+        },
+        {
+          "term": "Foreign body in throat",
+          "count": 22,
+          "pct": 5.29
+        },
+        {
+          "term": "Throat irritation",
+          "count": 19,
+          "pct": 4.57
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "count": 18,
+          "pct": 4.33
+        },
+        {
+          "term": "Regurgitation",
+          "count": 15,
+          "pct": 3.61
+        },
+        {
+          "term": "Pharyngeal injury",
+          "count": 13,
+          "pct": 3.12
+        },
+        {
+          "term": "Vomiting",
+          "count": 12,
+          "pct": 2.88
+        },
+        {
+          "term": "Cough",
+          "count": 11,
+          "pct": 2.64
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 9,
+          "pct": 2.16
+        },
+        {
+          "term": "Nephrolithiasis",
+          "count": 6,
+          "pct": 1.44
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 5,
+          "pct": 1.2
+        },
+        {
+          "term": "CHOKING SENSATION",
+          "count": 5,
+          "pct": 1.2
+        },
+        {
+          "term": "Pain",
+          "count": 5,
+          "pct": 1.2
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 4,
+          "pct": 0.96
+        },
+        {
+          "term": "Nausea",
+          "count": 4,
+          "pct": 0.96
+        },
+        {
+          "term": "ABDOMINAL PAIN UPPER",
+          "count": 4,
+          "pct": 0.96
+        },
+        {
+          "term": "THROAT TIGHTNESS",
+          "count": 4,
+          "pct": 0.96
+        },
+        {
+          "term": "Abdominal distension",
+          "count": 3,
+          "pct": 0.72
+        },
+        {
+          "term": "Anxiety",
+          "count": 3,
+          "pct": 0.72
+        },
+        {
+          "term": "Fall",
+          "count": 3,
+          "pct": 0.72
+        },
+        {
+          "term": "FLATULENCE",
+          "count": 3,
+          "pct": 0.72
+        },
+        {
+          "term": "Urticaria",
+          "count": 3,
+          "pct": 0.72
+        },
+        {
+          "term": "CHEST PAIN",
+          "count": 3,
+          "pct": 0.72
+        },
+        {
+          "term": "DYSPHONIA",
+          "count": 3,
+          "pct": 0.72
+        },
+        {
+          "term": "Coeliac disease",
+          "count": 2,
+          "pct": 0.48
+        },
+        {
+          "term": "Drug hypersensitivity",
+          "count": 2,
+          "pct": 0.48
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 371,
+        "pct": 89.18
+      },
+      "Other Serious Outcome": {
+        "count": 61,
+        "pct": 14.66
+      },
+      "Life Threatening": {
+        "count": 10,
+        "pct": 2.4
+      },
+      "Visited a Health Care Provider": {
+        "count": 6,
+        "pct": 1.44
+      },
+      "Hospitalization": {
+        "count": 5,
+        "pct": 1.2
+      },
+      "Other Outcome": {
+        "count": 3,
+        "pct": 0.72
+      },
+      "Visited Emergency Room": {
+        "count": 2,
+        "pct": 0.48
+      },
+      "Allergic Reaction": {
+        "count": 1,
+        "pct": 0.24
+      },
+      "Death": {
+        "count": 1,
+        "pct": 0.24
+      },
+      "Disability": {
+        "count": 1,
+        "pct": 0.24
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 416
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 4,
+        "50_64": 26,
+        "65_79": 78,
+        "80_plus": 63,
+        "unknown": 129,
+        "median_age": 75.0,
+        "mean_age": 75.0,
+        "n_with_age": 171
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 1,
+      "total_reports": 416,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Centrum": {
+    "canonical_display_name": "Centrum",
+    "normalized_key": "centrum",
+    "type": "branded",
+    "brand_family": "Centrum",
+    "contamination_flag": "",
+    "total_reports": 350,
+    "total_reports_csv": 350,
+    "page_eligible": true,
+    "raw_strings": [
+      "CENTRUM",
+      "CENTRUM (MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM (MULTIMINERALS, MULTIVITAMINS)",
+      "CENTRUM MULTIVITAMIN",
+      "CENTRUM MULTIMINERALS MULTIVITAMINS TABLET",
+      "CENTRUM MULTIMINERALS MULTIVITAMINS",
+      "CENTRUM (MULTIMINERALS, MULTIVITAMINS) CHEWABLE TABLET",
+      "Centrum",
+      "Centrum multivitamin"
+    ],
+    "query_timestamp": "2026-06-02T06:57:32.493624Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 84,
+          "pct": 24.0
+        },
+        {
+          "term": "Dysphagia",
+          "count": 38,
+          "pct": 10.86
+        },
+        {
+          "term": "Death",
+          "count": 18,
+          "pct": 5.14
+        },
+        {
+          "term": "Coeliac disease",
+          "count": 16,
+          "pct": 4.57
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 15,
+          "pct": 4.29
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 15,
+          "pct": 4.29
+        },
+        {
+          "term": "Foreign body",
+          "count": 14,
+          "pct": 4.0
+        },
+        {
+          "term": "Nausea",
+          "count": 14,
+          "pct": 4.0
+        },
+        {
+          "term": "Pain",
+          "count": 13,
+          "pct": 3.71
+        },
+        {
+          "term": "Headache",
+          "count": 11,
+          "pct": 3.14
+        },
+        {
+          "term": "Alopecia",
+          "count": 10,
+          "pct": 2.86
+        },
+        {
+          "term": "Pruritus",
+          "count": 10,
+          "pct": 2.86
+        },
+        {
+          "term": "Chest pain",
+          "count": 10,
+          "pct": 2.86
+        },
+        {
+          "term": "Hypersensitivity",
+          "count": 9,
+          "pct": 2.57
+        },
+        {
+          "term": "Neoplasm malignant",
+          "count": 8,
+          "pct": 2.29
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 8,
+          "pct": 2.29
+        },
+        {
+          "term": "Malaise",
+          "count": 7,
+          "pct": 2.0
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 7,
+          "pct": 2.0
+        },
+        {
+          "term": "Dizziness",
+          "count": 7,
+          "pct": 2.0
+        },
+        {
+          "term": "Breast cancer",
+          "count": 7,
+          "pct": 2.0
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 6,
+          "pct": 1.71
+        },
+        {
+          "term": "ASTHENIA",
+          "count": 6,
+          "pct": 1.71
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 6,
+          "pct": 1.71
+        },
+        {
+          "term": "Rash",
+          "count": 6,
+          "pct": 1.71
+        },
+        {
+          "term": "Urticaria",
+          "count": 6,
+          "pct": 1.71
+        },
+        {
+          "term": "Vomiting",
+          "count": 6,
+          "pct": 1.71
+        },
+        {
+          "term": "Swelling",
+          "count": 6,
+          "pct": 1.71
+        },
+        {
+          "term": "Condition aggravated",
+          "count": 5,
+          "pct": 1.43
+        },
+        {
+          "term": "Haemorrhage",
+          "count": 5,
+          "pct": 1.43
+        },
+        {
+          "term": "Palpitations",
+          "count": 5,
+          "pct": 1.43
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 285,
+        "pct": 81.43
+      },
+      "Hospitalization": {
+        "count": 47,
+        "pct": 13.43
+      },
+      "Visited a Health Care Provider": {
+        "count": 46,
+        "pct": 13.14
+      },
+      "Death": {
+        "count": 18,
+        "pct": 5.14
+      },
+      "Other Serious Outcome": {
+        "count": 16,
+        "pct": 4.57
+      },
+      "Visited Emergency Room": {
+        "count": 14,
+        "pct": 4.0
+      },
+      "Other Outcome": {
+        "count": 10,
+        "pct": 2.86
+      },
+      "Life Threatening": {
+        "count": 6,
+        "pct": 1.71
+      },
+      "Disability": {
+        "count": 5,
+        "pct": 1.43
+      },
+      "Required Intervention": {
+        "count": 1,
+        "pct": 0.29
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 350
+      },
+      "age_bands": {
+        "under_18": 3,
+        "18_34": 12,
+        "35_49": 22,
+        "50_64": 46,
+        "65_79": 51,
+        "80_plus": 42,
+        "unknown": 124,
+        "median_age": 66.5,
+        "mean_age": 64.8,
+        "n_with_age": 176
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 18,
+      "total_reports": 350,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Hydroxycut Regular": {
+    "canonical_display_name": "Hydroxycut Regular",
+    "normalized_key": "hydroxycut regular",
+    "type": "branded",
+    "brand_family": "Hydroxycut",
+    "contamination_flag": "",
+    "total_reports": 353,
+    "total_reports_csv": 349,
+    "page_eligible": true,
+    "raw_strings": [
+      "HYDROXYCUT REGULAR RAPID RELEASE CAPLETS",
+      "HYDROXYCUT REGULAR RAPID RELEASE",
+      "HYDROXYCUT REGULAR RAPID RELEASE CAPLETS (NO PREF. NAME)"
+    ],
+    "query_timestamp": "2026-06-02T06:58:06.544072Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "EMOTIONAL DISTRESS",
+          "count": 118,
+          "pct": 33.43
+        },
+        {
+          "term": "LIVER FUNCTION TEST ABNORMAL",
+          "count": 106,
+          "pct": 30.03
+        },
+        {
+          "term": "INJURY",
+          "count": 88,
+          "pct": 24.93
+        },
+        {
+          "term": "PAIN",
+          "count": 77,
+          "pct": 21.81
+        },
+        {
+          "term": "RHABDOMYOLYSIS",
+          "count": 67,
+          "pct": 18.98
+        },
+        {
+          "term": "ANXIETY",
+          "count": 57,
+          "pct": 16.15
+        },
+        {
+          "term": "RENAL FAILURE",
+          "count": 40,
+          "pct": 11.33
+        },
+        {
+          "term": "LIVER INJURY",
+          "count": 37,
+          "pct": 10.48
+        },
+        {
+          "term": "HEPATOCELLULAR INJURY",
+          "count": 35,
+          "pct": 9.92
+        },
+        {
+          "term": "CONVULSION",
+          "count": 34,
+          "pct": 9.63
+        },
+        {
+          "term": "JAUNDICE",
+          "count": 30,
+          "pct": 8.5
+        },
+        {
+          "term": "MYALGIA",
+          "count": 28,
+          "pct": 7.93
+        },
+        {
+          "term": "HYPERSENSITIVITY",
+          "count": 27,
+          "pct": 7.65
+        },
+        {
+          "term": "RENAL DISORDER",
+          "count": 27,
+          "pct": 7.65
+        },
+        {
+          "term": "HYPERTENSION",
+          "count": 26,
+          "pct": 7.37
+        },
+        {
+          "term": "MYOCARDIAL INFARCTION",
+          "count": 25,
+          "pct": 7.08
+        },
+        {
+          "term": "NERVOUSNESS",
+          "count": 24,
+          "pct": 6.8
+        },
+        {
+          "term": "HEPATITIS",
+          "count": 24,
+          "pct": 6.8
+        },
+        {
+          "term": "FEAR",
+          "count": 23,
+          "pct": 6.52
+        },
+        {
+          "term": "HEPATIC STEATOSIS",
+          "count": 20,
+          "pct": 5.67
+        },
+        {
+          "term": "CARDIO-RESPIRATORY DISTRESS",
+          "count": 19,
+          "pct": 5.38
+        },
+        {
+          "term": "ABDOMINAL PAIN",
+          "count": 18,
+          "pct": 5.1
+        },
+        {
+          "term": "MULTIPLE INJURIES",
+          "count": 16,
+          "pct": 4.53
+        },
+        {
+          "term": "HEPATIC FAILURE",
+          "count": 16,
+          "pct": 4.53
+        },
+        {
+          "term": "NAUSEA",
+          "count": 16,
+          "pct": 4.53
+        },
+        {
+          "term": "DEPRESSION",
+          "count": 14,
+          "pct": 3.97
+        },
+        {
+          "term": "HEPATIC FUNCTION ABNORMAL",
+          "count": 14,
+          "pct": 3.97
+        },
+        {
+          "term": "DISCOMFORT",
+          "count": 13,
+          "pct": 3.68
+        },
+        {
+          "term": "VOMITING",
+          "count": 13,
+          "pct": 3.68
+        },
+        {
+          "term": "FATIGUE",
+          "count": 13,
+          "pct": 3.68
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 320,
+        "pct": 90.65
+      },
+      "Hospitalization": {
+        "count": 92,
+        "pct": 26.06
+      },
+      "Visited a Health Care Provider": {
+        "count": 54,
+        "pct": 15.3
+      },
+      "Required Intervention": {
+        "count": 15,
+        "pct": 4.25
+      },
+      "Disability": {
+        "count": 15,
+        "pct": 4.25
+      },
+      "Life Threatening": {
+        "count": 10,
+        "pct": 2.83
+      },
+      "Visited Emergency Room": {
+        "count": 10,
+        "pct": 2.83
+      },
+      "Other Serious Outcome": {
+        "count": 9,
+        "pct": 2.55
+      },
+      "Death": {
+        "count": 6,
+        "pct": 1.7
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 353
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 80,
+        "35_49": 82,
+        "50_64": 29,
+        "65_79": 1,
+        "80_plus": 0,
+        "unknown": 108,
+        "median_age": 37.0,
+        "mean_age": 37.8,
+        "n_with_age": 192
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 6,
+      "total_reports": 353,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Centrum Silver Adults 50+": {
+    "canonical_display_name": "Centrum Silver Adults 50+",
+    "normalized_key": "centrum silver adults 50+",
+    "type": "branded",
+    "brand_family": "Centrum Silver",
+    "contamination_flag": "",
+    "total_reports": 325,
+    "total_reports_csv": 325,
+    "page_eligible": true,
+    "raw_strings": [
+      "CENTRUM SILVER ADULTS 50+ (MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER ADULTS 50+",
+      "CENTRUM SILVER ADULTS 50+ MULTIMINERALS MULTIVITAMIN",
+      "CENTRUM SILVER ADULTS 50+(MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER ADULTS 50+ (MULTIMINERALS, MULTIVITAMINS)",
+      "CENTRUM SILVER ADULTS 50+ MULTIMINERALS MULTIVITAMINS TABLET",
+      "CENTRUM SILVER ADULTS 50 PLUS",
+      "CENTRUM SILVER ADULTS 50+ MULTIMINERALS MULTIVITAMINS"
+    ],
+    "query_timestamp": "2026-06-02T06:59:35.700073Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 144,
+          "pct": 44.31
+        },
+        {
+          "term": "Dysphagia",
+          "count": 85,
+          "pct": 26.15
+        },
+        {
+          "term": "Foreign body",
+          "count": 18,
+          "pct": 5.54
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 17,
+          "pct": 5.23
+        },
+        {
+          "term": "Throat irritation",
+          "count": 16,
+          "pct": 4.92
+        },
+        {
+          "term": "Malaise",
+          "count": 14,
+          "pct": 4.31
+        },
+        {
+          "term": "Retching",
+          "count": 12,
+          "pct": 3.69
+        },
+        {
+          "term": "Weight decreased",
+          "count": 10,
+          "pct": 3.08
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 9,
+          "pct": 2.77
+        },
+        {
+          "term": "Cough",
+          "count": 9,
+          "pct": 2.77
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 9,
+          "pct": 2.77
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 9,
+          "pct": 2.77
+        },
+        {
+          "term": "Coeliac disease",
+          "count": 9,
+          "pct": 2.77
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "count": 8,
+          "pct": 2.46
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 8,
+          "pct": 2.46
+        },
+        {
+          "term": "Death",
+          "count": 7,
+          "pct": 2.15
+        },
+        {
+          "term": "NEPHROLITHIASIS",
+          "count": 7,
+          "pct": 2.15
+        },
+        {
+          "term": "Constipation",
+          "count": 7,
+          "pct": 2.15
+        },
+        {
+          "term": "Cataract",
+          "count": 6,
+          "pct": 1.85
+        },
+        {
+          "term": "ANXIETY",
+          "count": 5,
+          "pct": 1.54
+        },
+        {
+          "term": "FEELING ABNORMAL",
+          "count": 5,
+          "pct": 1.54
+        },
+        {
+          "term": "Macular degeneration",
+          "count": 5,
+          "pct": 1.54
+        },
+        {
+          "term": "OESOPHAGEAL INJURY",
+          "count": 5,
+          "pct": 1.54
+        },
+        {
+          "term": "ACTIVITIES OF DAILY LIVING IMPAIRED",
+          "count": 5,
+          "pct": 1.54
+        },
+        {
+          "term": "Haemorrhage",
+          "count": 5,
+          "pct": 1.54
+        },
+        {
+          "term": "Nausea",
+          "count": 5,
+          "pct": 1.54
+        },
+        {
+          "term": "Visual impairment",
+          "count": 5,
+          "pct": 1.54
+        },
+        {
+          "term": "Gait disturbance",
+          "count": 5,
+          "pct": 1.54
+        },
+        {
+          "term": "Pain",
+          "count": 5,
+          "pct": 1.54
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 4,
+          "pct": 1.23
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 286,
+        "pct": 88.0
+      },
+      "Hospitalization": {
+        "count": 40,
+        "pct": 12.31
+      },
+      "Visited a Health Care Provider": {
+        "count": 26,
+        "pct": 8.0
+      },
+      "Other Serious Outcome": {
+        "count": 12,
+        "pct": 3.69
+      },
+      "Death": {
+        "count": 7,
+        "pct": 2.15
+      },
+      "Disability": {
+        "count": 4,
+        "pct": 1.23
+      },
+      "Visited Emergency Room": {
+        "count": 3,
+        "pct": 0.92
+      },
+      "Other Outcome": {
+        "count": 3,
+        "pct": 0.92
+      },
+      "Life Threatening": {
+        "count": 2,
+        "pct": 0.62
+      },
+      "Required Intervention": {
+        "count": 2,
+        "pct": 0.62
+      },
+      "Allergic Reaction": {
+        "count": 1,
+        "pct": 0.31
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 325
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 3,
+        "50_64": 33,
+        "65_79": 76,
+        "80_plus": 59,
+        "unknown": 129,
+        "median_age": 75.0,
+        "mean_age": 74.2,
+        "n_with_age": 171
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 7,
+      "total_reports": 325,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "One A Day Women's": {
+    "canonical_display_name": "One A Day Women's",
+    "normalized_key": "one a day women's",
+    "type": "branded",
+    "brand_family": "One A Day",
+    "contamination_flag": "",
+    "total_reports": 323,
+    "total_reports_csv": 321,
+    "page_eligible": true,
+    "raw_strings": [
+      "ONE A DAY WOMEN'S",
+      "ONE A DAY WOMEN'S (MULTIVITAMINS + MINERALS) FILM-COATED TABLET",
+      "ONE A DAY WOMEN'S FILM-COATED TABLET"
+    ],
+    "query_timestamp": "2026-06-02T07:00:12.824123Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 142,
+          "pct": 43.96
+        },
+        {
+          "term": "Foreign body",
+          "count": 46,
+          "pct": 14.24
+        },
+        {
+          "term": "Dysphagia",
+          "count": 25,
+          "pct": 7.74
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 18,
+          "pct": 5.57
+        },
+        {
+          "term": "Retching",
+          "count": 17,
+          "pct": 5.26
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 16,
+          "pct": 4.95
+        },
+        {
+          "term": "Vomiting",
+          "count": 16,
+          "pct": 4.95
+        },
+        {
+          "term": "Nausea",
+          "count": 14,
+          "pct": 4.33
+        },
+        {
+          "term": "Cough",
+          "count": 10,
+          "pct": 3.1
+        },
+        {
+          "term": "Coeliac disease",
+          "count": 10,
+          "pct": 3.1
+        },
+        {
+          "term": "Malaise",
+          "count": 10,
+          "pct": 3.1
+        },
+        {
+          "term": "Headache",
+          "count": 9,
+          "pct": 2.79
+        },
+        {
+          "term": "Throat irritation",
+          "count": 9,
+          "pct": 2.79
+        },
+        {
+          "term": "Dizziness",
+          "count": 8,
+          "pct": 2.48
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 8,
+          "pct": 2.48
+        },
+        {
+          "term": "HYPERSENSITIVITY",
+          "count": 7,
+          "pct": 2.17
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 7,
+          "pct": 2.17
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 7,
+          "pct": 2.17
+        },
+        {
+          "term": "Feeling abnormal",
+          "count": 6,
+          "pct": 1.86
+        },
+        {
+          "term": "Pharyngeal injury",
+          "count": 6,
+          "pct": 1.86
+        },
+        {
+          "term": "Foreign body in throat",
+          "count": 5,
+          "pct": 1.55
+        },
+        {
+          "term": "BREAST CANCER",
+          "count": 5,
+          "pct": 1.55
+        },
+        {
+          "term": "Haematochezia",
+          "count": 5,
+          "pct": 1.55
+        },
+        {
+          "term": "Rash",
+          "count": 4,
+          "pct": 1.24
+        },
+        {
+          "term": "ASTHMA",
+          "count": 4,
+          "pct": 1.24
+        },
+        {
+          "term": "Chest discomfort",
+          "count": 4,
+          "pct": 1.24
+        },
+        {
+          "term": "FATIGUE",
+          "count": 4,
+          "pct": 1.24
+        },
+        {
+          "term": "THROAT TIGHTNESS",
+          "count": 4,
+          "pct": 1.24
+        },
+        {
+          "term": "Urticaria",
+          "count": 4,
+          "pct": 1.24
+        },
+        {
+          "term": "Asthenia",
+          "count": 4,
+          "pct": 1.24
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 289,
+        "pct": 89.47
+      },
+      "Other Serious Outcome": {
+        "count": 76,
+        "pct": 23.53
+      },
+      "Hospitalization": {
+        "count": 21,
+        "pct": 6.5
+      },
+      "Visited a Health Care Provider": {
+        "count": 18,
+        "pct": 5.57
+      },
+      "Visited Emergency Room": {
+        "count": 6,
+        "pct": 1.86
+      },
+      "Other Outcome": {
+        "count": 5,
+        "pct": 1.55
+      },
+      "Disability": {
+        "count": 4,
+        "pct": 1.24
+      },
+      "Death": {
+        "count": 3,
+        "pct": 0.93
+      },
+      "Life Threatening": {
+        "count": 2,
+        "pct": 0.62
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 323
+      },
+      "age_bands": {
+        "under_18": 1,
+        "18_34": 26,
+        "35_49": 27,
+        "50_64": 36,
+        "65_79": 59,
+        "80_plus": 32,
+        "unknown": 119,
+        "median_age": 65.0,
+        "mean_age": 59.9,
+        "n_with_age": 181
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 3,
+      "total_reports": 323,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Centrum Silver Ultra Women's": {
+    "canonical_display_name": "Centrum Silver Ultra Women's",
+    "normalized_key": "centrum silver ultra women's",
+    "type": "branded",
+    "brand_family": "Centrum Silver",
+    "contamination_flag": "",
+    "total_reports": 280,
+    "total_reports_csv": 280,
+    "page_eligible": true,
+    "raw_strings": [
+      "CENTRUM SILVER ULTRA WOMEN'S (MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER ULTRA WOMEN'S",
+      "CENTRUM SILVER ULTRA WOMEN'S MULTIMINERALS MULTIVITAMINS TABLET",
+      "CENTRUM SILVER ULTRA WOMEN'S (MULTIMINERAL, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER ULTRA WOMEN'S TABLET",
+      "CENTRUM SILVER ULTRA WOMEN'S (MULTIMINERALS MULTIVITAMINS) TABLET"
+    ],
+    "query_timestamp": "2026-06-02T07:01:22.635137Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 228,
+          "pct": 81.43
+        },
+        {
+          "term": "DYSPHAGIA",
+          "count": 84,
+          "pct": 30.0
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 58,
+          "pct": 20.71
+        },
+        {
+          "term": "THROAT IRRITATION",
+          "count": 22,
+          "pct": 7.86
+        },
+        {
+          "term": "RETCHING",
+          "count": 22,
+          "pct": 7.86
+        },
+        {
+          "term": "DYSPNOEA",
+          "count": 14,
+          "pct": 5.0
+        },
+        {
+          "term": "OESOPHAGEAL INJURY",
+          "count": 12,
+          "pct": 4.29
+        },
+        {
+          "term": "VOMITING",
+          "count": 10,
+          "pct": 3.57
+        },
+        {
+          "term": "COELIAC DISEASE",
+          "count": 7,
+          "pct": 2.5
+        },
+        {
+          "term": "FEELING ABNORMAL",
+          "count": 7,
+          "pct": 2.5
+        },
+        {
+          "term": "OROPHARYNGEAL PAIN",
+          "count": 7,
+          "pct": 2.5
+        },
+        {
+          "term": "DYSPEPSIA",
+          "count": 5,
+          "pct": 1.79
+        },
+        {
+          "term": "NAUSEA",
+          "count": 5,
+          "pct": 1.79
+        },
+        {
+          "term": "FEAR",
+          "count": 5,
+          "pct": 1.79
+        },
+        {
+          "term": "CHEST DISCOMFORT",
+          "count": 4,
+          "pct": 1.43
+        },
+        {
+          "term": "MALAISE",
+          "count": 4,
+          "pct": 1.43
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 4,
+          "pct": 1.43
+        },
+        {
+          "term": "ABDOMINAL DISCOMFORT",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "HYPERSENSITIVITY",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "CARDIAC DISORDER",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "HYPERTENSION",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "OROPHARYNGEAL DISCOMFORT",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "PAIN",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "THROAT TIGHTNESS",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "ARRHYTHMIA",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "DIZZINESS",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "HEADACHE",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "STRESS",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "DRUG INTOLERANCE",
+          "count": 3,
+          "pct": 1.07
+        },
+        {
+          "term": "BLOOD CHOLESTEROL INCREASED",
+          "count": 2,
+          "pct": 0.71
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 277,
+        "pct": 98.93
+      },
+      "Hospitalization": {
+        "count": 6,
+        "pct": 2.14
+      },
+      "Visited Emergency Room": {
+        "count": 3,
+        "pct": 1.07
+      },
+      "Other Serious Outcome": {
+        "count": 3,
+        "pct": 1.07
+      },
+      "Visited a Health Care Provider": {
+        "count": 2,
+        "pct": 0.71
+      },
+      "Life Threatening": {
+        "count": 1,
+        "pct": 0.36
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 280
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 0,
+        "50_64": 27,
+        "65_79": 67,
+        "80_plus": 58,
+        "unknown": 128,
+        "median_age": 77.0,
+        "mean_age": 75.1,
+        "n_with_age": 152
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 0,
+      "total_reports": 280,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Centrum Silver Men's 50+": {
+    "canonical_display_name": "Centrum Silver Men's 50+",
+    "normalized_key": "centrum silver men's 50+",
+    "type": "branded",
+    "brand_family": "Centrum Silver",
+    "contamination_flag": "",
+    "total_reports": 268,
+    "total_reports_csv": 268,
+    "page_eligible": true,
+    "raw_strings": [
+      "CENTRUM SILVER MEN'S 50+",
+      "CENTRUM SILVER MEN'S 50+ (MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER MEN'S 50+(MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER MEN'S 50+ MULTIMINERALS MULTIVITAMINS TABLET"
+    ],
+    "query_timestamp": "2026-06-02T07:02:08.844918Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 78,
+          "pct": 29.1
+        },
+        {
+          "term": "Dysphagia",
+          "count": 48,
+          "pct": 17.91
+        },
+        {
+          "term": "Foreign body",
+          "count": 37,
+          "pct": 13.81
+        },
+        {
+          "term": "Coeliac disease",
+          "count": 24,
+          "pct": 8.96
+        },
+        {
+          "term": "Death",
+          "count": 11,
+          "pct": 4.1
+        },
+        {
+          "term": "Foreign body in throat",
+          "count": 8,
+          "pct": 2.99
+        },
+        {
+          "term": "Cough",
+          "count": 8,
+          "pct": 2.99
+        },
+        {
+          "term": "Neuropathy peripheral",
+          "count": 7,
+          "pct": 2.61
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 7,
+          "pct": 2.61
+        },
+        {
+          "term": "Myocardial infarction",
+          "count": 7,
+          "pct": 2.61
+        },
+        {
+          "term": "Vitamin B12 increased",
+          "count": 5,
+          "pct": 1.87
+        },
+        {
+          "term": "Hypertension",
+          "count": 5,
+          "pct": 1.87
+        },
+        {
+          "term": "WEIGHT DECREASED",
+          "count": 5,
+          "pct": 1.87
+        },
+        {
+          "term": "Vitamin B6 increased",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Nausea",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Prostate cancer",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Throat irritation",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Cataract",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Diabetes mellitus",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Dizziness",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Nervousness",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Blood test abnormal",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Cardiac disorder",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "VISION BLURRED",
+          "count": 4,
+          "pct": 1.49
+        },
+        {
+          "term": "Malaise",
+          "count": 3,
+          "pct": 1.12
+        },
+        {
+          "term": "Muscle spasms",
+          "count": 3,
+          "pct": 1.12
+        },
+        {
+          "term": "Pneumonia",
+          "count": 3,
+          "pct": 1.12
+        },
+        {
+          "term": "Vomiting",
+          "count": 3,
+          "pct": 1.12
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 221,
+        "pct": 82.46
+      },
+      "Hospitalization": {
+        "count": 39,
+        "pct": 14.55
+      },
+      "Visited a Health Care Provider": {
+        "count": 33,
+        "pct": 12.31
+      },
+      "Other Serious Outcome": {
+        "count": 18,
+        "pct": 6.72
+      },
+      "Death": {
+        "count": 11,
+        "pct": 4.1
+      },
+      "Visited Emergency Room": {
+        "count": 5,
+        "pct": 1.87
+      },
+      "Life Threatening": {
+        "count": 3,
+        "pct": 1.12
+      },
+      "Other Outcome": {
+        "count": 2,
+        "pct": 0.75
+      },
+      "Disability": {
+        "count": 1,
+        "pct": 0.37
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 268
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 2,
+        "50_64": 23,
+        "65_79": 56,
+        "80_plus": 55,
+        "unknown": 132,
+        "median_age": 77.0,
+        "mean_age": 74.8,
+        "n_with_age": 136
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 11,
+      "total_reports": 268,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Super Beta Prostate P3 Advanced": {
+    "canonical_display_name": "Super Beta Prostate P3 Advanced",
+    "normalized_key": "super beta prostate p3 advanced",
+    "type": "branded",
+    "brand_family": "Super Beta",
+    "contamination_flag": "",
+    "total_reports": 240,
+    "total_reports_csv": 240,
+    "page_eligible": true,
+    "raw_strings": [
+      "SUPER BETA PROSTATE P3 ADVANCED"
+    ],
+    "query_timestamp": "2026-06-02T07:02:23.665029Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Blood urine present",
+          "count": 58,
+          "pct": 24.17
+        },
+        {
+          "term": "Urinary retention",
+          "count": 23,
+          "pct": 9.58
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 12,
+          "pct": 5.0
+        },
+        {
+          "term": "Haemorrhage",
+          "count": 12,
+          "pct": 5.0
+        },
+        {
+          "term": "Myocardial infarction",
+          "count": 12,
+          "pct": 5.0
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 11,
+          "pct": 4.58
+        },
+        {
+          "term": "Dizziness",
+          "count": 11,
+          "pct": 4.58
+        },
+        {
+          "term": "Hypertension",
+          "count": 11,
+          "pct": 4.58
+        },
+        {
+          "term": "Nephrolithiasis",
+          "count": 9,
+          "pct": 3.75
+        },
+        {
+          "term": "Malaise",
+          "count": 8,
+          "pct": 3.33
+        },
+        {
+          "term": "Pain",
+          "count": 8,
+          "pct": 3.33
+        },
+        {
+          "term": "Renal disorder",
+          "count": 7,
+          "pct": 2.92
+        },
+        {
+          "term": "Cardiac disorder",
+          "count": 6,
+          "pct": 2.5
+        },
+        {
+          "term": "Dysuria",
+          "count": 6,
+          "pct": 2.5
+        },
+        {
+          "term": "Haematochezia",
+          "count": 6,
+          "pct": 2.5
+        },
+        {
+          "term": "Infection",
+          "count": 6,
+          "pct": 2.5
+        },
+        {
+          "term": "Blood urine",
+          "count": 5,
+          "pct": 2.08
+        },
+        {
+          "term": "Chest pain",
+          "count": 5,
+          "pct": 2.08
+        },
+        {
+          "term": "Convulsion",
+          "count": 5,
+          "pct": 2.08
+        },
+        {
+          "term": "Loss of consciousness",
+          "count": 5,
+          "pct": 2.08
+        },
+        {
+          "term": "Rash",
+          "count": 5,
+          "pct": 2.08
+        },
+        {
+          "term": "Renal failure",
+          "count": 5,
+          "pct": 2.08
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 4,
+          "pct": 1.67
+        },
+        {
+          "term": "Drug interaction",
+          "count": 4,
+          "pct": 1.67
+        },
+        {
+          "term": "Gastrointestinal haemorrhage",
+          "count": 4,
+          "pct": 1.67
+        },
+        {
+          "term": "Haematuria",
+          "count": 4,
+          "pct": 1.67
+        },
+        {
+          "term": "Pollakiuria",
+          "count": 4,
+          "pct": 1.67
+        },
+        {
+          "term": "Rectal haemorrhage",
+          "count": 4,
+          "pct": 1.67
+        },
+        {
+          "term": "Respiratory disorder",
+          "count": 4,
+          "pct": 1.67
+        },
+        {
+          "term": "Urinary tract infection",
+          "count": 4,
+          "pct": 1.67
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 165,
+        "pct": 68.75
+      },
+      "Other Serious Outcome": {
+        "count": 83,
+        "pct": 34.58
+      },
+      "Hospitalization": {
+        "count": 57,
+        "pct": 23.75
+      },
+      "Visited Emergency Room": {
+        "count": 43,
+        "pct": 17.92
+      },
+      "Visited a Health Care Provider": {
+        "count": 25,
+        "pct": 10.42
+      },
+      "Death": {
+        "count": 3,
+        "pct": 1.25
+      },
+      "Congenital Anomaly": {
+        "count": 1,
+        "pct": 0.42
+      },
+      "Life Threatening": {
+        "count": 1,
+        "pct": 0.42
+      },
+      "Other Outcome": {
+        "count": 1,
+        "pct": 0.42
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 240
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 2,
+        "50_64": 25,
+        "65_79": 54,
+        "80_plus": 28,
+        "unknown": 131,
+        "median_age": 71.0,
+        "mean_age": 71.3,
+        "n_with_age": 109
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 3,
+      "total_reports": 240,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Flintstones Complete": {
+    "canonical_display_name": "Flintstones Complete",
+    "normalized_key": "flintstones complete",
+    "type": "branded",
+    "brand_family": "",
+    "contamination_flag": "",
+    "total_reports": 226,
+    "total_reports_csv": 226,
+    "page_eligible": true,
+    "raw_strings": [
+      "FLINTSTONES COMPLETE MULTIVITAMINS CHEWABLE TABLET",
+      "FLINTSTONES COMPLETE (MULTIVITAMINS) CHEWABLE TABLET",
+      "FLINTSTONES COMPLETE",
+      "FLINTSTONES COMPLETE (MULTIVITAMINS + MINERALS) CHEWABLE TABLET",
+      "FLINTSTONES COMPLETE CHEWABLE",
+      "FLINTSTONES COMPLETE GUMMIES"
+    ],
+    "query_timestamp": "2026-06-02T07:03:30.931126Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Drug dependence",
+          "count": 34,
+          "pct": 15.04
+        },
+        {
+          "term": "Choking",
+          "count": 24,
+          "pct": 10.62
+        },
+        {
+          "term": "Dependence",
+          "count": 19,
+          "pct": 8.41
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 12,
+          "pct": 5.31
+        },
+        {
+          "term": "Overdose",
+          "count": 11,
+          "pct": 4.87
+        },
+        {
+          "term": "Vomiting",
+          "count": 11,
+          "pct": 4.87
+        },
+        {
+          "term": "MALAISE",
+          "count": 8,
+          "pct": 3.54
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 8,
+          "pct": 3.54
+        },
+        {
+          "term": "SUICIDE ATTEMPT",
+          "count": 7,
+          "pct": 3.1
+        },
+        {
+          "term": "GASTRIC LAVAGE",
+          "count": 6,
+          "pct": 2.65
+        },
+        {
+          "term": "Death",
+          "count": 6,
+          "pct": 2.65
+        },
+        {
+          "term": "Coeliac disease",
+          "count": 6,
+          "pct": 2.65
+        },
+        {
+          "term": "DRUG EXPOSURE DURING PREGNANCY",
+          "count": 6,
+          "pct": 2.65
+        },
+        {
+          "term": "DYSPEPSIA",
+          "count": 5,
+          "pct": 2.21
+        },
+        {
+          "term": "Hospitalisation",
+          "count": 5,
+          "pct": 2.21
+        },
+        {
+          "term": "Hypersensitivity",
+          "count": 5,
+          "pct": 2.21
+        },
+        {
+          "term": "Nausea",
+          "count": 4,
+          "pct": 1.77
+        },
+        {
+          "term": "PREMATURE LABOUR",
+          "count": 4,
+          "pct": 1.77
+        },
+        {
+          "term": "ACCIDENTAL DRUG INTAKE BY CHILD",
+          "count": 4,
+          "pct": 1.77
+        },
+        {
+          "term": "Accidental exposure to product by child",
+          "count": 4,
+          "pct": 1.77
+        },
+        {
+          "term": "Illness",
+          "count": 4,
+          "pct": 1.77
+        },
+        {
+          "term": "STOMACH DISCOMFORT",
+          "count": 3,
+          "pct": 1.33
+        },
+        {
+          "term": "HALLUCINATION",
+          "count": 3,
+          "pct": 1.33
+        },
+        {
+          "term": "Convulsion",
+          "count": 3,
+          "pct": 1.33
+        },
+        {
+          "term": "Somnolence",
+          "count": 3,
+          "pct": 1.33
+        },
+        {
+          "term": "Swollen tongue",
+          "count": 3,
+          "pct": 1.33
+        },
+        {
+          "term": "INCORRECT DOSE ADMINISTERED",
+          "count": 3,
+          "pct": 1.33
+        },
+        {
+          "term": "Haemorrhage",
+          "count": 3,
+          "pct": 1.33
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 3,
+          "pct": 1.33
+        },
+        {
+          "term": "Maternal exposure during pregnancy",
+          "count": 3,
+          "pct": 1.33
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 195,
+        "pct": 86.28
+      },
+      "Other Serious Outcome": {
+        "count": 28,
+        "pct": 12.39
+      },
+      "Hospitalization": {
+        "count": 24,
+        "pct": 10.62
+      },
+      "Visited Emergency Room": {
+        "count": 10,
+        "pct": 4.42
+      },
+      "Visited a Health Care Provider": {
+        "count": 8,
+        "pct": 3.54
+      },
+      "Death": {
+        "count": 6,
+        "pct": 2.65
+      },
+      "Life Threatening": {
+        "count": 6,
+        "pct": 2.65
+      },
+      "Other Outcome": {
+        "count": 5,
+        "pct": 2.21
+      },
+      "Allergic Reaction": {
+        "count": 1,
+        "pct": 0.44
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 226
+      },
+      "age_bands": {
+        "under_18": 54,
+        "18_34": 14,
+        "35_49": 6,
+        "50_64": 8,
+        "65_79": 2,
+        "80_plus": 2,
+        "unknown": 140,
+        "median_age": 8.0,
+        "mean_age": 20.0,
+        "n_with_age": 86
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 6,
+      "total_reports": 226,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Benefiber With Wheat Dextrin": {
+    "canonical_display_name": "Benefiber With Wheat Dextrin",
+    "normalized_key": "benefiber with wheat dextrin",
+    "type": "branded",
+    "brand_family": "Benefiber",
+    "contamination_flag": "",
+    "total_reports": 211,
+    "total_reports_csv": 211,
+    "page_eligible": true,
+    "raw_strings": [
+      "BENEFIBER WITH WHEAT DEXTRIN (NCH) (WHEAT DEXTRIN) POWDER",
+      "BENEFIBER WITH WHEAT DEXTRIN",
+      "BENEFIBER WITH WHEAT DEXTRIN POWDER",
+      "BENEFIBER WITH WHEAT DEXTRIN (NCH)(WHEAT DEXTRIN) POWDER",
+      "BENEFIBER WITH WHEAT DEXTRIN (NCH) (WHEAT DEXTRIN) CAPLET"
+    ],
+    "query_timestamp": "2026-06-02T07:08:17.273323Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Diarrhoea",
+          "count": 22,
+          "pct": 10.43
+        },
+        {
+          "term": "Constipation",
+          "count": 18,
+          "pct": 8.53
+        },
+        {
+          "term": "Diverticulitis",
+          "count": 17,
+          "pct": 8.06
+        },
+        {
+          "term": "Death",
+          "count": 17,
+          "pct": 8.06
+        },
+        {
+          "term": "Pain",
+          "count": 12,
+          "pct": 5.69
+        },
+        {
+          "term": "Flatulence",
+          "count": 11,
+          "pct": 5.21
+        },
+        {
+          "term": "Malaise",
+          "count": 11,
+          "pct": 5.21
+        },
+        {
+          "term": "Abdominal distension",
+          "count": 10,
+          "pct": 4.74
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 10,
+          "pct": 4.74
+        },
+        {
+          "term": "HYPERTENSION",
+          "count": 9,
+          "pct": 4.27
+        },
+        {
+          "term": "OVERDOSE",
+          "count": 7,
+          "pct": 3.32
+        },
+        {
+          "term": "UNDERDOSE",
+          "count": 7,
+          "pct": 3.32
+        },
+        {
+          "term": "Diabetes mellitus",
+          "count": 7,
+          "pct": 3.32
+        },
+        {
+          "term": "Feeling abnormal",
+          "count": 7,
+          "pct": 3.32
+        },
+        {
+          "term": "FALL",
+          "count": 7,
+          "pct": 3.32
+        },
+        {
+          "term": "Gastrointestinal disorder",
+          "count": 7,
+          "pct": 3.32
+        },
+        {
+          "term": "Haematochezia",
+          "count": 7,
+          "pct": 3.32
+        },
+        {
+          "term": "THERAPEUTIC RESPONSE UNEXPECTED",
+          "count": 6,
+          "pct": 2.84
+        },
+        {
+          "term": "BLOOD GLUCOSE INCREASED",
+          "count": 6,
+          "pct": 2.84
+        },
+        {
+          "term": "DYSPNOEA",
+          "count": 6,
+          "pct": 2.84
+        },
+        {
+          "term": "WEIGHT DECREASED",
+          "count": 6,
+          "pct": 2.84
+        },
+        {
+          "term": "Decreased appetite",
+          "count": 6,
+          "pct": 2.84
+        },
+        {
+          "term": "Rectal haemorrhage",
+          "count": 6,
+          "pct": 2.84
+        },
+        {
+          "term": "HEADACHE",
+          "count": 5,
+          "pct": 2.37
+        },
+        {
+          "term": "VOMITING",
+          "count": 5,
+          "pct": 2.37
+        },
+        {
+          "term": "GAIT DISTURBANCE",
+          "count": 5,
+          "pct": 2.37
+        },
+        {
+          "term": "IRRITABLE BOWEL SYNDROME",
+          "count": 5,
+          "pct": 2.37
+        },
+        {
+          "term": "Amnesia",
+          "count": 5,
+          "pct": 2.37
+        },
+        {
+          "term": "Dizziness",
+          "count": 5,
+          "pct": 2.37
+        },
+        {
+          "term": "Eructation",
+          "count": 5,
+          "pct": 2.37
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 173,
+        "pct": 81.99
+      },
+      "Hospitalization": {
+        "count": 35,
+        "pct": 16.59
+      },
+      "Visited a Health Care Provider": {
+        "count": 20,
+        "pct": 9.48
+      },
+      "Death": {
+        "count": 17,
+        "pct": 8.06
+      },
+      "Visited Emergency Room": {
+        "count": 8,
+        "pct": 3.79
+      },
+      "Life Threatening": {
+        "count": 4,
+        "pct": 1.9
+      },
+      "Disability": {
+        "count": 2,
+        "pct": 0.95
+      },
+      "Congenital Anomaly": {
+        "count": 1,
+        "pct": 0.47
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 211
+      },
+      "age_bands": {
+        "under_18": 1,
+        "18_34": 1,
+        "35_49": 8,
+        "50_64": 42,
+        "65_79": 81,
+        "80_plus": 43,
+        "unknown": 35,
+        "median_age": 70.0,
+        "mean_age": 70.3,
+        "n_with_age": 176
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 17,
+      "total_reports": 211,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Hydroxycut": {
+    "canonical_display_name": "Hydroxycut",
+    "normalized_key": "hydroxycut",
+    "type": "branded",
+    "brand_family": "Hydroxycut",
+    "contamination_flag": "",
+    "total_reports": 204,
+    "total_reports_csv": 203,
+    "page_eligible": true,
+    "raw_strings": [
+      "HYDROXYCUT",
+      "HYDROXYCUT RAPID RELEASE CAPLETS",
+      "HYDROXYCUT CAPSULES"
+    ],
+    "query_timestamp": "2026-06-02T07:08:54.401072Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "FATIGUE",
+          "count": 33,
+          "pct": 16.18
+        },
+        {
+          "term": "Nausea",
+          "count": 32,
+          "pct": 15.69
+        },
+        {
+          "term": "LIVER FUNCTION TEST ABNORMAL",
+          "count": 26,
+          "pct": 12.75
+        },
+        {
+          "term": "JAUNDICE",
+          "count": 25,
+          "pct": 12.25
+        },
+        {
+          "term": "VOMITING",
+          "count": 23,
+          "pct": 11.27
+        },
+        {
+          "term": "ABDOMINAL PAIN",
+          "count": 21,
+          "pct": 10.29
+        },
+        {
+          "term": "PAIN",
+          "count": 21,
+          "pct": 10.29
+        },
+        {
+          "term": "DIZZINESS",
+          "count": 19,
+          "pct": 9.31
+        },
+        {
+          "term": "ABDOMINAL PAIN UPPER",
+          "count": 17,
+          "pct": 8.33
+        },
+        {
+          "term": "CHROMATURIA",
+          "count": 16,
+          "pct": 7.84
+        },
+        {
+          "term": "ASTHENIA",
+          "count": 15,
+          "pct": 7.35
+        },
+        {
+          "term": "DYSPNOEA",
+          "count": 15,
+          "pct": 7.35
+        },
+        {
+          "term": "PRURITUS",
+          "count": 15,
+          "pct": 7.35
+        },
+        {
+          "term": "HEPATIC ENZYME INCREASED",
+          "count": 15,
+          "pct": 7.35
+        },
+        {
+          "term": "BLOOD BILIRUBIN INCREASED",
+          "count": 14,
+          "pct": 6.86
+        },
+        {
+          "term": "CONVULSION",
+          "count": 14,
+          "pct": 6.86
+        },
+        {
+          "term": "HEPATOCELLULAR INJURY",
+          "count": 13,
+          "pct": 6.37
+        },
+        {
+          "term": "ANXIETY",
+          "count": 13,
+          "pct": 6.37
+        },
+        {
+          "term": "EMOTIONAL DISTRESS",
+          "count": 13,
+          "pct": 6.37
+        },
+        {
+          "term": "ALANINE AMINOTRANSFERASE INCREASED",
+          "count": 12,
+          "pct": 5.88
+        },
+        {
+          "term": "HEPATIC FUNCTION ABNORMAL",
+          "count": 12,
+          "pct": 5.88
+        },
+        {
+          "term": "MALAISE",
+          "count": 11,
+          "pct": 5.39
+        },
+        {
+          "term": "BLOOD PRESSURE INCREASED",
+          "count": 11,
+          "pct": 5.39
+        },
+        {
+          "term": "LIVER INJURY",
+          "count": 11,
+          "pct": 5.39
+        },
+        {
+          "term": "ASPARTATE AMINOTRANSFERASE INCREASED",
+          "count": 10,
+          "pct": 4.9
+        },
+        {
+          "term": "HYPERTENSION",
+          "count": 10,
+          "pct": 4.9
+        },
+        {
+          "term": "BLOOD ALKALINE PHOSPHATASE INCREASED",
+          "count": 9,
+          "pct": 4.41
+        },
+        {
+          "term": "CHEST PAIN",
+          "count": 9,
+          "pct": 4.41
+        },
+        {
+          "term": "HEADACHE",
+          "count": 9,
+          "pct": 4.41
+        },
+        {
+          "term": "RENAL DISORDER",
+          "count": 9,
+          "pct": 4.41
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Hospitalization": {
+        "count": 99,
+        "pct": 48.53
+      },
+      "Other Serious or Important Medical Event": {
+        "count": 98,
+        "pct": 48.04
+      },
+      "Visited a Health Care Provider": {
+        "count": 60,
+        "pct": 29.41
+      },
+      "Life Threatening": {
+        "count": 42,
+        "pct": 20.59
+      },
+      "Visited Emergency Room": {
+        "count": 37,
+        "pct": 18.14
+      },
+      "Required Intervention": {
+        "count": 24,
+        "pct": 11.76
+      },
+      "Disability": {
+        "count": 18,
+        "pct": 8.82
+      },
+      "Other Serious Outcome": {
+        "count": 17,
+        "pct": 8.33
+      },
+      "Other Outcome": {
+        "count": 13,
+        "pct": 6.37
+      },
+      "Death": {
+        "count": 6,
+        "pct": 2.94
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 204
+      },
+      "age_bands": {
+        "under_18": 3,
+        "18_34": 76,
+        "35_49": 72,
+        "50_64": 16,
+        "65_79": 2,
+        "80_plus": 1,
+        "unknown": 34,
+        "median_age": 35.0,
+        "mean_age": 36.6,
+        "n_with_age": 170
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 6,
+      "total_reports": 204,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Hydroxycut Hardcore": {
+    "canonical_display_name": "Hydroxycut Hardcore",
+    "normalized_key": "hydroxycut hardcore",
+    "type": "branded",
+    "brand_family": "Hydroxycut",
+    "contamination_flag": "",
+    "total_reports": 195,
+    "total_reports_csv": 193,
+    "page_eligible": true,
+    "raw_strings": [
+      "HYDROXYCUT HARDCORE CAPSULES",
+      "HYDROXYCUT HARDCORE",
+      "HYDROXYCUT HARDCORE RAPID RELEASE CAPSULES"
+    ],
+    "query_timestamp": "2026-06-02T07:09:32.775178Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "LIVER FUNCTION TEST ABNORMAL",
+          "count": 54,
+          "pct": 27.69
+        },
+        {
+          "term": "EMOTIONAL DISTRESS",
+          "count": 47,
+          "pct": 24.1
+        },
+        {
+          "term": "INJURY",
+          "count": 41,
+          "pct": 21.03
+        },
+        {
+          "term": "PAIN",
+          "count": 38,
+          "pct": 19.49
+        },
+        {
+          "term": "Anxiety",
+          "count": 35,
+          "pct": 17.95
+        },
+        {
+          "term": "RHABDOMYOLYSIS",
+          "count": 29,
+          "pct": 14.87
+        },
+        {
+          "term": "LIVER INJURY",
+          "count": 22,
+          "pct": 11.28
+        },
+        {
+          "term": "Nausea",
+          "count": 20,
+          "pct": 10.26
+        },
+        {
+          "term": "JAUNDICE",
+          "count": 19,
+          "pct": 9.74
+        },
+        {
+          "term": "VOMITING",
+          "count": 18,
+          "pct": 9.23
+        },
+        {
+          "term": "CONVULSION",
+          "count": 16,
+          "pct": 8.21
+        },
+        {
+          "term": "MYALGIA",
+          "count": 14,
+          "pct": 7.18
+        },
+        {
+          "term": "FATIGUE",
+          "count": 14,
+          "pct": 7.18
+        },
+        {
+          "term": "ABDOMINAL PAIN",
+          "count": 13,
+          "pct": 6.67
+        },
+        {
+          "term": "HYPERSENSITIVITY",
+          "count": 12,
+          "pct": 6.15
+        },
+        {
+          "term": "Chest pain",
+          "count": 12,
+          "pct": 6.15
+        },
+        {
+          "term": "Headache",
+          "count": 12,
+          "pct": 6.15
+        },
+        {
+          "term": "Heart rate increased",
+          "count": 12,
+          "pct": 6.15
+        },
+        {
+          "term": "CARDIO-RESPIRATORY DISTRESS",
+          "count": 11,
+          "pct": 5.64
+        },
+        {
+          "term": "HEPATOCELLULAR INJURY",
+          "count": 11,
+          "pct": 5.64
+        },
+        {
+          "term": "Hypertension",
+          "count": 11,
+          "pct": 5.64
+        },
+        {
+          "term": "MULTIPLE INJURIES",
+          "count": 10,
+          "pct": 5.13
+        },
+        {
+          "term": "HEPATIC FUNCTION ABNORMAL",
+          "count": 10,
+          "pct": 5.13
+        },
+        {
+          "term": "HEPATITIS",
+          "count": 9,
+          "pct": 4.62
+        },
+        {
+          "term": "FEAR",
+          "count": 9,
+          "pct": 4.62
+        },
+        {
+          "term": "Myocardial infarction",
+          "count": 9,
+          "pct": 4.62
+        },
+        {
+          "term": "HEPATIC FAILURE",
+          "count": 9,
+          "pct": 4.62
+        },
+        {
+          "term": "ASTHENIA",
+          "count": 9,
+          "pct": 4.62
+        },
+        {
+          "term": "NERVOUSNESS",
+          "count": 8,
+          "pct": 4.1
+        },
+        {
+          "term": "RENAL DISORDER",
+          "count": 8,
+          "pct": 4.1
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 150,
+        "pct": 76.92
+      },
+      "Hospitalization": {
+        "count": 61,
+        "pct": 31.28
+      },
+      "Visited a Health Care Provider": {
+        "count": 35,
+        "pct": 17.95
+      },
+      "Disability": {
+        "count": 15,
+        "pct": 7.69
+      },
+      "Visited Emergency Room": {
+        "count": 14,
+        "pct": 7.18
+      },
+      "Required Intervention": {
+        "count": 13,
+        "pct": 6.67
+      },
+      "Other Serious Outcome": {
+        "count": 12,
+        "pct": 6.15
+      },
+      "Life Threatening": {
+        "count": 10,
+        "pct": 5.13
+      },
+      "Death": {
+        "count": 3,
+        "pct": 1.54
+      },
+      "Other Outcome": {
+        "count": 3,
+        "pct": 1.54
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 195
+      },
+      "age_bands": {
+        "under_18": 1,
+        "18_34": 66,
+        "35_49": 58,
+        "50_64": 12,
+        "65_79": 3,
+        "80_plus": 0,
+        "unknown": 55,
+        "median_age": 35.0,
+        "mean_age": 35.6,
+        "n_with_age": 140
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 3,
+      "total_reports": 195,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "All Day Energy Greens": {
+    "canonical_display_name": "All Day Energy Greens",
+    "normalized_key": "all day energy greens",
+    "type": "branded",
+    "brand_family": "All Day Energy Greens",
+    "contamination_flag": "",
+    "total_reports": 186,
+    "total_reports_csv": 186,
+    "page_eligible": true,
+    "raw_strings": [
+      "ALL DAY ENERGY GREENS"
+    ],
+    "query_timestamp": "2026-06-02T07:09:45.798845Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "ABDOMINAL PAIN UPPER",
+          "count": 39,
+          "pct": 20.97
+        },
+        {
+          "term": "VOMITING",
+          "count": 29,
+          "pct": 15.59
+        },
+        {
+          "term": "DIARRHOEA",
+          "count": 19,
+          "pct": 10.22
+        },
+        {
+          "term": "GASTRIC DISORDER",
+          "count": 19,
+          "pct": 10.22
+        },
+        {
+          "term": "GASTROINTESTINAL DISORDER",
+          "count": 15,
+          "pct": 8.06
+        },
+        {
+          "term": "FLATULENCE",
+          "count": 13,
+          "pct": 6.99
+        },
+        {
+          "term": "ABDOMINAL DISTENSION",
+          "count": 11,
+          "pct": 5.91
+        },
+        {
+          "term": "BLOOD PRESSURE INCREASED",
+          "count": 11,
+          "pct": 5.91
+        },
+        {
+          "term": "PAIN",
+          "count": 11,
+          "pct": 5.91
+        },
+        {
+          "term": "CONSTIPATION",
+          "count": 9,
+          "pct": 4.84
+        },
+        {
+          "term": "NAUSEA",
+          "count": 8,
+          "pct": 4.3
+        },
+        {
+          "term": "ABDOMINAL DISCOMFORT",
+          "count": 7,
+          "pct": 3.76
+        },
+        {
+          "term": "ABDOMINAL PAIN",
+          "count": 7,
+          "pct": 3.76
+        },
+        {
+          "term": "DIVERTICULITIS",
+          "count": 7,
+          "pct": 3.76
+        },
+        {
+          "term": "DYSPNOEA",
+          "count": 7,
+          "pct": 3.76
+        },
+        {
+          "term": "DEHYDRATION",
+          "count": 6,
+          "pct": 3.23
+        },
+        {
+          "term": "DYSPEPSIA",
+          "count": 5,
+          "pct": 2.69
+        },
+        {
+          "term": "GASTROOESOPHAGEAL REFLUX DISEASE",
+          "count": 5,
+          "pct": 2.69
+        },
+        {
+          "term": "HAEMATOCHEZIA",
+          "count": 5,
+          "pct": 2.69
+        },
+        {
+          "term": "GASTRIC ULCER HAEMORRHAGE",
+          "count": 4,
+          "pct": 2.15
+        },
+        {
+          "term": "GASTROINTESTINAL HAEMORRHAGE",
+          "count": 4,
+          "pct": 2.15
+        },
+        {
+          "term": "HAEMORRHAGE",
+          "count": 4,
+          "pct": 2.15
+        },
+        {
+          "term": "HOSPITALISATION",
+          "count": 4,
+          "pct": 2.15
+        },
+        {
+          "term": "MYOCARDIAL INFARCTION",
+          "count": 4,
+          "pct": 2.15
+        },
+        {
+          "term": "URTICARIA",
+          "count": 4,
+          "pct": 2.15
+        },
+        {
+          "term": "ASTHENIA",
+          "count": 3,
+          "pct": 1.61
+        },
+        {
+          "term": "BLOOD POTASSIUM DECREASED",
+          "count": 3,
+          "pct": 1.61
+        },
+        {
+          "term": "BLOOD POTASSIUM INCREASED",
+          "count": 3,
+          "pct": 1.61
+        },
+        {
+          "term": "CARDIAC DISORDER",
+          "count": 3,
+          "pct": 1.61
+        },
+        {
+          "term": "COLITIS",
+          "count": 3,
+          "pct": 1.61
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 117,
+        "pct": 62.9
+      },
+      "Hospitalization": {
+        "count": 113,
+        "pct": 60.75
+      },
+      "Visited Emergency Room": {
+        "count": 56,
+        "pct": 30.11
+      },
+      "Visited a Health Care Provider": {
+        "count": 43,
+        "pct": 23.12
+      },
+      "Death": {
+        "count": 2,
+        "pct": 1.08
+      },
+      "Disability": {
+        "count": 1,
+        "pct": 0.54
+      },
+      "Life Threatening": {
+        "count": 1,
+        "pct": 0.54
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 186
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 4,
+        "50_64": 9,
+        "65_79": 24,
+        "80_plus": 16,
+        "unknown": 133,
+        "median_age": 73.0,
+        "mean_age": 72.0,
+        "n_with_age": 53
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 2,
+      "total_reports": 186,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Centrum Silver Ultra Womens": {
+    "canonical_display_name": "Centrum Silver Ultra Womens",
+    "normalized_key": "centrum silver ultra womens",
+    "type": "branded",
+    "brand_family": "Centrum Silver",
+    "contamination_flag": "",
+    "total_reports": 173,
+    "total_reports_csv": 173,
+    "page_eligible": true,
+    "raw_strings": [
+      "CENTRUM SILVER ULTRA WOMENS MULTIMINERALS MULTIVITAMINS TABLET",
+      "CENTRUM SILVER ULTRA WOMENS MULTIMINERAL MULTIVITAMINS TABLET",
+      "CENTRUM SILVER ULTRA WOMENS",
+      "CENTRUM SILVER ULTRA WOMENS MULTIMINERALS MULTIVITAMINS"
+    ],
+    "query_timestamp": "2026-06-02T07:10:32.863961Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 158,
+          "pct": 91.33
+        },
+        {
+          "term": "DYSPHAGIA",
+          "count": 56,
+          "pct": 32.37
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 36,
+          "pct": 20.81
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "count": 14,
+          "pct": 8.09
+        },
+        {
+          "term": "Throat irritation",
+          "count": 14,
+          "pct": 8.09
+        },
+        {
+          "term": "RETCHING",
+          "count": 13,
+          "pct": 7.51
+        },
+        {
+          "term": "OESOPHAGEAL INJURY",
+          "count": 8,
+          "pct": 4.62
+        },
+        {
+          "term": "VOMITING",
+          "count": 6,
+          "pct": 3.47
+        },
+        {
+          "term": "COUGH",
+          "count": 5,
+          "pct": 2.89
+        },
+        {
+          "term": "DYSPNOEA",
+          "count": 5,
+          "pct": 2.89
+        },
+        {
+          "term": "MALAISE",
+          "count": 5,
+          "pct": 2.89
+        },
+        {
+          "term": "CHOKING SENSATION",
+          "count": 3,
+          "pct": 1.73
+        },
+        {
+          "term": "VITAMIN D DECREASED",
+          "count": 3,
+          "pct": 1.73
+        },
+        {
+          "term": "ABDOMINAL PAIN UPPER",
+          "count": 3,
+          "pct": 1.73
+        },
+        {
+          "term": "HYPERTENSION",
+          "count": 3,
+          "pct": 1.73
+        },
+        {
+          "term": "PHARYNGITIS",
+          "count": 3,
+          "pct": 1.73
+        },
+        {
+          "term": "FEAR",
+          "count": 3,
+          "pct": 1.73
+        },
+        {
+          "term": "BLOOD PRESSURE ABNORMAL",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "FEELING ABNORMAL",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "FLATULENCE",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "HYPERHIDROSIS",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "BODY HEIGHT DECREASED",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "CHEST PAIN",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "FEAR OF DEATH",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "HEAD DISCOMFORT",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "HYPERSENSITIVITY",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "PAIN",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "PHARYNGEAL INJURY",
+          "count": 2,
+          "pct": 1.16
+        },
+        {
+          "term": "ARTHRALGIA",
+          "count": 1,
+          "pct": 0.58
+        },
+        {
+          "term": "ARTHRITIS",
+          "count": 1,
+          "pct": 0.58
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 172,
+        "pct": 99.42
+      },
+      "Hospitalization": {
+        "count": 4,
+        "pct": 2.31
+      },
+      "Visited a Health Care Provider": {
+        "count": 2,
+        "pct": 1.16
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 173
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 2,
+        "50_64": 18,
+        "65_79": 42,
+        "80_plus": 41,
+        "unknown": 70,
+        "median_age": 77.0,
+        "mean_age": 74.5,
+        "n_with_age": 103
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 0,
+      "total_reports": 173,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Super Beta Virility Boost": {
+    "canonical_display_name": "Super Beta Virility Boost",
+    "normalized_key": "super beta virility boost",
+    "type": "branded",
+    "brand_family": "Super Beta",
+    "contamination_flag": "",
+    "total_reports": 145,
+    "total_reports_csv": 145,
+    "page_eligible": true,
+    "raw_strings": [
+      "SUPER BETA VIRILITY BOOST"
+    ],
+    "query_timestamp": "2026-06-02T07:10:54.112546Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Blood urine present",
+          "count": 27,
+          "pct": 18.62
+        },
+        {
+          "term": "Haematochezia",
+          "count": 13,
+          "pct": 8.97
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 12,
+          "pct": 8.28
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 12,
+          "pct": 8.28
+        },
+        {
+          "term": "Urinary retention",
+          "count": 11,
+          "pct": 7.59
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 9,
+          "pct": 6.21
+        },
+        {
+          "term": "Hypertension",
+          "count": 8,
+          "pct": 5.52
+        },
+        {
+          "term": "Dizziness",
+          "count": 7,
+          "pct": 4.83
+        },
+        {
+          "term": "Chest pain",
+          "count": 7,
+          "pct": 4.83
+        },
+        {
+          "term": "Malaise",
+          "count": 6,
+          "pct": 4.14
+        },
+        {
+          "term": "Haemorrhage",
+          "count": 6,
+          "pct": 4.14
+        },
+        {
+          "term": "Renal failure",
+          "count": 5,
+          "pct": 3.45
+        },
+        {
+          "term": "Haematuria",
+          "count": 4,
+          "pct": 2.76
+        },
+        {
+          "term": "Hospitalisation",
+          "count": 4,
+          "pct": 2.76
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 3,
+          "pct": 2.07
+        },
+        {
+          "term": "Cardiac disorder",
+          "count": 3,
+          "pct": 2.07
+        },
+        {
+          "term": "Convulsion",
+          "count": 3,
+          "pct": 2.07
+        },
+        {
+          "term": "Dysuria",
+          "count": 3,
+          "pct": 2.07
+        },
+        {
+          "term": "Haematospermia",
+          "count": 3,
+          "pct": 2.07
+        },
+        {
+          "term": "Rectal haemorrhage",
+          "count": 3,
+          "pct": 2.07
+        },
+        {
+          "term": "THROMBOSIS",
+          "count": 3,
+          "pct": 2.07
+        },
+        {
+          "term": "Blood glucose increased",
+          "count": 3,
+          "pct": 2.07
+        },
+        {
+          "term": "Haematemesis",
+          "count": 3,
+          "pct": 2.07
+        },
+        {
+          "term": "Atrial fibrillation",
+          "count": 2,
+          "pct": 1.38
+        },
+        {
+          "term": "Concussion",
+          "count": 2,
+          "pct": 1.38
+        },
+        {
+          "term": "Diabetes mellitus",
+          "count": 2,
+          "pct": 1.38
+        },
+        {
+          "term": "Fall",
+          "count": 2,
+          "pct": 1.38
+        },
+        {
+          "term": "Gastric ulcer",
+          "count": 2,
+          "pct": 1.38
+        },
+        {
+          "term": "Gastrointestinal haemorrhage",
+          "count": 2,
+          "pct": 1.38
+        },
+        {
+          "term": "Groin pain",
+          "count": 2,
+          "pct": 1.38
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 109,
+        "pct": 75.17
+      },
+      "Other Serious Outcome": {
+        "count": 44,
+        "pct": 30.34
+      },
+      "Hospitalization": {
+        "count": 33,
+        "pct": 22.76
+      },
+      "Visited Emergency Room": {
+        "count": 19,
+        "pct": 13.1
+      },
+      "Visited a Health Care Provider": {
+        "count": 18,
+        "pct": 12.41
+      },
+      "Death": {
+        "count": 1,
+        "pct": 0.69
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 145
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 1,
+        "50_64": 24,
+        "65_79": 35,
+        "80_plus": 6,
+        "unknown": 79,
+        "median_age": 68.0,
+        "mean_age": 67.7,
+        "n_with_age": 66
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 1,
+      "total_reports": 145,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "One A Day Women's 50+ Healthy Advantage": {
+    "canonical_display_name": "One A Day Women's 50+ Healthy Advantage",
+    "normalized_key": "one a day women's 50+ healthy advantage",
+    "type": "branded",
+    "brand_family": "One A Day",
+    "contamination_flag": "",
+    "total_reports": 148,
+    "total_reports_csv": 144,
+    "page_eligible": true,
+    "raw_strings": [
+      "ONE A DAY WOMEN'S 50 PLUS HEALTHY ADVANTAGE",
+      "ONE A DAY WOMEN'S 50+ HEALTHY ADVANTAGE (MULTIVITAMINS + MINERALS) FILM-COATED TABLET",
+      "ONE A DAY WOMEN'S 50+ HEALTHY ADVANTAGE"
+    ],
+    "query_timestamp": "2026-06-02T07:11:30.185072Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 85,
+          "pct": 57.43
+        },
+        {
+          "term": "Foreign body",
+          "count": 25,
+          "pct": 16.89
+        },
+        {
+          "term": "Foreign body in throat",
+          "count": 16,
+          "pct": 10.81
+        },
+        {
+          "term": "Dysphagia",
+          "count": 11,
+          "pct": 7.43
+        },
+        {
+          "term": "Cough",
+          "count": 8,
+          "pct": 5.41
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 7,
+          "pct": 4.73
+        },
+        {
+          "term": "Nausea",
+          "count": 6,
+          "pct": 4.05
+        },
+        {
+          "term": "Retching",
+          "count": 5,
+          "pct": 3.38
+        },
+        {
+          "term": "Throat irritation",
+          "count": 5,
+          "pct": 3.38
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "count": 4,
+          "pct": 2.7
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 4,
+          "pct": 2.7
+        },
+        {
+          "term": "Pharyngeal injury",
+          "count": 3,
+          "pct": 2.03
+        },
+        {
+          "term": "Regurgitation",
+          "count": 3,
+          "pct": 2.03
+        },
+        {
+          "term": "Angina pectoris",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "Headache",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "Hormone level abnormal",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "Postmenopausal haemorrhage",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "Discomfort",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "Dyspepsia",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "Oropharyngeal discomfort",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "Thrombosis",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "Urticaria",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "APHAGIA",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "DYSGEUSIA",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "EPISTAXIS",
+          "count": 2,
+          "pct": 1.35
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 1,
+          "pct": 0.68
+        },
+        {
+          "term": "Bone pain",
+          "count": 1,
+          "pct": 0.68
+        },
+        {
+          "term": "Breast cancer",
+          "count": 1,
+          "pct": 0.68
+        },
+        {
+          "term": "Cardiac flutter",
+          "count": 1,
+          "pct": 0.68
+        },
+        {
+          "term": "Exophthalmos",
+          "count": 1,
+          "pct": 0.68
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 128,
+        "pct": 86.49
+      },
+      "Other Serious Outcome": {
+        "count": 22,
+        "pct": 14.86
+      },
+      "Life Threatening": {
+        "count": 4,
+        "pct": 2.7
+      },
+      "Hospitalization": {
+        "count": 3,
+        "pct": 2.03
+      },
+      "Visited Emergency Room": {
+        "count": 2,
+        "pct": 1.35
+      },
+      "Other Outcome": {
+        "count": 2,
+        "pct": 1.35
+      },
+      "Visited a Health Care Provider": {
+        "count": 1,
+        "pct": 0.68
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 148
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 1,
+        "35_49": 1,
+        "50_64": 27,
+        "65_79": 40,
+        "80_plus": 32,
+        "unknown": 47,
+        "median_age": 73.0,
+        "mean_age": 72.4,
+        "n_with_age": 101
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 0,
+      "total_reports": 148,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Caltrate 600 + Vitamin D": {
+    "canonical_display_name": "Caltrate 600 + Vitamin D",
+    "normalized_key": "caltrate 600 + vitamin d",
+    "type": "branded",
+    "brand_family": "",
+    "contamination_flag": "",
+    "total_reports": 138,
+    "total_reports_csv": 138,
+    "page_eligible": true,
+    "raw_strings": [
+      "CALTRATE 600 + VITAMIN D (CALCIUM CARBONATE, CHOLECALCIFEROL) TABLET",
+      "CALTRATE 600 + VITAMIN D",
+      "CALTRATE  600 + VITAMIN D (CALCIUM CARBONATE, CHOLECALCIFEROL) TABLET"
+    ],
+    "query_timestamp": "2026-06-03T06:20:09.360110Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 50,
+          "pct": 36.23
+        },
+        {
+          "term": "Dysphagia",
+          "count": 26,
+          "pct": 18.84
+        },
+        {
+          "term": "COELIAC DISEASE",
+          "count": 13,
+          "pct": 9.42
+        },
+        {
+          "term": "Foreign body",
+          "count": 13,
+          "pct": 9.42
+        },
+        {
+          "term": "Constipation",
+          "count": 8,
+          "pct": 5.8
+        },
+        {
+          "term": "NEPHROLITHIASIS",
+          "count": 6,
+          "pct": 4.35
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 5,
+          "pct": 3.62
+        },
+        {
+          "term": "DIARRHOEA",
+          "count": 5,
+          "pct": 3.62
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 5,
+          "pct": 3.62
+        },
+        {
+          "term": "Throat irritation",
+          "count": 5,
+          "pct": 3.62
+        },
+        {
+          "term": "HAEMORRHAGE",
+          "count": 4,
+          "pct": 2.9
+        },
+        {
+          "term": "Cough",
+          "count": 4,
+          "pct": 2.9
+        },
+        {
+          "term": "OSTEOPOROSIS",
+          "count": 4,
+          "pct": 2.9
+        },
+        {
+          "term": "VOMITING",
+          "count": 4,
+          "pct": 2.9
+        },
+        {
+          "term": "Pharyngeal injury",
+          "count": 4,
+          "pct": 2.9
+        },
+        {
+          "term": "RETCHING",
+          "count": 3,
+          "pct": 2.17
+        },
+        {
+          "term": "BLOOD PRESSURE FLUCTUATION",
+          "count": 3,
+          "pct": 2.17
+        },
+        {
+          "term": "DYSPNOEA",
+          "count": 3,
+          "pct": 2.17
+        },
+        {
+          "term": "NEOPLASM MALIGNANT",
+          "count": 3,
+          "pct": 2.17
+        },
+        {
+          "term": "Blood calcium increased",
+          "count": 3,
+          "pct": 2.17
+        },
+        {
+          "term": "Fall",
+          "count": 3,
+          "pct": 2.17
+        },
+        {
+          "term": "BLOOD PRESSURE INCREASED",
+          "count": 2,
+          "pct": 1.45
+        },
+        {
+          "term": "DIABETES MELLITUS",
+          "count": 2,
+          "pct": 1.45
+        },
+        {
+          "term": "FEELING ABNORMAL",
+          "count": 2,
+          "pct": 1.45
+        },
+        {
+          "term": "MALAISE",
+          "count": 2,
+          "pct": 1.45
+        },
+        {
+          "term": "PHARYNGEAL OEDEMA",
+          "count": 2,
+          "pct": 1.45
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 2,
+          "pct": 1.45
+        },
+        {
+          "term": "Asthenia",
+          "count": 2,
+          "pct": 1.45
+        },
+        {
+          "term": "BACK PAIN",
+          "count": 2,
+          "pct": 1.45
+        },
+        {
+          "term": "Breast cancer",
+          "count": 2,
+          "pct": 1.45
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 122,
+        "pct": 88.41
+      },
+      "Hospitalization": {
+        "count": 15,
+        "pct": 10.87
+      },
+      "Visited a Health Care Provider": {
+        "count": 8,
+        "pct": 5.8
+      },
+      "Other Outcome": {
+        "count": 5,
+        "pct": 3.62
+      },
+      "Other Serious Outcome": {
+        "count": 3,
+        "pct": 2.17
+      },
+      "Death": {
+        "count": 1,
+        "pct": 0.72
+      },
+      "Life Threatening": {
+        "count": 1,
+        "pct": 0.72
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 138
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 0,
+        "50_64": 15,
+        "65_79": 28,
+        "80_plus": 26,
+        "unknown": 69,
+        "median_age": 75.0,
+        "mean_age": 73.6,
+        "n_with_age": 69
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 1,
+      "total_reports": 138,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Emergen-c": {
+    "canonical_display_name": "Emergen-c",
+    "normalized_key": "emergen-c",
+    "type": "branded",
+    "brand_family": "Emergen-C",
+    "contamination_flag": "",
+    "total_reports": 133,
+    "total_reports_csv": 133,
+    "page_eligible": true,
+    "raw_strings": [
+      "EMERGEN-C"
+    ],
+    "query_timestamp": "2026-06-03T06:20:22.890991Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 9,
+          "pct": 6.77
+        },
+        {
+          "term": "Death",
+          "count": 8,
+          "pct": 6.02
+        },
+        {
+          "term": "Diabetes mellitus",
+          "count": 8,
+          "pct": 6.02
+        },
+        {
+          "term": "Nephrolithiasis",
+          "count": 8,
+          "pct": 6.02
+        },
+        {
+          "term": "Cough",
+          "count": 8,
+          "pct": 6.02
+        },
+        {
+          "term": "Hypersensitivity",
+          "count": 8,
+          "pct": 6.02
+        },
+        {
+          "term": "Malaise",
+          "count": 7,
+          "pct": 5.26
+        },
+        {
+          "term": "Dizziness",
+          "count": 7,
+          "pct": 5.26
+        },
+        {
+          "term": "Coeliac disease",
+          "count": 6,
+          "pct": 4.51
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 5,
+          "pct": 3.76
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 5,
+          "pct": 3.76
+        },
+        {
+          "term": "Drug hypersensitivity",
+          "count": 5,
+          "pct": 3.76
+        },
+        {
+          "term": "Feeling abnormal",
+          "count": 5,
+          "pct": 3.76
+        },
+        {
+          "term": "Pruritus",
+          "count": 5,
+          "pct": 3.76
+        },
+        {
+          "term": "Pneumonia",
+          "count": 4,
+          "pct": 3.01
+        },
+        {
+          "term": "Anaphylactic shock",
+          "count": 4,
+          "pct": 3.01
+        },
+        {
+          "term": "Convulsion",
+          "count": 4,
+          "pct": 3.01
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "CHOKING SENSATION",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Dyspepsia",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Hypertension",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Insomnia",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Neoplasm malignant",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Visual impairment",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Blood glucose increased",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Burning sensation",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 3,
+          "pct": 2.26
+        },
+        {
+          "term": "Alopecia",
+          "count": 2,
+          "pct": 1.5
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 109,
+        "pct": 81.95
+      },
+      "Hospitalization": {
+        "count": 14,
+        "pct": 10.53
+      },
+      "Visited Emergency Room": {
+        "count": 12,
+        "pct": 9.02
+      },
+      "Visited a Health Care Provider": {
+        "count": 12,
+        "pct": 9.02
+      },
+      "Death": {
+        "count": 8,
+        "pct": 6.02
+      },
+      "Other Outcome": {
+        "count": 4,
+        "pct": 3.01
+      },
+      "Other Serious Outcome": {
+        "count": 3,
+        "pct": 2.26
+      },
+      "Disability": {
+        "count": 2,
+        "pct": 1.5
+      },
+      "Allergic Reaction": {
+        "count": 1,
+        "pct": 0.75
+      },
+      "Congenital Anomaly": {
+        "count": 1,
+        "pct": 0.75
+      },
+      "Life Threatening": {
+        "count": 1,
+        "pct": 0.75
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 133
+      },
+      "age_bands": {
+        "under_18": 1,
+        "18_34": 12,
+        "35_49": 10,
+        "50_64": 23,
+        "65_79": 15,
+        "80_plus": 4,
+        "unknown": 68,
+        "median_age": 58.0,
+        "mean_age": 54.7,
+        "n_with_age": 65
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 8,
+      "total_reports": 133,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "5 Hour Energy": {
+    "canonical_display_name": "5 Hour Energy",
+    "normalized_key": "5 hour energy",
+    "type": "branded",
+    "brand_family": "",
+    "contamination_flag": "energy_drink_kept",
+    "total_reports": 129,
+    "total_reports_csv": 129,
+    "page_eligible": true,
+    "raw_strings": [
+      "5 HOUR ENERGY",
+      "5-HOUR ENERGY"
+    ],
+    "query_timestamp": "2026-06-03T06:20:47.405447Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Death",
+          "count": 29,
+          "pct": 22.48
+        },
+        {
+          "term": "Myocardial infarction",
+          "count": 24,
+          "pct": 18.6
+        },
+        {
+          "term": "Convulsion",
+          "count": 15,
+          "pct": 11.63
+        },
+        {
+          "term": "Chest pain",
+          "count": 9,
+          "pct": 6.98
+        },
+        {
+          "term": "VOMITING",
+          "count": 7,
+          "pct": 5.43
+        },
+        {
+          "term": "Dizziness",
+          "count": 7,
+          "pct": 5.43
+        },
+        {
+          "term": "Heart rate increased",
+          "count": 7,
+          "pct": 5.43
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 6,
+          "pct": 4.65
+        },
+        {
+          "term": "NAUSEA",
+          "count": 6,
+          "pct": 4.65
+        },
+        {
+          "term": "Palpitations",
+          "count": 6,
+          "pct": 4.65
+        },
+        {
+          "term": "DYSPNOEA",
+          "count": 5,
+          "pct": 3.88
+        },
+        {
+          "term": "Pain",
+          "count": 5,
+          "pct": 3.88
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 5,
+          "pct": 3.88
+        },
+        {
+          "term": "LOSS OF CONSCIOUSNESS",
+          "count": 4,
+          "pct": 3.1
+        },
+        {
+          "term": "Anxiety",
+          "count": 4,
+          "pct": 3.1
+        },
+        {
+          "term": "Fatigue",
+          "count": 4,
+          "pct": 3.1
+        },
+        {
+          "term": "Headache",
+          "count": 4,
+          "pct": 3.1
+        },
+        {
+          "term": "HYPOAESTHESIA",
+          "count": 4,
+          "pct": 3.1
+        },
+        {
+          "term": "Cardiac disorder",
+          "count": 4,
+          "pct": 3.1
+        },
+        {
+          "term": "HYPERHIDROSIS",
+          "count": 3,
+          "pct": 2.33
+        },
+        {
+          "term": "ANAPHYLACTIC SHOCK",
+          "count": 3,
+          "pct": 2.33
+        },
+        {
+          "term": "ARRHYTHMIA",
+          "count": 3,
+          "pct": 2.33
+        },
+        {
+          "term": "FEAR",
+          "count": 3,
+          "pct": 2.33
+        },
+        {
+          "term": "HOSPITALISATION",
+          "count": 3,
+          "pct": 2.33
+        },
+        {
+          "term": "JAUNDICE",
+          "count": 3,
+          "pct": 2.33
+        },
+        {
+          "term": "MALAISE",
+          "count": 3,
+          "pct": 2.33
+        },
+        {
+          "term": "VITAMIN B12 INCREASED",
+          "count": 3,
+          "pct": 2.33
+        },
+        {
+          "term": "ABDOMINAL PAIN UPPER",
+          "count": 2,
+          "pct": 1.55
+        },
+        {
+          "term": "ACTIVITIES OF DAILY LIVING IMPAIRED",
+          "count": 2,
+          "pct": 1.55
+        },
+        {
+          "term": "ALANINE AMINOTRANSFERASE INCREASED",
+          "count": 2,
+          "pct": 1.55
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 74,
+        "pct": 57.36
+      },
+      "Hospitalization": {
+        "count": 44,
+        "pct": 34.11
+      },
+      "Death": {
+        "count": 29,
+        "pct": 22.48
+      },
+      "Visited Emergency Room": {
+        "count": 22,
+        "pct": 17.05
+      },
+      "Life Threatening": {
+        "count": 21,
+        "pct": 16.28
+      },
+      "Visited a Health Care Provider": {
+        "count": 15,
+        "pct": 11.63
+      },
+      "Disability": {
+        "count": 9,
+        "pct": 6.98
+      },
+      "Other Serious Outcome": {
+        "count": 5,
+        "pct": 3.88
+      },
+      "Required Intervention": {
+        "count": 2,
+        "pct": 1.55
+      },
+      "Other Outcome": {
+        "count": 1,
+        "pct": 0.78
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 129
+      },
+      "age_bands": {
+        "under_18": 5,
+        "18_34": 24,
+        "35_49": 13,
+        "50_64": 12,
+        "65_79": 5,
+        "80_plus": 2,
+        "unknown": 68,
+        "median_age": 37.0,
+        "mean_age": 40.1,
+        "n_with_age": 61
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 29,
+      "total_reports": 129,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Preservision AREDS": {
+    "canonical_display_name": "Preservision AREDS",
+    "normalized_key": "preservision areds",
+    "type": "branded",
+    "brand_family": "PreserVision",
+    "contamination_flag": "",
+    "total_reports": 137,
+    "total_reports_csv": 128,
+    "page_eligible": true,
+    "raw_strings": [
+      "PRESERVISION AREDS",
+      "PRESERVISION AREDS SOFT GELS",
+      "PRESERVISION AREDS SOFT GELS (CAPSULE, SOFT)",
+      "PRESERVISION AREDS TABLETS"
+    ],
+    "query_timestamp": "2026-06-03T06:21:33.496757Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Blood pressure increased",
+          "count": 12,
+          "pct": 8.76
+        },
+        {
+          "term": "Dysphagia",
+          "count": 12,
+          "pct": 8.76
+        },
+        {
+          "term": "Choking",
+          "count": 10,
+          "pct": 7.3
+        },
+        {
+          "term": "Blindness",
+          "count": 8,
+          "pct": 5.84
+        },
+        {
+          "term": "Macular degeneration",
+          "count": 7,
+          "pct": 5.11
+        },
+        {
+          "term": "Constipation",
+          "count": 7,
+          "pct": 5.11
+        },
+        {
+          "term": "Condition aggravated",
+          "count": 7,
+          "pct": 5.11
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 7,
+          "pct": 5.11
+        },
+        {
+          "term": "Lung neoplasm malignant",
+          "count": 7,
+          "pct": 5.11
+        },
+        {
+          "term": "Visual impairment",
+          "count": 6,
+          "pct": 4.38
+        },
+        {
+          "term": "Eye haemorrhage",
+          "count": 6,
+          "pct": 4.38
+        },
+        {
+          "term": "Age-related macular degeneration",
+          "count": 5,
+          "pct": 3.65
+        },
+        {
+          "term": "Cataract",
+          "count": 5,
+          "pct": 3.65
+        },
+        {
+          "term": "Abdominal discomfort",
+          "count": 5,
+          "pct": 3.65
+        },
+        {
+          "term": "Chest pain",
+          "count": 5,
+          "pct": 3.65
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 5,
+          "pct": 3.65
+        },
+        {
+          "term": "Dizziness",
+          "count": 5,
+          "pct": 3.65
+        },
+        {
+          "term": "Neuropathy peripheral",
+          "count": 5,
+          "pct": 3.65
+        },
+        {
+          "term": "Blood glucose increased",
+          "count": 4,
+          "pct": 2.92
+        },
+        {
+          "term": "FATIGUE",
+          "count": 4,
+          "pct": 2.92
+        },
+        {
+          "term": "Heart rate increased",
+          "count": 3,
+          "pct": 2.19
+        },
+        {
+          "term": "Death",
+          "count": 3,
+          "pct": 2.19
+        },
+        {
+          "term": "Foreign body",
+          "count": 3,
+          "pct": 2.19
+        },
+        {
+          "term": "Urticaria",
+          "count": 3,
+          "pct": 2.19
+        },
+        {
+          "term": "Vision blurred",
+          "count": 3,
+          "pct": 2.19
+        },
+        {
+          "term": "Asthenia",
+          "count": 3,
+          "pct": 2.19
+        },
+        {
+          "term": "Copper deficiency",
+          "count": 3,
+          "pct": 2.19
+        },
+        {
+          "term": "Hospitalisation",
+          "count": 3,
+          "pct": 2.19
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 3,
+          "pct": 2.19
+        },
+        {
+          "term": "Atrial fibrillation",
+          "count": 3,
+          "pct": 2.19
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 115,
+        "pct": 83.94
+      },
+      "Hospitalization": {
+        "count": 22,
+        "pct": 16.06
+      },
+      "Visited a Health Care Provider": {
+        "count": 20,
+        "pct": 14.6
+      },
+      "Other Serious Outcome": {
+        "count": 10,
+        "pct": 7.3
+      },
+      "Visited Emergency Room": {
+        "count": 5,
+        "pct": 3.65
+      },
+      "Life Threatening": {
+        "count": 4,
+        "pct": 2.92
+      },
+      "Other Outcome": {
+        "count": 3,
+        "pct": 2.19
+      },
+      "Death": {
+        "count": 3,
+        "pct": 2.19
+      },
+      "Disability": {
+        "count": 1,
+        "pct": 0.73
+      },
+      "Required Intervention": {
+        "count": 1,
+        "pct": 0.73
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 137
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 0,
+        "50_64": 4,
+        "65_79": 43,
+        "80_plus": 65,
+        "unknown": 25,
+        "median_age": 81.5,
+        "mean_age": 80.9,
+        "n_with_age": 112
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 3,
+      "total_reports": 137,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "One A Day Men's Health Formula": {
+    "canonical_display_name": "One A Day Men's Health Formula",
+    "normalized_key": "one a day men's health formula",
+    "type": "branded",
+    "brand_family": "One A Day",
+    "contamination_flag": "",
+    "total_reports": 125,
+    "total_reports_csv": 123,
+    "page_eligible": true,
+    "raw_strings": [
+      "ONE A DAY MEN'S HEALTH FORMULA (MULTIVITAMINS, MINERALS, LYCOPENE) FILM-COATED TABLET",
+      "ONE A DAY MEN'S HEALTH FORMULA",
+      "ONE A DAY MEN'S HEALTH FORMULA (MULTIVITAMINS,  MINERALS, LYCOPENE) FILM-COATED TABLET"
+    ],
+    "query_timestamp": "2026-06-03T06:22:07.883909Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 68,
+          "pct": 54.4
+        },
+        {
+          "term": "FOREIGN BODY TRAUMA",
+          "count": 28,
+          "pct": 22.4
+        },
+        {
+          "term": "DYSPHAGIA",
+          "count": 13,
+          "pct": 10.4
+        },
+        {
+          "term": "THROAT IRRITATION",
+          "count": 6,
+          "pct": 4.8
+        },
+        {
+          "term": "RETCHING",
+          "count": 6,
+          "pct": 4.8
+        },
+        {
+          "term": "Vomiting",
+          "count": 5,
+          "pct": 4.0
+        },
+        {
+          "term": "CHOKING SENSATION",
+          "count": 5,
+          "pct": 4.0
+        },
+        {
+          "term": "DYSPNOEA",
+          "count": 5,
+          "pct": 4.0
+        },
+        {
+          "term": "OROPHARYNGEAL PAIN",
+          "count": 4,
+          "pct": 3.2
+        },
+        {
+          "term": "PROSTATE CANCER",
+          "count": 4,
+          "pct": 3.2
+        },
+        {
+          "term": "REGURGITATION",
+          "count": 3,
+          "pct": 2.4
+        },
+        {
+          "term": "COUGH",
+          "count": 3,
+          "pct": 2.4
+        },
+        {
+          "term": "HAEMATOCHEZIA",
+          "count": 3,
+          "pct": 2.4
+        },
+        {
+          "term": "Nausea",
+          "count": 3,
+          "pct": 2.4
+        },
+        {
+          "term": "DIZZINESS",
+          "count": 3,
+          "pct": 2.4
+        },
+        {
+          "term": "HEADACHE",
+          "count": 3,
+          "pct": 2.4
+        },
+        {
+          "term": "PAIN",
+          "count": 3,
+          "pct": 2.4
+        },
+        {
+          "term": "PHARYNGEAL INFLAMMATION",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "PHARYNGITIS",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "SENSATION OF FOREIGN BODY",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "COELIAC DISEASE",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "FAECES DISCOLOURED",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "GASTRIC DISORDER",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "NEPHROLITHIASIS",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "BLOOD GLUCOSE INCREASED",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "CHEST DISCOMFORT",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "Foreign body in throat",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "RENAL PAIN",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "STOMACH DISCOMFORT",
+          "count": 2,
+          "pct": 1.6
+        },
+        {
+          "term": "Fatigue",
+          "count": 2,
+          "pct": 1.6
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 118,
+        "pct": 94.4
+      },
+      "Other Serious Outcome": {
+        "count": 19,
+        "pct": 15.2
+      },
+      "Visited a Health Care Provider": {
+        "count": 10,
+        "pct": 8.0
+      },
+      "Hospitalization": {
+        "count": 5,
+        "pct": 4.0
+      },
+      "Visited Emergency Room": {
+        "count": 3,
+        "pct": 2.4
+      },
+      "Life Threatening": {
+        "count": 2,
+        "pct": 1.6
+      },
+      "Death": {
+        "count": 1,
+        "pct": 0.8
+      },
+      "Disability": {
+        "count": 1,
+        "pct": 0.8
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 125
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 11,
+        "35_49": 22,
+        "50_64": 20,
+        "65_79": 24,
+        "80_plus": 8,
+        "unknown": 40,
+        "median_age": 57.0,
+        "mean_age": 57.1,
+        "n_with_age": 85
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 1,
+      "total_reports": 125,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Nutrafol Womens Balance Hair Growth Nutraceutical": {
+    "canonical_display_name": "Nutrafol Womens Balance Hair Growth Nutraceutical",
+    "normalized_key": "nutrafol womens balance hair growth nutraceutical",
+    "type": "branded",
+    "brand_family": "Nutrafol",
+    "contamination_flag": "",
+    "total_reports": 122,
+    "total_reports_csv": 122,
+    "page_eligible": true,
+    "raw_strings": [
+      "NUTRAFOL WOMENS BALANCE HAIR GROWTH NUTRACEUTICAL"
+    ],
+    "query_timestamp": "2026-06-03T06:22:20.763860Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Hospitalisation",
+          "count": 27,
+          "pct": 22.13
+        },
+        {
+          "term": "Emergency care",
+          "count": 26,
+          "pct": 21.31
+        },
+        {
+          "term": "Nausea",
+          "count": 16,
+          "pct": 13.11
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 14,
+          "pct": 11.48
+        },
+        {
+          "term": "Hepatic enzyme increased",
+          "count": 13,
+          "pct": 10.66
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 12,
+          "pct": 9.84
+        },
+        {
+          "term": "Hypersensitivity",
+          "count": 12,
+          "pct": 9.84
+        },
+        {
+          "term": "Palpitations",
+          "count": 10,
+          "pct": 8.2
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "count": 9,
+          "pct": 7.38
+        },
+        {
+          "term": "Fatigue",
+          "count": 9,
+          "pct": 7.38
+        },
+        {
+          "term": "Abdominal pain",
+          "count": 8,
+          "pct": 6.56
+        },
+        {
+          "term": "Diverticulitis",
+          "count": 8,
+          "pct": 6.56
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "count": 7,
+          "pct": 5.74
+        },
+        {
+          "term": "Atrial fibrillation",
+          "count": 7,
+          "pct": 5.74
+        },
+        {
+          "term": "Dizziness",
+          "count": 7,
+          "pct": 5.74
+        },
+        {
+          "term": "Headache",
+          "count": 7,
+          "pct": 5.74
+        },
+        {
+          "term": "Heart rate increased",
+          "count": 7,
+          "pct": 5.74
+        },
+        {
+          "term": "Nephrolithiasis",
+          "count": 7,
+          "pct": 5.74
+        },
+        {
+          "term": "Urticaria",
+          "count": 7,
+          "pct": 5.74
+        },
+        {
+          "term": "Vomiting",
+          "count": 7,
+          "pct": 5.74
+        },
+        {
+          "term": "Pain",
+          "count": 6,
+          "pct": 4.92
+        },
+        {
+          "term": "Abdominal distension",
+          "count": 5,
+          "pct": 4.1
+        },
+        {
+          "term": "Asthenia",
+          "count": 5,
+          "pct": 4.1
+        },
+        {
+          "term": "Dehydration",
+          "count": 5,
+          "pct": 4.1
+        },
+        {
+          "term": "Liver disorder",
+          "count": 5,
+          "pct": 4.1
+        },
+        {
+          "term": "Malaise",
+          "count": 5,
+          "pct": 4.1
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 4,
+          "pct": 3.28
+        },
+        {
+          "term": "Chills",
+          "count": 4,
+          "pct": 3.28
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 4,
+          "pct": 3.28
+        },
+        {
+          "term": "Gastrointestinal disorder",
+          "count": 4,
+          "pct": 3.28
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 111,
+        "pct": 90.98
+      },
+      "Hospitalization": {
+        "count": 41,
+        "pct": 33.61
+      },
+      "Visited Emergency Room": {
+        "count": 34,
+        "pct": 27.87
+      },
+      "Visited a Health Care Provider": {
+        "count": 14,
+        "pct": 11.48
+      },
+      "Other Serious Outcome": {
+        "count": 11,
+        "pct": 9.02
+      },
+      "Allergic Reaction": {
+        "count": 9,
+        "pct": 7.38
+      },
+      "Life Threatening": {
+        "count": 2,
+        "pct": 1.64
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 122
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 7,
+        "50_64": 25,
+        "65_79": 23,
+        "80_plus": 7,
+        "unknown": 60,
+        "median_age": 64.0,
+        "mean_age": 64.2,
+        "n_with_age": 62
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 0,
+      "total_reports": 122,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Benefiber W Wheat Dextrin": {
+    "canonical_display_name": "Benefiber W Wheat Dextrin",
+    "normalized_key": "benefiber w wheat dextrin",
+    "type": "branded",
+    "brand_family": "Benefiber",
+    "contamination_flag": "",
+    "total_reports": 118,
+    "total_reports_csv": 118,
+    "page_eligible": true,
+    "raw_strings": [
+      "BENEFIBER W WHEAT DEXTRIN (NCH) (WHEAT DEXTRIN) POWDER"
+    ],
+    "query_timestamp": "2026-06-03T06:22:33.646758Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "DIARRHOEA",
+          "count": 15,
+          "pct": 12.71
+        },
+        {
+          "term": "MALAISE",
+          "count": 11,
+          "pct": 9.32
+        },
+        {
+          "term": "CONSTIPATION",
+          "count": 10,
+          "pct": 8.47
+        },
+        {
+          "term": "FLATULENCE",
+          "count": 10,
+          "pct": 8.47
+        },
+        {
+          "term": "NAUSEA",
+          "count": 7,
+          "pct": 5.93
+        },
+        {
+          "term": "OVERDOSE",
+          "count": 7,
+          "pct": 5.93
+        },
+        {
+          "term": "ABDOMINAL PAIN UPPER",
+          "count": 6,
+          "pct": 5.08
+        },
+        {
+          "term": "FALL",
+          "count": 6,
+          "pct": 5.08
+        },
+        {
+          "term": "CONDITION AGGRAVATED",
+          "count": 5,
+          "pct": 4.24
+        },
+        {
+          "term": "HAEMORRHOIDS",
+          "count": 5,
+          "pct": 4.24
+        },
+        {
+          "term": "ABDOMINAL DISCOMFORT",
+          "count": 4,
+          "pct": 3.39
+        },
+        {
+          "term": "ABDOMINAL DISTENSION",
+          "count": 4,
+          "pct": 3.39
+        },
+        {
+          "term": "ATRIAL FIBRILLATION",
+          "count": 4,
+          "pct": 3.39
+        },
+        {
+          "term": "BOWEL MOVEMENT IRREGULARITY",
+          "count": 4,
+          "pct": 3.39
+        },
+        {
+          "term": "DIVERTICULITIS",
+          "count": 4,
+          "pct": 3.39
+        },
+        {
+          "term": "DRUG DEPENDENCE",
+          "count": 4,
+          "pct": 3.39
+        },
+        {
+          "term": "HEADACHE",
+          "count": 4,
+          "pct": 3.39
+        },
+        {
+          "term": "HYPERTENSION",
+          "count": 4,
+          "pct": 3.39
+        },
+        {
+          "term": "MUSCLE SPASMS",
+          "count": 4,
+          "pct": 3.39
+        },
+        {
+          "term": "UNDERDOSE",
+          "count": 4,
+          "pct": 3.39
+        },
+        {
+          "term": "ABDOMINAL PAIN",
+          "count": 3,
+          "pct": 2.54
+        },
+        {
+          "term": "ASTHMA",
+          "count": 3,
+          "pct": 2.54
+        },
+        {
+          "term": "BARRETT'S OESOPHAGUS",
+          "count": 3,
+          "pct": 2.54
+        },
+        {
+          "term": "BLOOD CHOLESTEROL INCREASED",
+          "count": 3,
+          "pct": 2.54
+        },
+        {
+          "term": "CEREBROVASCULAR ACCIDENT",
+          "count": 3,
+          "pct": 2.54
+        },
+        {
+          "term": "CONVULSION",
+          "count": 3,
+          "pct": 2.54
+        },
+        {
+          "term": "DECREASED APPETITE",
+          "count": 3,
+          "pct": 2.54
+        },
+        {
+          "term": "DEPRESSION",
+          "count": 3,
+          "pct": 2.54
+        },
+        {
+          "term": "DIZZINESS",
+          "count": 3,
+          "pct": 2.54
+        },
+        {
+          "term": "DYSPHAGIA",
+          "count": 3,
+          "pct": 2.54
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 108,
+        "pct": 91.53
+      },
+      "Hospitalization": {
+        "count": 19,
+        "pct": 16.1
+      },
+      "Visited a Health Care Provider": {
+        "count": 12,
+        "pct": 10.17
+      },
+      "Visited Emergency Room": {
+        "count": 5,
+        "pct": 4.24
+      },
+      "Death": {
+        "count": 2,
+        "pct": 1.69
+      },
+      "Disability": {
+        "count": 2,
+        "pct": 1.69
+      },
+      "Life Threatening": {
+        "count": 2,
+        "pct": 1.69
+      },
+      "Other Outcome": {
+        "count": 1,
+        "pct": 0.85
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 118
+      },
+      "age_bands": {
+        "under_18": 1,
+        "18_34": 3,
+        "35_49": 5,
+        "50_64": 20,
+        "65_79": 45,
+        "80_plus": 25,
+        "unknown": 19,
+        "median_age": 72.0,
+        "mean_age": 69.3,
+        "n_with_age": 99
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 2,
+      "total_reports": 118,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "All Day Energy Greens Fruity": {
+    "canonical_display_name": "All Day Energy Greens Fruity",
+    "normalized_key": "all day energy greens fruity",
+    "type": "branded",
+    "brand_family": "All Day Energy Greens",
+    "contamination_flag": "",
+    "total_reports": 114,
+    "total_reports_csv": 114,
+    "page_eligible": true,
+    "raw_strings": [
+      "ALL DAY ENERGY GREENS FRUITY"
+    ],
+    "query_timestamp": "2026-06-03T06:22:46.589323Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "DIARRHOEA",
+          "count": 22,
+          "pct": 19.3
+        },
+        {
+          "term": "VOMITING",
+          "count": 16,
+          "pct": 14.04
+        },
+        {
+          "term": "GASTROINTESTINAL DISORDER",
+          "count": 14,
+          "pct": 12.28
+        },
+        {
+          "term": "ABDOMINAL PAIN UPPER",
+          "count": 12,
+          "pct": 10.53
+        },
+        {
+          "term": "FLATULENCE",
+          "count": 12,
+          "pct": 10.53
+        },
+        {
+          "term": "GASTRIC DISORDER",
+          "count": 12,
+          "pct": 10.53
+        },
+        {
+          "term": "ABDOMINAL DISTENSION",
+          "count": 8,
+          "pct": 7.02
+        },
+        {
+          "term": "DEHYDRATION",
+          "count": 8,
+          "pct": 7.02
+        },
+        {
+          "term": "HOSPITALISATION",
+          "count": 7,
+          "pct": 6.14
+        },
+        {
+          "term": "NAUSEA",
+          "count": 7,
+          "pct": 6.14
+        },
+        {
+          "term": "PAIN",
+          "count": 7,
+          "pct": 6.14
+        },
+        {
+          "term": "CONSTIPATION",
+          "count": 6,
+          "pct": 5.26
+        },
+        {
+          "term": "DIVERTICULITIS",
+          "count": 6,
+          "pct": 5.26
+        },
+        {
+          "term": "ABDOMINAL PAIN",
+          "count": 5,
+          "pct": 4.39
+        },
+        {
+          "term": "BACK PAIN",
+          "count": 5,
+          "pct": 4.39
+        },
+        {
+          "term": "COMPUTERISED TOMOGRAM ABNORMAL",
+          "count": 5,
+          "pct": 4.39
+        },
+        {
+          "term": "DIZZINESS",
+          "count": 5,
+          "pct": 4.39
+        },
+        {
+          "term": "ERUCTATION",
+          "count": 4,
+          "pct": 3.51
+        },
+        {
+          "term": "HAEMATOCHEZIA",
+          "count": 4,
+          "pct": 3.51
+        },
+        {
+          "term": "HEADACHE",
+          "count": 4,
+          "pct": 3.51
+        },
+        {
+          "term": "ABDOMINAL DISCOMFORT",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "ASTHENIA",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "BLOOD GLUCOSE INCREASED",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "BLOOD PRESSURE INCREASED",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "CARDIAC DISORDER",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "CHEST PAIN",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "CONFUSIONAL STATE",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "DIARRHOEA HAEMORRHAGIC",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "INSOMNIA",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "MALAISE",
+          "count": 3,
+          "pct": 2.63
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 76,
+        "pct": 66.67
+      },
+      "Hospitalization": {
+        "count": 64,
+        "pct": 56.14
+      },
+      "Visited Emergency Room": {
+        "count": 41,
+        "pct": 35.96
+      },
+      "Visited a Health Care Provider": {
+        "count": 27,
+        "pct": 23.68
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 114
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 1,
+        "35_49": 0,
+        "50_64": 7,
+        "65_79": 16,
+        "80_plus": 14,
+        "unknown": 76,
+        "median_age": 74.5,
+        "mean_age": 73.8,
+        "n_with_age": 38
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 0,
+      "total_reports": 114,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Centrum Silver Women 50+": {
+    "canonical_display_name": "Centrum Silver Women 50+",
+    "normalized_key": "centrum silver women 50+",
+    "type": "branded",
+    "brand_family": "Centrum Silver",
+    "contamination_flag": "",
+    "total_reports": 114,
+    "total_reports_csv": 114,
+    "page_eligible": true,
+    "raw_strings": [
+      "CENTRUM SILVER WOMEN 50+",
+      "CENTRUM SILVER WOMEN 50 PLUS"
+    ],
+    "query_timestamp": "2026-06-03T06:23:08.572630Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Choking",
+          "count": 41,
+          "pct": 35.96
+        },
+        {
+          "term": "Dysphagia",
+          "count": 23,
+          "pct": 20.18
+        },
+        {
+          "term": "Foreign body in throat",
+          "count": 21,
+          "pct": 18.42
+        },
+        {
+          "term": "Foreign body",
+          "count": 9,
+          "pct": 7.89
+        },
+        {
+          "term": "Malaise",
+          "count": 5,
+          "pct": 4.39
+        },
+        {
+          "term": "Abdominal pain upper",
+          "count": 5,
+          "pct": 4.39
+        },
+        {
+          "term": "Vomiting",
+          "count": 5,
+          "pct": 4.39
+        },
+        {
+          "term": "Nausea",
+          "count": 4,
+          "pct": 3.51
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 4,
+          "pct": 3.51
+        },
+        {
+          "term": "Coeliac disease",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "Discomfort",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "Dyspepsia",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "Fatigue",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "Hypersensitivity",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "Retching",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "Breast cancer",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "Neoplasm malignant",
+          "count": 3,
+          "pct": 2.63
+        },
+        {
+          "term": "Blood potassium decreased",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Choking sensation",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Constipation",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Cough",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Diverticulitis",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Dizziness",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Dysgeusia",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Feeling abnormal",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Heart rate irregular",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Pruritus",
+          "count": 2,
+          "pct": 1.75
+        },
+        {
+          "term": "Urticaria",
+          "count": 2,
+          "pct": 1.75
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 94,
+        "pct": 82.46
+      },
+      "Hospitalization": {
+        "count": 13,
+        "pct": 11.4
+      },
+      "Visited a Health Care Provider": {
+        "count": 9,
+        "pct": 7.89
+      },
+      "Other Outcome": {
+        "count": 7,
+        "pct": 6.14
+      },
+      "Visited Emergency Room": {
+        "count": 4,
+        "pct": 3.51
+      },
+      "Death": {
+        "count": 1,
+        "pct": 0.88
+      },
+      "Life Threatening": {
+        "count": 1,
+        "pct": 0.88
+      },
+      "Other Serious Outcome": {
+        "count": 1,
+        "pct": 0.88
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 114
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 0,
+        "50_64": 11,
+        "65_79": 27,
+        "80_plus": 21,
+        "unknown": 55,
+        "median_age": 75.0,
+        "mean_age": 74.0,
+        "n_with_age": 59
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 1,
+      "total_reports": 114,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Triple Action Virility": {
+    "canonical_display_name": "Triple Action Virility",
+    "normalized_key": "triple action virility",
+    "type": "branded",
+    "brand_family": "",
+    "contamination_flag": "",
+    "total_reports": 101,
+    "total_reports_csv": 101,
+    "page_eligible": true,
+    "raw_strings": [
+      "TRIPLE ACTION VIRILITY"
+    ],
+    "query_timestamp": "2026-06-03T06:23:21.493893Z",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "BLOOD URINE PRESENT",
+          "count": 17,
+          "pct": 16.83
+        },
+        {
+          "term": "HAEMORRHAGE",
+          "count": 14,
+          "pct": 13.86
+        },
+        {
+          "term": "HAEMATOCHEZIA",
+          "count": 10,
+          "pct": 9.9
+        },
+        {
+          "term": "BLOOD PRESSURE INCREASED",
+          "count": 9,
+          "pct": 8.91
+        },
+        {
+          "term": "CEREBROVASCULAR ACCIDENT",
+          "count": 9,
+          "pct": 8.91
+        },
+        {
+          "term": "DIZZINESS",
+          "count": 8,
+          "pct": 7.92
+        },
+        {
+          "term": "HOSPITALISATION",
+          "count": 4,
+          "pct": 3.96
+        },
+        {
+          "term": "PAIN",
+          "count": 4,
+          "pct": 3.96
+        },
+        {
+          "term": "Myocardial infarction",
+          "count": 4,
+          "pct": 3.96
+        },
+        {
+          "term": "CARDIAC DISORDER",
+          "count": 3,
+          "pct": 2.97
+        },
+        {
+          "term": "HEADACHE",
+          "count": 3,
+          "pct": 2.97
+        },
+        {
+          "term": "RECTAL HAEMORRHAGE",
+          "count": 3,
+          "pct": 2.97
+        },
+        {
+          "term": "URINARY TRACT INFECTION",
+          "count": 3,
+          "pct": 2.97
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 3,
+          "pct": 2.97
+        },
+        {
+          "term": "ABDOMINAL PAIN UPPER",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "BLOOD GLUCOSE INCREASED",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "BURNING SENSATION",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "CHOKING",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "DIABETES MELLITUS",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "DYSURIA",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "GASTRIC HAEMORRHAGE",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "HAEMATEMESIS",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "HAEMOPTYSIS",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "HEART RATE INCREASED",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "HYPERHIDROSIS",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "HYPOAESTHESIA",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "INFECTION",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "LOCAL SWELLING",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "LOSS OF CONSCIOUSNESS",
+          "count": 2,
+          "pct": 1.98
+        },
+        {
+          "term": "MALAISE",
+          "count": 2,
+          "pct": 1.98
+        }
+      ],
+      "note": "Top 30; case-normalised across raw string variants"
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 83,
+        "pct": 82.18
+      },
+      "Hospitalization": {
+        "count": 37,
+        "pct": 36.63
+      },
+      "Visited a Health Care Provider": {
+        "count": 17,
+        "pct": 16.83
+      },
+      "Visited Emergency Room": {
+        "count": 12,
+        "pct": 11.88
+      },
+      "Life Threatening": {
+        "count": 7,
+        "pct": 6.93
+      },
+      "Other Serious Outcome": {
+        "count": 1,
+        "pct": 0.99
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Unknown/Not Reported": 101
+      },
+      "age_bands": {
+        "under_18": 0,
+        "18_34": 0,
+        "35_49": 4,
+        "50_64": 24,
+        "65_79": 17,
+        "80_plus": 3,
+        "unknown": 53,
+        "median_age": 62.0,
+        "mean_age": 63.4,
+        "n_with_age": 48
+      },
+      "age_note": "Up to 300 records sampled for age"
+    },
+    "yearly_trend": {
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 0,
+      "total_reports": 101,
+      "deaths_lte_total_reports": true,
+      "note": "Multi-raw-string products may slightly over-count if a single FDA report lists two merged variants as distinct products"
+    }
+  },
+  "Centrum Silver Womens 50+": {
+    "canonical_display_name": "Centrum Silver Womens 50+",
+    "normalized_key": "centrum silver womens 50+",
+    "type": "branded",
+    "brand_family": "Centrum Silver",
+    "total_reports": 172,
+    "total_reports_csv": 172,
+    "page_eligible": true,
+    "raw_strings": [
+      "CENTRUM SILVER WOMENS 50+ MULTIMINERALS MULTIVITAMIN",
+      "CENTRUM SILVER WOMENS 50+ (MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER WOMENS 50+ MULTIMINERALS MULTIVITAMIN TABLET",
+      "CENTRUM SILVER WOMENS 50+ (MULTIMINERALS MULTIVITAMINS) TABLET"
+    ],
+    "query_note": "FETCH SKIPPED: openFDA exact-field search cannot handle + in brand name. Page should pull live data via non-exact search at render time. Also: raw strings contain cp1252 apostrophe (\u0092) not caught by current normalizer.",
+    "reactions": null,
+    "outcomes": null,
+    "demographics": null,
+    "yearly_trend": null,
+    "sanity_checks": {
+      "deaths_lte_total_reports": null,
+      "note": "not fetched"
+    }
+  }
+}

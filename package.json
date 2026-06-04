@@ -1,0 +1,13 @@
+{
+  "name": "supplementsignal",
+  "version": "1.0.0",
+  "description": "FDA dietary supplement adverse event data — consumer-facing static site",
+  "scripts": {
+    "generate": "node scripts/generate-pages.js",
+    "index": "npx pagefind --site docs",
+    "build": "node scripts/generate-pages.js && npx pagefind --site docs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
