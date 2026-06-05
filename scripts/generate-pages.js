@@ -1451,7 +1451,7 @@ function renderSearchPage() {
       </div>
       <div class="search-wrap">
         <div id="search"></div>
-        <p class="pf-hint">Search is powered by <a href="https://pagefind.app" target="_blank" rel="noopener">Pagefind</a> — results are indexed from the full text of every product page.</p>
+        <p class="pf-hint">Search is powered by <a href="https://pagefind.app" target="_blank" rel="noopener noreferrer">Pagefind</a> — results are indexed from the full text of every product page.</p>
       </div>
     </div>
   </main>
