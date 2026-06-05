@@ -1059,7 +1059,7 @@ function renderPrivacyPage() {
     <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
       <div class="product-hero" style="margin-bottom:1.5rem">
         <h1 style="font-size:clamp(1.5rem,3vw,2rem)">Privacy Policy</h1>
-        <p class="product-meta">Effective ${TODO('[EFFECTIVE DATE]')}</p>
+        <p class="product-meta">Effective June 4, 2026</p>
       </div>
       <div class="card meth-body">
         <p>This Privacy Policy explains how SupplementFiles ("we," "us") handles information when you visit supplementfiles.com.</p>
@@ -1079,7 +1079,7 @@ function renderPrivacyPage() {
         <p>If you are in the European Economic Area, the United Kingdom, or Switzerland, we request your consent for non-essential (analytics) cookies through a consent banner when you arrive, and you can change your choices at any time.</p>
 
         <h2>Your rights</h2>
-        <p>Depending on where you live, you may have rights to access, correct, or delete your personal information, and to object to or restrict certain processing (under the EU/UK GDPR), or to know about and delete personal information (under the California CCPA/CPRA). We do not sell your personal information. To exercise any right, contact us at ${TODO('[CONTACT EMAIL]')}.</p>
+        <p>Depending on where you live, you may have rights to access, correct, or delete your personal information, and to object to or restrict certain processing (under the EU/UK GDPR), or to know about and delete personal information (under the California CCPA/CPRA). We do not sell your personal information. To exercise any right, contact us at <a href="mailto:hello@supplementfiles.com">hello@supplementfiles.com</a>.</p>
 
         <h2>Children's privacy</h2>
         <p>This site is not directed to children under 13, and we do not knowingly collect personal information from them.</p>
@@ -1088,7 +1088,7 @@ function renderPrivacyPage() {
         <p>We may update this policy; the effective date above reflects the latest version.</p>
 
         <h2>Contact</h2>
-        <p>Questions about this policy: ${TODO('[CONTACT EMAIL]')}.</p>
+        <p>Questions about this policy: <a href="mailto:hello@supplementfiles.com">hello@supplementfiles.com</a>.</p>
       </div>
     </div>
   </main>`;
@@ -1107,7 +1107,7 @@ function renderTermsPage() {
     <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
       <div class="product-hero" style="margin-bottom:1.5rem">
         <h1 style="font-size:clamp(1.5rem,3vw,2rem)">Terms of Use &amp; Disclaimer</h1>
-        <p class="product-meta">Effective ${TODO('[EFFECTIVE DATE]')}</p>
+        <p class="product-meta">Effective June 4, 2026</p>
       </div>
       <div class="card meth-body">
         <p>By using supplementfiles.com, you agree to these terms. If you do not agree, please do not use the site.</p>
@@ -1133,14 +1133,11 @@ function renderTermsPage() {
         <h2>Third-party links</h2>
         <p>The site may contain links to third-party sites, which we do not control and are not responsible for.</p>
 
-        <h2>Governing law</h2>
-        <p>These terms are governed by the laws of ${TODO('[STATE/COUNTRY]')}, without regard to conflict-of-laws principles.</p>
-
         <h2>Changes</h2>
         <p>We may update these terms; the effective date above reflects the latest version.</p>
 
         <h2>Contact</h2>
-        <p>Questions about these terms: ${TODO('[CONTACT EMAIL]')}.</p>
+        <p>Questions about these terms: <a href="mailto:hello@supplementfiles.com">hello@supplementfiles.com</a>.</p>
       </div>
     </div>
   </main>`;
@@ -1164,10 +1161,10 @@ function renderContactPage() {
         <p>SupplementFiles is an independent resource, and we want the information here to be accurate and fair.</p>
 
         <h2>General questions</h2>
-        <p>${TODO('[CONTACT EMAIL]')}</p>
+        <p><a href="mailto:hello@supplementfiles.com">hello@supplementfiles.com</a></p>
 
         <h2>Corrections and right-of-reply</h2>
-        <p>If you are a manufacturer or a member of the public and believe something on the site is inaccurate or presented misleadingly, email us at ${TODO('[CONTACT EMAIL]')} with the product and the specific concern, and we'll review it promptly.</p>
+        <p>If you are a manufacturer or a member of the public and believe something on the site is inaccurate or presented misleadingly, email us at <a href="mailto:hello@supplementfiles.com">hello@supplementfiles.com</a> with the product and the specific concern, and we'll review it promptly.</p>
 
         <h2>Medical emergencies and adverse event reporting</h2>
         <p><strong>We cannot help with medical emergencies or personal health questions.</strong> If you are experiencing a medical problem, contact a healthcare professional.</p>
