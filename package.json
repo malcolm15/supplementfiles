@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "FDA dietary supplement adverse event data — consumer-facing static site",
   "scripts": {
+    "assets": "node scripts/generate-assets.js",
     "generate": "node scripts/generate-pages.js",
     "index": "npx pagefind --site docs",
-    "build": "node scripts/generate-pages.js && npx pagefind --site docs"
+    "build": "node scripts/generate-assets.js && node scripts/generate-pages.js && npx pagefind --site docs"
   },
   "engines": {
     "node": ">=18"
   },
   "devDependencies": {
-    "pagefind": "^1.5.2"
+    "pagefind": "^1.5.2",
+    "sharp": "^0.34.5"
   }
 }

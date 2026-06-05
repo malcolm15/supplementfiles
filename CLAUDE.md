@@ -77,7 +77,7 @@ not to page titles. Do not strip "side effects" from titles.
   industry category.
 - **Data store:** local bulk CAERS file committed to the repo (no external DB). Deliberate —
   fixes `+`/encoding query bugs and keeps builds offline-stable.
-- **Build:** Node.js — `node scripts/generate-pages.js && npx pagefind --site docs`.
+- **Build:** Node.js — `npm run build` (expands to: `node scripts/generate-assets.js && node scripts/generate-pages.js && npx pagefind --site docs`). Run `generate-assets.js` first so favicons exist before pages are written.
 - **Search:** Pagefind (static index over `docs/`).
 - **Frontend:** static HTML/CSS/JS — no SPA, no client-side rendering of main content. Every
   page must be fully readable by crawlers without executing JS.
@@ -151,8 +151,10 @@ bidirectional links to relevant products + methodology + related guides.
 
 ## Deployment
 
-- Commit and push to `main`; Cloudflare Pages auto-builds
-  (`node scripts/generate-pages.js && npx pagefind --site docs`, output `docs/`).
+- Commit and push to `main`; Cloudflare Pages auto-builds via `npm run build`
+  (assets → pages → Pagefind index, output `docs/`).
+  **Note:** if the Cloudflare dashboard still has the old explicit command, update it to
+  `npm run build` so favicon generation is included in every deploy.
 - Update `sitemap.xml` for any page changes; rebuild before committing.
 - After deploy, verify new/updated pages in Google Search Console (and Bing).
 
