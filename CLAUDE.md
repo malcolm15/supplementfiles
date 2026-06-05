@@ -45,6 +45,16 @@ Non-negotiable. Apply to all code, copy, and content:
 encouraged; "supplement X is dangerous" (a judgment) is forbidden. Lead with findings from our
 own data; keep rules 2–4 fully intact inside editorial.
 
+**Naming a misconception to reject it is fine.** Framing like "the useful move isn't
+'supplements are dangerous' or 'supplements are fine'" is teaching, not a safety judgment —
+it is explicitly negating the framing, not endorsing it. Do not soften or remove these
+constructions.
+
+**"Side effects" is acceptable in SEO titles and meta descriptions** as the searcher's
+category term, provided a report-framing qualifier accompanies it (e.g. "Melatonin Side
+Effects: What the FDA's Reports Show"). The rule 2 causation ban applies to body-copy claims,
+not to page titles. Do not strip "side effects" from titles.
+
 ## Data Integrity Rules (non-negotiable)
 
 - **Reactions denylist:** exclude Death and outcome/administrative terms from reaction charts.
