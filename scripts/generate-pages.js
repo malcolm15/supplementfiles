@@ -157,6 +157,17 @@ const PRODUCT_CONTEXT_NOTES = {
   },
 };
 
+// ─── openFDA per-product query URL ───────────────────────────────────────────
+// Returns a direct API query link for exploring raw CAERS reports for a product.
+// Falls back to the API homepage if the name has fewer than 3 alphabetic chars.
+function openFdaProductUrl(name) {
+  if ((name.match(/[a-zA-Z]/g) || []).length < 3) {
+    return 'https://open.fda.gov/apis/food/event/';
+  }
+  return 'https://api.fda.gov/food/event.json?search=products.name_brand:%22'
+    + encodeURIComponent(name) + '%22&limit=100';
+}
+
 // ─── Utilities ────────────────────────────────────────────────────────────────
 function slug(s) {
   return String(s).toLowerCase()
@@ -496,7 +507,8 @@ function pageShell({ title, description, canonical, jsonLd, body }) {
   <script>
     /* Apply saved theme + banner-seen before first paint to prevent flash */
     (function(){
-      var t=localStorage.getItem('ss-theme')||'light';
+      var saved=localStorage.getItem('ss-theme');
+      var t=saved?saved:(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
       document.documentElement.setAttribute('data-theme',t);
       if(localStorage.getItem('ss-banner-seen'))
         document.documentElement.classList.add('banner-seen');
@@ -799,11 +811,8 @@ function renderProductPage(product, allProducts, slugMap) {
     <div class="card" id="source" data-pagefind-ignore>
       <h2>Data Source</h2>
       <p class="section-note">This page presents data from the FDA's CFSAN Adverse Event Reporting System (CAERS) via the openFDA API. Reports are voluntary and unverified. The FDA has not concluded that this product caused any reported event.</p>
-      <a href="https://open.fda.gov/apis/food/event/" target="_blank" rel="noopener noreferrer" style="font-size:.875rem;font-weight:600">View openFDA CAERS data ↗</a>
-      &nbsp;·&nbsp;
-      <a href="/methodology/" style="font-size:.875rem">About our methodology</a>
-      &nbsp;·&nbsp;
-      <a href="/guides/how-to-read-fda-adverse-event-reports/" style="font-size:.875rem">How to read this data</a>
+      <a href="${esc(openFdaProductUrl(name))}" target="_blank" rel="noopener noreferrer" style="font-size:.875rem;font-weight:600">Explore raw FDA reports for this product ↗</a>
+      <p class="section-note" style="margin-top:.5rem;margin-bottom:0">Raw query results may differ from page counts — this page applies name normalization across product variants. <a href="/methodology/" style="font-size:.8rem">About our methodology</a> · <a href="/guides/how-to-read-fda-adverse-event-reports/" style="font-size:.8rem">How to read this data</a></p>
     </div>
   </main>`;
 
@@ -1547,6 +1556,10 @@ function renderHowToReadGuide() {
         <p class="article-byline">By SupplementFiles · ${PUB_DATE}</p>
       </div>
 
+      <div class="caveat-band" data-pagefind-ignore>
+        All data cited in this guide comes from the FDA's voluntary adverse event reporting system (CAERS). A report does not mean a supplement caused the effect. Counts reflect reporting activity, not how common any effect is.
+      </div>
+
       <div class="article-body">
         <p class="article-lede">When we started pulling apart the FDA's supplement adverse-event data — more than 54,000 reports — we expected the most common complaint to be something dramatic. A liver problem, maybe, or a racing heart. It wasn't. The single most-reported reaction, by a wide margin, was <strong>choking</strong>. People struggling to swallow large pills, mostly older adults and kids. It's the kind of thing that never makes a headline, and it tells you something important about how to read this data: it rarely says what you assume it says.</p>
         <p>So before you read a number on one of our product pages and draw a conclusion, here's how to read it the way it actually deserves — carefully, and without scaring yourself over something the data can't support.</p>
@@ -1638,6 +1651,10 @@ function renderAreSupplementsSafeGuide() {
         <p class="article-byline">By SupplementFiles · ${PUB_DATE}</p>
       </div>
 
+      <div class="caveat-band" data-pagefind-ignore>
+        All data cited in this guide comes from the FDA's voluntary adverse event reporting system (CAERS). A report does not mean a supplement caused the effect. Counts reflect reporting activity, not how common any effect is.
+      </div>
+
       <div class="article-body">
         <p class="article-lede">Americans spend tens of billions of dollars a year on dietary supplements, and most of us take them on a quiet assumption: that "natural" means "safe," and that anything sold on a pharmacy shelf has been vetted. We went through the full set of dietary-supplement adverse-event reports in the FDA's public database — more than 54,000 of them — and sorted every one by product.</p>
         <p>A caveat has to come first, because it shapes everything below: this data cannot tell you how <em>risky</em> supplements are. These are reports of problems people experienced while using a product, not verified findings that the product caused anything, and the count of reports reflects how much something gets <em>reported</em> — driven by popularity, lawsuits, and news — not how often it actually happens. (We wrote a <a href="/guides/how-to-read-fda-adverse-event-reports/">separate guide on reading these reports without being misled</a>.) What the data <em>can</em> do is show you what tens of thousands of people actually reported. And the picture is both more reassuring and more pointed than "natural equals safe."</p>
@@ -1724,6 +1741,10 @@ function renderMelatoninGuide() {
         <p class="article-byline">By SupplementFiles · ${PUB_DATE}</p>
       </div>
 
+      <div class="caveat-band" data-pagefind-ignore>
+        All data cited in this guide comes from the FDA's voluntary adverse event reporting system (CAERS). A report does not mean a supplement caused the effect. Counts reflect reporting activity, not how common any effect is.
+      </div>
+
       <div class="article-body">
         <p class="article-lede">Among the most frequently reported problems people send the FDA about melatonin is one that stops you short: <strong>insomnia.</strong> The exact thing it's sold to fix turns up as the sixth most-common reaction in the reports. We found that going through all 652 melatonin adverse-event reports in the FDA's database, and it previews the larger point — melatonin isn't quite the uniformly gentle, harmless-if-it-doesn't-work supplement its "natural sleep aid" reputation suggests.</p>
         <p>The usual caveat has to come first, because it governs everything below: these are reports of problems people experienced while taking melatonin, not proof it caused them, and the counts reflect how often something gets <em>reported</em>, not your personal odds. (We have a <a href="/guides/how-to-read-fda-adverse-event-reports/">separate guide on reading these reports without being misled</a>.) With that in mind, here's what 652 reports actually show.</p>
@@ -1807,6 +1828,10 @@ function renderHowToReportGuide() {
         <span class="cat-pill">Guide</span>
         <h1 data-pagefind-meta="title" style="font-size:clamp(1.5rem,3.5vw,2.1rem)">How to Report a Supplement Problem to the FDA</h1>
         <p class="article-byline">By SupplementFiles · ${PUB_DATE}</p>
+      </div>
+
+      <div class="caveat-band" data-pagefind-ignore>
+        All data cited in this guide comes from the FDA's voluntary adverse event reporting system (CAERS). A report does not mean a supplement caused the effect. Counts reflect reporting activity, not how common any effect is.
       </div>
 
       <div class="article-body">
