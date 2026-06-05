@@ -1501,6 +1501,7 @@ function generateSitemap(productSlugs, hubSlugs) {
     { loc: `${BASE_URL}/guides/how-to-read-fda-adverse-event-reports/`,      priority: '0.8', freq: 'monthly' },
     { loc: `${BASE_URL}/guides/are-supplements-safe-what-fda-reports-show/`, priority: '0.8', freq: 'monthly' },
     { loc: `${BASE_URL}/guides/melatonin-side-effects-fda-reports/`,         priority: '0.8', freq: 'monthly' },
+    { loc: `${BASE_URL}/guides/how-to-report-supplement-problem-fda/`,      priority: '0.8', freq: 'monthly' },
     ...productSlugs.map(s => ({ loc: `${BASE_URL}/supplements/${s}/`, priority: '0.8', freq: 'monthly' })),
     ...hubSlugs.map(s    => ({ loc: `${BASE_URL}/supplements/${s}/`, priority: '0.7', freq: 'monthly' })),
   ];
@@ -1574,7 +1575,7 @@ function renderHowToReadGuide() {
 
         <h2>What to do with any of this</h2>
         <p>Think of a product page as the start of a conversation, not the end of one.</p>
-        <p>If something here worries you about a supplement you take, bring it to a doctor or pharmacist — someone who can weigh it against your real health, your other medications, and the broader evidence. This site is information, not medical advice, and a single alarming-looking count is exactly the thing you now know not to panic over. And if <em>you've</em> had a problem with a supplement, report it to the FDA through the Safety Reporting Portal or MedWatch. Every page on this site exists because people did exactly that.</p>
+        <p>If something here worries you about a supplement you take, bring it to a doctor or pharmacist — someone who can weigh it against your real health, your other medications, and the broader evidence. This site is information, not medical advice, and a single alarming-looking count is exactly the thing you now know not to panic over. And if <em>you've</em> had a problem with a supplement, report it to the FDA through the <a href="https://www.safetyreporting.hhs.gov" target="_blank" rel="noopener noreferrer">Safety Reporting Portal</a> (safetyreporting.hhs.gov) — the dedicated food-and-supplement channel. Every page on this site exists because people did exactly that.</p>
         <p>Read counts as reports, not rates. Read reactions as "reported," not "caused." Read a spike as an event, not a trend. Do that, and this becomes what it should be — one honest input into a decision you make with a professional, and never a substitute for one.</p>
       </div>
 
@@ -1587,7 +1588,10 @@ function renderHowToReadGuide() {
           <a href="/supplements/5-hour-energy/">5-Hour Energy — 129 reports</a>
         </div>
         <p style="margin-top:.875rem;font-size:.875rem;color:var(--muted)">
-          Also in this series: <a href="/guides/are-supplements-safe-what-fda-reports-show/" style="font-weight:500;color:var(--primary)">Are Supplements Safe? What 54,000 FDA Reports Actually Show →</a>
+          Also in this series:
+          <a href="/guides/are-supplements-safe-what-fda-reports-show/" style="font-weight:500;color:var(--primary)">Are Supplements Safe? What 54,000 FDA Reports Actually Show →</a>
+          &nbsp;·&nbsp;
+          <a href="/guides/how-to-report-supplement-problem-fda/" style="font-weight:500;color:var(--primary)">How to Report a Supplement Problem to the FDA →</a>
         </p>
         <p style="margin-top:.5rem;font-size:.8rem;color:var(--muted)">
           For full data methodology: <a href="/methodology/">About the data</a>
@@ -1757,6 +1761,8 @@ function renderMelatoninGuide() {
           <a href="/guides/are-supplements-safe-what-fda-reports-show/" style="font-weight:500;color:var(--primary)">Are Supplements Safe? What 54,000 FDA Reports Actually Show →</a>
           &nbsp;·&nbsp;
           <a href="/guides/how-to-read-fda-adverse-event-reports/" style="font-weight:500;color:var(--primary)">How to Read FDA Adverse Event Reports →</a>
+          &nbsp;·&nbsp;
+          <a href="/guides/how-to-report-supplement-problem-fda/" style="font-weight:500;color:var(--primary)">How to Report a Supplement Problem to the FDA →</a>
         </p>
         <p style="margin-top:.5rem;font-size:.8rem;color:var(--muted)">
           For full data methodology: <a href="/methodology/">About the data</a>
@@ -1768,6 +1774,87 @@ function renderMelatoninGuide() {
   return pageShell({
     title: 'Melatonin Side Effects: What the FDA\'s Reports Actually Show — SupplementFiles',
     description: '652 FDA adverse-event reports for melatonin: insomnia appears at #6, hallucination at #14, and 49 reports involve children. What the data shows — and doesn\'t.',
+    canonical, jsonLd, body
+  });
+}
+
+// ─── Guide: How to Report a Supplement Problem to the FDA ─────────────────────
+function renderHowToReportGuide() {
+  const canonical = `${BASE_URL}/guides/how-to-report-supplement-problem-fda/`;
+  const PUB_DATE  = '2026-06-05';
+
+  const jsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: 'How to Report a Supplement Problem to the FDA',
+    description: 'How to file an adverse event report with the FDA when a dietary supplement causes a problem — why it matters, what to include, and where to go.',
+    url: canonical,
+    datePublished: PUB_DATE,
+    dateModified:  CURRENT_DATE,
+    author:    { '@type': 'Organization', name: 'SupplementFiles', url: BASE_URL },
+    publisher: { '@type': 'Organization', name: 'SupplementFiles', url: BASE_URL },
+    mainEntityOfPage: canonical
+  });
+
+  const body = `
+  <main data-pagefind-body>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <nav data-pagefind-ignore>
+        <p class="breadcrumb"><a href="/">SupplementFiles</a> › <a href="/guides/">Guides</a> › How to report a supplement problem</p>
+      </nav>
+
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <span class="cat-pill">Guide</span>
+        <h1 data-pagefind-meta="title" style="font-size:clamp(1.5rem,3.5vw,2.1rem)">How to Report a Supplement Problem to the FDA</h1>
+        <p class="article-byline">By SupplementFiles · ${PUB_DATE}</p>
+      </div>
+
+      <div class="article-body">
+        <p class="article-lede">Every page on this site is built from reports that ordinary people filed with the FDA. When you look up a supplement here and see what others experienced, you're reading the accumulated result of thousands of individuals taking a few minutes to say "this happened to me." If a supplement has ever caused a problem for you, you can add to that record — and it matters more than most people realize.</p>
+        <p>Here's why. The FDA doesn't approve dietary supplements for safety before they go on sale; in many cases it isn't even notified a product exists. That makes reports from consumers and clinicians one of the only early-warning signals the agency has for catching a genuinely unsafe product — and a single report can be enough to put one on its radar. Reporting is, quite literally, how the data on this site comes to exist.</p>
+
+        <h2>First, take care of the person</h2>
+        <p>If a supplement has caused a serious reaction, the report comes second. Stop taking the product, and get medical care or advice right away if the reaction is significant. Reporting matters, but it isn't the emergency step — your health is.</p>
+
+        <h2>Report through the FDA's Safety Reporting Portal</h2>
+        <p>For dietary supplements, the FDA's route for consumers is the <strong>Safety Reporting Portal</strong> at <a href="https://www.safetyreporting.hhs.gov" target="_blank" rel="noopener noreferrer">safetyreporting.hhs.gov</a>. You can log in or report as a guest, then start a new report as a private citizen submitting a voluntary report and walk through the form. This is the food-and-supplement channel — separate from MedWatch, which handles prescription drugs and medical devices — and the reports flow into CAERS, the same FDA database this site draws from.</p>
+        <p>If you can't use the online portal, the FDA's SmartHub page will direct you to the right form or phone number, or you can call 1-888-INFO-FDA (1-888-463-6332).</p>
+
+        <h2>Be specific — vague reports are weaker</h2>
+        <p>This is where a little effort pays off, and we can tell you from the data exactly why it matters. When we analyzed the <a href="/supplements/melatonin/">melatonin reports</a> in the FDA's database, nearly half had no brand name attached — just "melatonin." Reports like that still count, but they're far less useful, because the agency can't tie the problem to a specific product, manufacturer, or batch.</p>
+        <p>So when you report, include as much as you can:</p>
+        <ul style="padding-left:1.25rem;margin-bottom:1rem">
+          <li style="margin-bottom:.35rem">The exact product and brand name, as printed on the label.</li>
+          <li style="margin-bottom:.35rem">The lot or batch number, if you still have the bottle.</li>
+          <li style="margin-bottom:.35rem">What you took, how much, and for how long.</li>
+          <li style="margin-bottom:.35rem">What happened and when — symptoms, timing, any medical care you needed.</li>
+          <li style="margin-bottom:.35rem">Any other products or medications you were taking at the same time.</li>
+        </ul>
+        <p>You don't need to prove the supplement caused the problem — investigating that is the FDA's job. You only need to describe what happened as clearly as you can.</p>
+
+        <h2>You can also tell the manufacturer</h2>
+        <p>Supplement companies are legally required to forward the serious adverse event reports they receive on to the FDA, so contacting the manufacturer (using the information on the label) is a legitimate additional route. But reporting directly through the Safety Reporting Portal is the most reliable way to make sure your experience lands in the safety record.</p>
+
+        <h2>Why it's worth the ten minutes</h2>
+        <p>It's easy to assume someone else will report it, or that one experience can't matter. The entire system depends on people not assuming that. Every product page on this site — every reaction count, every pattern we've been able to surface — exists because individuals took the time. When you file a report, you become part of the signal that helps the FDA catch the next genuinely dangerous product before it reaches more people. For ten minutes of typing, that's not a small thing.</p>
+      </div>
+
+      <div class="guide-link-card" data-pagefind-ignore>
+        <h3>Related guides</h3>
+        <div class="link-list">
+          <a href="/guides/how-to-read-fda-adverse-event-reports/">How to Read FDA Adverse Event Reports for Supplements →</a>
+          <a href="/guides/are-supplements-safe-what-fda-reports-show/">Are Supplements Safe? What 54,000 FDA Reports Actually Show →</a>
+        </div>
+        <p style="margin-top:.875rem;font-size:.8rem;color:var(--muted)">
+          For full data methodology: <a href="/methodology/">About the data</a>
+        </p>
+      </div>
+    </div>
+  </main>`;
+
+  return pageShell({
+    title: 'How to Report a Supplement Problem to the FDA — SupplementFiles',
+    description: 'How to file a dietary supplement adverse event report with the FDA — why it matters, where to go (Safety Reporting Portal), and what to include to make your report count.',
     canonical, jsonLd, body
   });
 }
@@ -1796,6 +1883,11 @@ function renderGuidesIndex() {
           <div class="guide-card-meta">June 5, 2026</div>
           <h2><a href="/guides/melatonin-side-effects-fda-reports/">Melatonin Side Effects: What the FDA's Reports Actually Show</a></h2>
           <p class="guide-card-desc">652 FDA reports for melatonin — why insomnia appears at #6, what the pediatric signal says, and what hallucination in the top 20 tells you about a hormone sold as a sleep aid.</p>
+        </div>
+        <div class="guide-card">
+          <div class="guide-card-meta">June 5, 2026</div>
+          <h2><a href="/guides/how-to-report-supplement-problem-fda/">How to Report a Supplement Problem to the FDA</a></h2>
+          <p class="guide-card-desc">Why reporting matters, how to use the FDA's Safety Reporting Portal, and what details to include to make your report as useful as possible to the agency.</p>
         </div>
         <div class="guide-card">
           <div class="guide-card-meta">June 4, 2026</div>
@@ -1885,6 +1977,7 @@ function main() {
     ['how-to-read-fda-adverse-event-reports',        renderHowToReadGuide],
     ['are-supplements-safe-what-fda-reports-show',   renderAreSupplementsSafeGuide],
     ['melatonin-side-effects-fda-reports',           renderMelatoninGuide],
+    ['how-to-report-supplement-problem-fda',         renderHowToReportGuide],
   ];
   for (const [slug, fn] of GUIDE_ARTICLES) {
     ensure(path.join(OUT_DIR, 'guides', slug));
