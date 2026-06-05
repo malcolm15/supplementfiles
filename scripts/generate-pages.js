@@ -535,7 +535,7 @@ function pageShell({ title, description, canonical, jsonLd, body }) {
         <a href="/contact/">Contact</a>
       </div>
       <div class="footer-links" style="margin-top:.25rem">
-        <a href="https://open.fda.gov/food/event/" target="_blank" rel="noopener noreferrer">openFDA CAERS source ↗</a>
+        <a href="https://open.fda.gov/apis/food/event/" target="_blank" rel="noopener noreferrer">openFDA CAERS source ↗</a>
       </div>
       <p>Data from FDA's CFSAN Adverse Event Reporting System (CAERS). Reports are voluntary and unverified — they do not establish causation. Last updated ${FORMATTED_DATE}.</p>
       <p>SupplementFiles is not medical advice. Consult your healthcare provider before making any health decisions.</p>
@@ -696,7 +696,7 @@ function renderProductPage(product, allProducts, slugMap) {
     dateModified: CURRENT_DATE,
     distribution: [{
       '@type': 'DataDownload',
-      contentUrl: 'https://open.fda.gov/food/event/',
+      contentUrl: 'https://open.fda.gov/apis/food/event/',
       encodingFormat: 'application/json',
       name: 'openFDA CAERS'
     }],
@@ -790,7 +790,7 @@ function renderProductPage(product, allProducts, slugMap) {
     <div class="card" id="source" data-pagefind-ignore>
       <h2>Data Source</h2>
       <p class="section-note">This page presents data from the FDA's CFSAN Adverse Event Reporting System (CAERS) via the openFDA API. Reports are voluntary and unverified. The FDA has not concluded that this product caused any reported event.</p>
-      <a href="https://open.fda.gov/food/event/" target="_blank" rel="noopener noreferrer" style="font-size:.875rem;font-weight:600">View openFDA CAERS data ↗</a>
+      <a href="https://open.fda.gov/apis/food/event/" target="_blank" rel="noopener noreferrer" style="font-size:.875rem;font-weight:600">View openFDA CAERS data ↗</a>
       &nbsp;·&nbsp;
       <a href="/methodology/" style="font-size:.875rem">About our methodology</a>
       &nbsp;·&nbsp;
@@ -862,7 +862,7 @@ function renderHubPage(familyName, skus, slugMap) {
     <div class="card" id="source">
       <h2>Data Source</h2>
       <p class="section-note">Data from FDA's CFSAN Adverse Event Reporting System (CAERS). Reports are voluntary submissions — they do not establish that any product caused any event.</p>
-      <a href="https://open.fda.gov/food/event/" target="_blank" rel="noopener noreferrer" style="font-size:.875rem;font-weight:600">View openFDA CAERS source ↗</a>
+      <a href="https://open.fda.gov/apis/food/event/" target="_blank" rel="noopener noreferrer" style="font-size:.875rem;font-weight:600">View openFDA CAERS source ↗</a>
       &nbsp;·&nbsp;
       <a href="/methodology/" style="font-size:.875rem">About our methodology</a>
     </div>
@@ -1257,7 +1257,7 @@ function renderHomepage(allProducts, slugMap) {
         <h2>What this data is — and isn't</h2>
         <p>All data comes from the FDA's CFSAN Adverse Event Reporting System (CAERS) — voluntary reports submitted by consumers, healthcare providers, and manufacturers. <strong>A report does not mean the product caused the effect.</strong> Report counts reflect reporting activity, not real-world incidence or causation. Many factors — media coverage, recalls, litigation — influence how many reports a product accumulates.</p>
         <div class="trust-block-links">
-          <a href="https://open.fda.gov/food/event/" target="_blank" rel="noopener noreferrer">openFDA CAERS source ↗</a>
+          <a href="https://open.fda.gov/apis/food/event/" target="_blank" rel="noopener noreferrer">openFDA CAERS source ↗</a>
           <a href="/methodology/">Full methodology &amp; data notes</a>
         </div>
       </div>
