@@ -1,133 +1,167 @@
-# CLAUDE.md — SupplementSignal
+# CLAUDE.md — SupplementFiles
 
 ## Project Overview
 
-SupplementSignal is a free consumer website that makes FDA dietary-supplement adverse-event data searchable and legible. It's the PillSignal pattern applied to supplements.
+SupplementFiles (supplementfiles.com) is a consumer-facing website that makes FDA
+dietary-supplement adverse-event data accessible and understandable. When someone searches a
+supplement, they see what real people reported to the FDA — reactions, outcomes, demographics,
+and trends over time — in clean visualizations with plain-English context, plus editorial guides
+that explain the data.
 
-**Data source:** openFDA CAERS (`https://api.fda.gov/food/event.json`) filtered to `Vit/Min/Prot/Unconv Diet` industry.
+Data source: the openFDA CAERS API (CFSAN Adverse Event Reporting System — food, dietary
+supplements, cosmetics). SupplementFiles surfaces real-world *reported events*, not product-label
+or marketing claims — an underserved dataset distinct from retailers and WebMD-style sites.
+Sibling project to PillSignal (same model, FDA drug data). YMYL (health) content: accuracy and
+careful framing are paramount.
 
-**Status:** MVP dataset built (32 products), page generator written, pages generating. Next: homepage, sitemap, GitHub Pages deploy.
+Goal: become a top result for "[supplement] side effects / reactions / adverse events" queries,
+and monetize via Google AdSense once approved.
 
-## Legal Requirements — NON-NEGOTIABLE
+## Legal & Editorial Requirements — READ THIS FIRST
 
-1. Every page must carry the caveat: "These are reports submitted to the FDA. A report does not mean the product caused the effect. Counts reflect reporting activity, not how common an effect is."
-2. Never publish derived percentages (deaths/reports, % serious) as headline metrics. Absolute counts only.
-3. Never imply causation. Use "reported with," "associated reports," never "caused by" or "side effects of."
-4. Never editorialize — no "dangerous," "risky," "safe," "concerning" applied to any product.
-5. Never merge distinct SKUs — "Centrum Silver Women's 50+" ≠ "Centrum Silver Ultra." Each SKU stands alone.
-6. Never sum brand-family counts — hub pages list per-SKU counts, never a total.
-7. Always link to the FDA source (openFDA CAERS).
-8. Cluster context block renders ONLY for event_cluster and organic_recent_emerging products — never for organic.
+Non-negotiable. Apply to all code, copy, and content:
+
+1. **Per-page disclaimer.** Every page carries (or closely varies): *"This data reflects
+   voluntary reports submitted to the FDA (CAERS). A report does not mean the supplement caused
+   the event, and the data may be incomplete or contain errors."*
+2. **Never imply causation.** Use "reported with" / "reported by people taking," never "caused
+   by" or "side effect of."
+3. **Never rank by harm.** No "most dangerous," "worst," or comparative safety framing.
+4. **No safety judgments.** Don't call a product "dangerous," "risky," "safe," or "concerning."
+   Present the data; let readers conclude.
+5. **Counts, never rates.** Never publish a death/serious percentage as a headline. Counts
+   reflect reporting, not incidence.
+6. **No medical advice.** Route specifics to "talk to a doctor or pharmacist," and include a
+   not-a-substitute-for-professional-care notice.
+7. **Always link to the FDA source.** Every product page links to its openFDA/CAERS query so
+   readers can verify.
+8. **First-visit disclaimer banner.** Non-blocking, dismissible, remembered via localStorage
+   (shows once). Must NOT block content or crawlers. Text: *"SupplementFiles presents data from
+   the FDA's voluntary reporting system. This data does not prove a supplement caused any adverse
+   event. Always consult your healthcare provider."* with an "I understand" button.
+
+**Editorial voice (the one nuance):** our guides DO have a voice — but it is anchored to
+*factual findings*, never to judgments. "The most-reported reaction was choking" (a fact) is
+encouraged; "supplement X is dangerous" (a judgment) is forbidden. Lead with findings from our
+own data; keep rules 2–4 fully intact inside editorial.
+
+## Data Integrity Rules (non-negotiable)
+
+- **Reactions denylist:** exclude Death and outcome/administrative terms from reaction charts.
+  Death appears only under Outcomes.
+- **Sanity gates fail loudly:** deaths ≤ total reports; count–detail reconciliation ≥99%.
+- **SKU-level pages.** Merge only orthographic garbles of the same SKU into its canonical form;
+  never merge distinct SKUs; never sum across SKUs on hub pages (list individually).
+- **Standalone-page threshold:** ≥25 reports, clean. Below that, products appear only in
+  browse/hub listings. Generic-ingredient names are held for ingredient-aggregation pages —
+  exception: discrete, searchable ingredients (kratom, melatonin) may be published as
+  aggregation pages.
+- **data_character tagging:** organic / event_cluster / organic_recent_emerging / held. Show a
+  cluster-context line only on event_cluster and recent-emerging pages, and make the text
+  accurate to the real pattern (recall/litigation vs. adoption trend).
+- **Exclude non-supplement contamination** (foods, drugs) from the catalog.
 
 ## Tech Stack
 
-- **Frontend:** Vanilla HTML, CSS, JavaScript — no frameworks, no bundler, no build tools
-- **Build:** Node.js script (`scripts/generate-pages.js`) reads JSON → writes static HTML
-- **Data:** `data/supplement_mvp_final_v2.json` (32 MVP products, keyed by canonical_display_name)
-- **Pipeline scripts:** `pipeline/` directory (Python — do not run without explicit instruction)
-- **Output:** `docs/` directory → GitHub Pages
-- **Hosting:** GitHub Pages (same pattern as PillSignal at pillsignal.com)
+- **Data source:** openFDA CAERS API (food/event.json), filtered to the dietary-supplement
+  industry category.
+- **Data store:** local bulk CAERS file committed to the repo (no external DB). Deliberate —
+  fixes `+`/encoding query bugs and keeps builds offline-stable.
+- **Build:** Node.js — `node scripts/generate-pages.js && npx pagefind --site docs`.
+- **Search:** Pagefind (static index over `docs/`).
+- **Frontend:** static HTML/CSS/JS — no SPA, no client-side rendering of main content. Every
+  page must be fully readable by crawlers without executing JS.
+- **Hosting:** Cloudflare Pages, auto-deploy on push to `main`. Output dir `docs/` (gitignored;
+  regenerated by build — never hand-edit).
+- **DNS/CDN:** Cloudflare (supplementfiles.com).
+- **Email:** hello@supplementfiles.com.
+- **Analytics:** GA4 `G-6VHWEWTGNM`.
+- **Monetization:** Google AdSense — NOT yet active (see no-ads rule below).
 
 ## Architecture
 
-### Data Schema (one record)
+Two-stage, like PillSignal but DB-free: (1) ingest the openFDA CAERS bulk data and normalize it
+locally into the committed data file; (2) `generate-pages.js` reads that file and emits static
+HTML into `docs/`, then Pagefind builds the search index. Static HTML = instantly indexable, no
+JS rendering required. Scaling to more products = process more of the data file; no architectural
+change. Do not redesign this without flagging it first.
 
-```
-{
-  canonical_display_name: "Centrum Silver Women's 50+",
-  normalized_key: "centrum silver women's 50+",
-  type: "branded",
-  brand_family: "Centrum Silver",
-  total_reports: 1415,
-  page_eligible: true,
-  reactions: { top_reactions: [{term, count, pct}] },
-  outcomes: { "Outcome Name": {count, pct} },
-  demographics: {
-    gender: { Female, Male, "Unknown/Not Reported" },
-    age_bands: { under_18, 18_34, 35_49, 50_64, 65_79, 80_plus, unknown, median_age, n_with_age }
-  },
-  yearly_trend: { "2004": 0, "2005": 0, ... },
-  data_character: "organic" | "event_cluster" | "organic_recent_emerging" | "held",
-  cluster_context: "...",  // render only for event_cluster / organic_recent_emerging
-  sanity_checks: { deaths, total_reports, deaths_lte_total_reports }
-}
-```
+## Site & SEO Conventions
 
-### URL Structure
+SEO is the primary growth channel — every decision considers indexability.
 
-- Product pages: `/supplements/<brand-slug>/` → `docs/supplements/<brand-slug>/index.html`
-- Hub pages: `/supplements/<family-slug>/` → `docs/supplements/<family-slug>/index.html`
-- Methodology: `/methodology/` → `docs/methodology/index.html`
-- Homepage: `/` → `docs/index.html` (not yet built)
+- **URLs:** products `/supplements/<slug>/`, guides `/guides/<slug>/`. Clean trailing-slash URLs.
+- **Per page:** unique `<title>` + `<meta description>`; canonical URL; Open Graph + Twitter
+  Card tags; JSON-LD schema.org (WebSite / Organization / Dataset / CollectionPage / FAQPage /
+  Article as appropriate).
+- **Guides:** SEO title + meta; Article schema; **bidirectional internal links** (guide →
+  relevant product pages + methodology + related guides; homepage/footer → guides). Keep the
+  guides index current.
+- **Internal cross-linking** between related products (brand family, similar profiles).
+- **sitemap.xml** auto-generated on build; submit to Google Search Console AND Bing Webmaster
+  Tools.
+- **robots.txt** allows all crawlers.
+- **Fast, mobile-first, dark mode** (CSS custom properties, `prefers-color-scheme`, manual toggle
+  persisted in localStorage). Optimize for Core Web Vitals. Accessible: semantic HTML, heading
+  hierarchy, alt text, sufficient contrast.
 
-### Slug collision resolution
+## Page Content Spec
 
-When a product's slug == its brand_family slug (e.g. product "Centrum Silver" vs. hub "Centrum Silver"), the product page gets a `-supplement` suffix. The hub gets the clean family slug.
+**Product page:** supplement name (H1); summary line (total reports); top reactions (chart/table,
+counts, denylist applied); demographics (age, sex); outcome severity (counts); reports-over-time
+trend; cluster-context line if applicable; FDA disclaimer; FDA source link; related products.
 
-### Build command
+**Guide:** data-first lead (a finding, not a definition); factual voice; the disclaimers;
+bidirectional links to relevant products + methodology + related guides.
 
-```bash
-node scripts/generate-pages.js
-```
+## Editorial / Content
 
-No dependencies. Regenerates all pages from the JSON data.
+- **Data-first:** lead with findings from our own data, not generic definitions. This is the
+  originality lever for AdSense and ranking.
+- **Brand-only voice:** "the SupplementFiles team." Never a personal name.
+- **Hold policy-sensitive topics** (e.g. kratom) out of *featured editorial* until after AdSense
+  approval; factual product pages are fine.
+- **No advertising anywhere until AdSense is approved** — no ad code, no placeholder ad slots, no
+  ad mentions in Privacy/Terms. Re-add (plus a consent CMP for EEA/UK) at approval.
 
-## Product Page Anatomy
+## Session Discipline
 
-1. Breadcrumb → brand family hub
-2. Hero: H1 (product name), category pill, big report count, date range
-3. **Caveat band** (permanent, warm amber, always visible)
-4. Reactions card: top 10 horizontal CSS bars — counts only, no %
-5. Outcomes card: table — counts only, NO percentages, NO "death rate"
-6. **Affiliate slot** (visually distinct, dashed green border — placeholder)
-7. Demographics card: age bands + gender as CSS bars — counts only
-8. Trend card: CSS vertical histogram by year
-9. **Cluster block** (only for event_cluster / organic_recent_emerging) — blue left-border
-10. Related products + hub link card
-11. Data source card
-
-## Framing Rules (from project brief §6F)
-
-- Never publish a deaths/reports ratio or "% serious" as a headline metric
-- Derived percentages are for internal anomaly detection only
-- The affiliate slot goes after Outcomes (natural decision point — user has seen risk info)
-
-## SEO
-
-- `<title>`: `{Product Name} — FDA Adverse Event Reports | SupplementSignal`
-- `<meta description>`: includes total reports, date range
-- JSON-LD: Dataset schema on product pages, CollectionPage on hubs
-- Canonical URLs on every page
-- No sitemap.xml yet — add in next session
+- Read data from disk; never dump raw datasets into the conversation (long sessions hit the
+  1M-context limit). Keep sessions lean, one task at a time, standard-context model.
+- Work from the local bulk file, not live per-product API queries.
+- Report concise summaries, not raw dumps.
 
 ## Development Principles
 
-- No frameworks. Vanilla HTML/CSS/JS only.
-- Every page is self-contained static HTML — crawlers read all content without JS.
-- CSS is embedded in each page (no external stylesheet yet — extract in Phase 2).
-- Mobile-first. Dark mode via CSS custom properties + localStorage toggle.
-- The `docs/` directory is what GitHub Pages serves.
-- Never use absolute counts with "%" framing for outcomes or reactions on public pages.
+- **Think first, build second.** Don't scaffold, generate, or restructure without explicit
+  instruction — ask before acting.
+- **Don't redesign the architecture** above without flagging it first.
+- **Every page is real static HTML**, crawlable without JS.
+- **Security:** never commit secrets; openFDA key (if used) goes in `.env`.
 
-## Key Files
+## Deployment
 
-- `scripts/generate-pages.js` — the page generator (run to rebuild all pages)
-- `data/supplement_mvp_final_v2.json` — MVP dataset (32 products)
-- `pipeline/` — Python ingestion scripts (do not run without instruction)
-- `docs/supplements/` — generated product and hub pages
-- `docs/methodology/` — about/methodology page
+- Commit and push to `main`; Cloudflare Pages auto-builds
+  (`node scripts/generate-pages.js && npx pagefind --site docs`, output `docs/`).
+- Update `sitemap.xml` for any page changes; rebuild before committing.
+- After deploy, verify new/updated pages in Google Search Console (and Bing).
 
-## What's Not Built Yet
+## Canonical Reference
 
-- `docs/index.html` — homepage with search/browse
-- `docs/supplements/index.html` — browse all supplements listing
-- `docs/sitemap.xml` — auto-generated sitemap
-- `docs/robots.txt`
-- GitHub repo + Pages configuration
-- Favicon, OG image
+The project brief is the source of truth for architecture and judgment calls. Keep it in the
+repo; consult it for template, content, and expansion decisions. (If committed, wire it in:
+`@docs/project-brief.md`.)
 
-## Environment Variables (for Phase 2 — live data refresh)
+## Maintaining This File
 
-```
-OPENFDA_API_KEY=   # openFDA API key for higher rate limits
-```
+This file is the source of truth: it leads, the code follows. Keep it current and keep it sharp.
+
+- When a task **changes a convention or rule already documented here**, update this file to
+  match and note the change in your report (e.g. "updated CLAUDE.md: dropped the governing-law
+  clause").
+- **Ask before adding** a new rule, section, or restructuring — propose it, don't silently grow
+  the file.
+- Don't bloat it: no one-off task details, no restating existing rules. If guidance gets long or
+  specialized, flag it for splitting out rather than piling on.
+- Conversation-only instructions are lost on /clear and compaction. If an instruction should
+  persist across sessions, it belongs here.
