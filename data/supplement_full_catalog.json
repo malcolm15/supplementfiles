@@ -12,9 +12,9 @@
       "CENTRUM SILVER WOMEN'S 50+ (MULTIMINERALS, MULTIVITAMINS) TABLET",
       "CENTRUM SILVER WOMEN'S 50+",
       "CENTRUM SILVER WOMEN'S 50+ MULTIMINERALS MULTIVITAMINS TABLET",
-      "CENTRUM SILVER WOMEN\u0092S 50+ MULTIMINERALS MULTIVITAMIN",
+      "CENTRUM SILVER WOMENS 50+ MULTIMINERALS MULTIVITAMIN",
       "CENTRUM SILVER WOMEN 50+",
-      "CENTRUM SILVER WOMEN\u0092S 50+ (MULTIMINERALS, MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER WOMENS 50+ (MULTIMINERALS, MULTIVITAMINS) TABLET",
       "CENTRUM SILVER WOMEN'S 50+(MULTIMINERALS, MULTIVITAMINS) TABLET",
       "CENTRUM SILVER WOMEN 50 PLUS",
       "CENTRUM SILVER WOMEN'S 50+ (MULTIMINERALS MULTIVITAMINS) TABLET",
@@ -22,14 +22,14 @@
       "CENTRUM SILVER WOMEN'S 50 PLUS",
       "CENTRUM SILVER WOMEN'S 50+ TABLET",
       "CENTRUM SILVER WOMEN'S 50 PLUS (MULTIMINERALS, MULTIVITAMINS) TABLET",
-      "CENTRUM SILVER WOMEN\u0092S 50+ MULTIMINERALS MULTIVITAMIN TABLET",
+      "CENTRUM SILVER WOMENS 50+ MULTIMINERALS MULTIVITAMIN TABLET",
       "CENTRUM SILVER WOMENS 50 PLUS MULTIMINERALS MULTIVITAMINS TABLET",
-      "CENTRUM SILVER WOMEN\u0092S 50+ (MULTIMINERALS MULTIVITAMINS) TABLET",
+      "CENTRUM SILVER WOMENS 50+ (MULTIMINERALS MULTIVITAMINS) TABLET",
       "CENTRUM SILVER WOMEN'S 50+(MUL TIMINERALS, MULTIVITAMINS) TABLET",
       "CENTRUM SILVER WOMEN'S 50+ MULTIMINERALS, MULTIVITAMINS TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -312,7 +312,7 @@
       "SUPER BETA PROSTATE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -594,7 +594,7 @@
       "PRESERVISION AREDS 2 SOFT GELS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -895,7 +895,7 @@
       "CENTRUM SILVER MULTIMINERALS, MULTIVITAMINS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2004\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2004–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -1194,7 +1194,7 @@
       "PRESERVISION AREDS 2 FORMULA CHEWABLES"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2014\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2014–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -1495,7 +1495,7 @@
       "CITRACAL MAXIMUM (CHOLECALCIFEROL + CALCIUM CITRATE) FILM COATED TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -1783,7 +1783,7 @@
       "CENTRUM SILVER ULTRA WOMEN'S (MULTIMINERALS MULTIVITAMINS) TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2011 (49% of total, spanning 2009\u20132020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2011 (49% of total, spanning 2009–2020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -2049,7 +2049,7 @@
       "Kratom"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports span 2016\u20132025 with sustained recent filing. Ongoing regulatory activity (FDA import alerts, state bans) drives continued reporting.",
+    "cluster_context": "Reports span 2016–2025 with sustained recent filing. Ongoing regulatory activity (FDA import alerts, state bans) drives continued reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -2343,7 +2343,7 @@
       "CITRACAL PETITES (CHOLECALCIFEROL + CALCIUM CITRATE) FILM COATED TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -2632,12 +2632,12 @@
     "raw_strings": [
       "ONE A DAY WOMEN'S",
       "ONE A DAY WOMEN'S (MULTIVITAMINS + MINERALS) FILM-COATED TABLET",
-      "ONE A DAY WOMEN\u0092S (MULTIVITAMINS + MINERALS) FILM-COATED TABLET",
+      "ONE A DAY WOMENS (MULTIVITAMINS + MINERALS) FILM-COATED TABLET",
       "ONE A DAY WOMENS",
       "ONE A DAY WOMEN'S FILM-COATED TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -2930,7 +2930,7 @@
       "Centrum multivitamin"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -3223,7 +3223,7 @@
       "HYDROXYCUT REGULAR RAPID RELEASE CAPLETS (NO PREF. NAME)"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2010\u20132011, during the post-recall period following Hydroxycut's 2009 market withdrawal and reformulation.",
+    "cluster_context": "Reports concentrated in 2010–2011, during the post-recall period following Hydroxycut's 2009 market withdrawal and reformulation.",
     "reactions": {
       "top_reactions": [
         {
@@ -3504,7 +3504,7 @@
       "CENTRUM SILVER ADULTS 50+ MULTIMINERALS MULTIVITAMINS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -3799,7 +3799,7 @@
       "CENTRUM SILVER MEN'S 50+ MULTIMINERALS MULTIVITAMINS TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -4081,7 +4081,7 @@
       "SUPER BETA PROSTATE P3 ADVANCED"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018\u20132019, reflecting the initial reporting period following product launch.",
+    "cluster_context": "Reports concentrated in 2018–2019, reflecting the initial reporting period following product launch.",
     "reactions": {
       "top_reactions": [
         {
@@ -4358,7 +4358,7 @@
       "FLINTSTONES COMPLETE GUMMIES"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2012 (39% of total, spanning 2008\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2012 (39% of total, spanning 2008–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -5214,7 +5214,7 @@
       "HYDROXYCUT HARDCORE RAPID RELEASE CAPSULES"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2010\u20132011, coinciding with the Hydroxycut recall and reformulation period.",
+    "cluster_context": "Reports concentrated in 2010–2011, coinciding with the Hydroxycut recall and reformulation period.",
     "reactions": {
       "top_reactions": [
         {
@@ -5766,7 +5766,7 @@
       "ONE A DAY WOMEN'S 50+ HEALTHY ADVANTAGE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -6044,7 +6044,7 @@
       "SUPER BETA VIRILITY BOOST"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2017\u20132018, likely reflecting launch-period adverse event collection for a new product line.",
+    "cluster_context": "Reports concentrated in 2017–2018, likely reflecting launch-period adverse event collection for a new product line.",
     "reactions": {
       "top_reactions": [
         {
@@ -6306,7 +6306,7 @@
       "ONE A DAY MENS HEALTH FORMULA"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2013 (50% of total, spanning 2008\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2013 (50% of total, spanning 2008–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -6588,7 +6588,7 @@
       "CALTRATE  600 + VITAMIN D (CALCIUM CARBONATE, CHOLECALCIFEROL) TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -6863,7 +6863,7 @@
       "EMERGEN-C"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -7153,7 +7153,7 @@
       "NUTRAFOL WOMEN'S BALANCE HAIR GROWTH NUTRACEUTICAL"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2024\u20132025, reflecting rapid recent market growth of the hair growth supplement category rather than a filing event.",
+    "cluster_context": "Reports concentrated in 2024–2025, reflecting rapid recent market growth of the hair growth supplement category rather than a filing event.",
     "reactions": {
       "top_reactions": [
         {
@@ -7416,7 +7416,7 @@
       "5-HOUR ENERGY"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports spread across 2009\u20132025 with no single dominant year. Diverse reporter demographics and medically specific reactions (cardiac, hepatic) consistent with genuine organic consumer adverse event reporting.",
+    "cluster_context": "Reports spread across 2009–2025 with no single dominant year. Diverse reporter demographics and medically specific reactions (cardiac, hepatic) consistent with genuine organic consumer adverse event reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -7708,7 +7708,7 @@
       "PRESERVISION AREDS TABLETS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -8516,7 +8516,7 @@
       "TRIPLE ACTION VIRILITY"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015\u20132016 for this men's supplement product.",
+    "cluster_context": "Reports concentrated in 2015–2016 for this men's supplement product.",
     "reactions": {
       "top_reactions": [
         {
@@ -9307,7 +9307,7 @@
       "PLEXUS SLIM"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -9585,7 +9585,7 @@
       "AGELESS MALE MAX"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018 (56% of total, spanning 2017\u20132020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2018 (56% of total, spanning 2017–2020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -9850,7 +9850,7 @@
       "CALTRATE (CALCIUM CARBONATE)"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -10134,7 +10134,7 @@
       "CITRACAL (CALCIUM CITRATE)"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -10427,7 +10427,7 @@
       "OCUVITE ADULT 50 PLUS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -10706,7 +10706,7 @@
       "EMERGEN-C (ASCORBIC ACID, B-COMPLEX, ELECTROL YTE, MULTIMINERAL, MULTIVIT, ZINC) POWDER FOR ORAL SOLUTION"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -11251,7 +11251,7 @@
       "HERBALIFE CELL ACTIVATOR"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -11527,7 +11527,7 @@
       "CENTRUM SILVER WOMEN'S 50+ MULTIMINERALS, MULTIVITAMINS TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2013 (48% of total, spanning 2012\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2013 (48% of total, spanning 2012–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -11785,7 +11785,7 @@
       "PHILLIPS' COLON HEALTH"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -12063,7 +12063,7 @@
       "CENTRUM ULTRA WOMEN'S MULTIMINERALS MULTIVITAMINS TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2012 (44% of total, spanning 2010\u20132014), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2012 (44% of total, spanning 2010–2014), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -12864,7 +12864,7 @@
       "LACTAID FAST ACT CHEWABLES"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -13145,7 +13145,7 @@
       "PROTANDIM US"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2013 (46% of total, spanning 2012\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2013 (46% of total, spanning 2012–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -13408,7 +13408,7 @@
       "MODERE BURN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2017\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2017–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -13678,7 +13678,7 @@
       "Daily Vitamin"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -14216,7 +14216,7 @@
       "PREVAGEN REGULAR STRENGTH"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2017\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2017–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -14493,7 +14493,7 @@
       "ISAGENIX NATURAL ACCELERATOR"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -14766,7 +14766,7 @@
       "OMEGAPLEX"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132019 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2019 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -15023,7 +15023,7 @@
       "Cranberry"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -15309,7 +15309,7 @@
       "VIT D"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2015\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2015–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -15593,7 +15593,7 @@
       "HERBALIFE CELL-U-LOSS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -15872,7 +15872,7 @@
       "HERBALIFE TOTAL CONTROL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2004\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2004–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -16147,7 +16147,7 @@
       "CITRACAL SLOW RELEASE 1200"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2017\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2017–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -16650,7 +16650,7 @@
       "LEPTIBURN"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (43% of total, spanning 2013\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (43% of total, spanning 2013–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -17182,7 +17182,7 @@
       "PREVAGEN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -17463,7 +17463,7 @@
       "FLORASTOR"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2005\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2005–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -17740,7 +17740,7 @@
       "PREVAGEN EXTRA STRENGTH"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2016\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2016–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -18289,7 +18289,7 @@
       "NATURAL ACCELERATOR"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -18557,7 +18557,7 @@
       "ONE A DAY WOMEN'S 50 PLUS ADVANTAGE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -19091,7 +19091,7 @@
       "ONE A DAY ESSENTIAL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -19360,7 +19360,7 @@
       "tumeric"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -19648,7 +19648,7 @@
       "AGELESS MALE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (41% of total, spanning 2012\u20132019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (41% of total, spanning 2012–2019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -19918,7 +19918,7 @@
       "CENTRUM WOMEN UNDER 50 MULTIMINERALS MULTIVITAMINS TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -20430,7 +20430,7 @@
       "HYDROXYCUT CAFFEINE FREE CAPLETS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2011 (42% of total, spanning 2009\u20132012), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2011 (42% of total, spanning 2009–2012), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -20690,7 +20690,7 @@
       "RELACORE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2006 (35% of total, spanning 2004\u20132019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2006 (35% of total, spanning 2004–2019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -21492,7 +21492,7 @@
       "ARTRI KING"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2022 (57% of total, spanning 2022\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2022 (57% of total, spanning 2022–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -22035,7 +22035,7 @@
       "BALANCE OF NATURE WHOLE PRODUCE FRUITS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2025 (52% of total, spanning 2023\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2025 (52% of total, spanning 2023–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -22295,7 +22295,7 @@
       "Daily multivitamin"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -22577,7 +22577,7 @@
       "ARBONNE ESSENTIALS DAILY FIBER BOOST"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (49% of total, spanning 2015\u20132021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (49% of total, spanning 2015–2021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -22844,7 +22844,7 @@
       "OMEGA 3 FISH OIL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -23123,7 +23123,7 @@
       "CITRACAL MAXIMUM PLUS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2018\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2018–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -23369,7 +23369,7 @@
       "ISAGENIX ISAFLUSH"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -23900,7 +23900,7 @@
       "Glucosamine Chondroitin"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2006\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2006–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -24188,7 +24188,7 @@
       "CITRACAL MAXIMUM BAYER"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2020\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2020–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -24374,7 +24374,7 @@
       "PLEXUS BIO CLEANSE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2015\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2015–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -24643,7 +24643,7 @@
       "RED YEAST RICE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2005\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2005–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -25191,7 +25191,7 @@
       "CITRACAL CALCIUM + D SLOW RELEASE 1200 (CALCIUM CARBONATE, CALCIUM CITRATE, VITAMIN D, MAGNESIUM HYDROXIDE) FILM-COATED TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -25701,7 +25701,7 @@
       "ARBONNE ESSENTIALS HERBAL DETOX TEA"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (55% of total, spanning 2015\u20132021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (55% of total, spanning 2015–2021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -25963,7 +25963,7 @@
       "VITAMIN D CHOLECALCIFEROL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132015 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2015 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -26221,7 +26221,7 @@
       "BALANCE OF NATURE WHOLE PRODUCE VEGGIES"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2025 (49% of total, spanning 2022\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2025 (49% of total, spanning 2022–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -27257,7 +27257,7 @@
       "NO XPLODE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2009 (47% of total, spanning 2005\u20132019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2009 (47% of total, spanning 2005–2019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -27539,7 +27539,7 @@
       "PLEXUS PROBIO5"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018 (42% of total, spanning 2015\u20132022), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2018 (42% of total, spanning 2015–2022), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -27803,7 +27803,7 @@
       "VIT C"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -28082,7 +28082,7 @@
       "ONE A DAY MULTIVITAMIN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2004\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2004–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -28373,7 +28373,7 @@
       "HERBALIFE HERBAL ALOE CONCENTRATE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -28641,7 +28641,7 @@
       "CITRACAL (CHOLECALCIFEROL+ CALCIUM CITRATE) COATED TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -28902,7 +28902,7 @@
       "CALTRATE 600 + D PLUS MINERAL (CALCIUM CARBONATE, MULTIMINERAL, VITAMIN D) TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2013\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2013–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -29163,7 +29163,7 @@
       "MODERE TRIM CHOCOLATE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2022 (45% of total, spanning 2019\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2022 (45% of total, spanning 2019–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -29426,7 +29426,7 @@
       "Unspecified vitamins"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -29702,7 +29702,7 @@
       "DHEA"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2004\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2004–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -29987,7 +29987,7 @@
       "HERBALIFE MULTIVITAMIN COMPLEX FORMULA 2"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2012 (40% of total, spanning 2008\u20132012), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2012 (40% of total, spanning 2008–2012), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -30252,7 +30252,7 @@
       "VITAMIN D3 CHOLECALCIFEROL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -30503,7 +30503,7 @@
       "PLEXUS PROBIO 5"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2014\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2014–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -30767,7 +30767,7 @@
       "RITUAL ESSENTIAL FOR WOMEN PRENATAL MULTIVITAMIN"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2025 (51% of total, spanning 2021\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2025 (51% of total, spanning 2021–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -30989,7 +30989,7 @@
       "VITAMIN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2004\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2004–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -31522,7 +31522,7 @@
       "GARCINIA CAMBOGIA"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2013\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2013–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -32058,7 +32058,7 @@
       "CITRACAL MAXIMUM CHOLECALCIFEROL + CALCIUM CITRATE FILM COATED TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (46% of total, spanning 2012\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (46% of total, spanning 2012–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -32302,7 +32302,7 @@
       "HERBALIFE FLORAFIBER"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2006\u20132018 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2006–2018 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -32826,7 +32826,7 @@
       "TRUBIOTICS (BIFIDOBACTERIUM + LACTOBACILLUS) CAPSULE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2013 (38% of total, spanning 2012\u20132017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2013 (38% of total, spanning 2012–2017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -33080,7 +33080,7 @@
       "ARTRI AJO KING"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2022 (42% of total, spanning 2021\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2022 (42% of total, spanning 2021–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -33348,7 +33348,7 @@
       "CALCIUM WITH VITAMIN D"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2005\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2005–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -33636,7 +33636,7 @@
       "GUNDRY MD BIO COMPLETE 3"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2024 (42% of total, spanning 2021\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2024 (42% of total, spanning 2021–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -33901,7 +33901,7 @@
       "HERBALIFE HERBAL TEA CONCENTRATE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -34170,7 +34170,7 @@
       "OCUVITE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -34701,7 +34701,7 @@
       "Benadryl"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2018\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2018–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -34985,7 +34985,7 @@
       "AZO BLADDER CONTROL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2014\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2014–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -35259,7 +35259,7 @@
       "BALANCE OF NATURE WHOLE PRODUCE VEGGIES 90 CAPSULES"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2024 (53% of total, spanning 2023\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2024 (53% of total, spanning 2023–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -35773,7 +35773,7 @@
       "NATURAL ACCELERATOR ARIZONA NUTRITIONAL SUPPLEMENTS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132015 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2015 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -36034,7 +36034,7 @@
       "ONE A DAY MENS 50 PLUS HEATHLY ADVANTAGE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2020\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2020–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -36241,7 +36241,7 @@
       "ONE A DAY WOMEN'S 50+ MINIGELS COMPLETE MULTIVITAMIN"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2021 (59% of total, spanning 2020\u20132022), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2021 (59% of total, spanning 2020–2022), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -36382,7 +36382,7 @@
       "MODERE ACTIVATE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2018\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2018–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -36645,7 +36645,7 @@
       "ONE A DAY MEN'S 50+ HEALTHY ADVANTAGE (MULTIVITAMINS, MINERALS, LYCOPENE) FILM-COATED TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -36918,7 +36918,7 @@
       "ONE A DAY WOMEN'S MULTIVITAMINS + MINERALS FILM COATED TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (39% of total, spanning 2012\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (39% of total, spanning 2012–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -37420,7 +37420,7 @@
       "EXTENZE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -37706,7 +37706,7 @@
       "HERBALIFE THERMO-BOND"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -37974,7 +37974,7 @@
       "NUTRAFOL MEN HAIR GROWTH NUTRACEUTICAL"
     ],
     "data_character": "organic_recent_emerging",
-    "cluster_context": "Reports concentrated in 2024\u20132025 (6 and 25 respectively), reflecting rapid growth in the men's hair loss supplement category \u2014 the same upward trajectory seen in Nutrafol Women's. Consistent with a product gaining market share rather than a filing event.",
+    "cluster_context": "Reports concentrated in 2024–2025 (6 and 25 respectively), reflecting rapid growth in the men's hair loss supplement category — the same upward trajectory seen in Nutrafol Women's. Consistent with a product gaining market share rather than a filing event.",
     "reactions": {
       "top_reactions": [
         {
@@ -38229,7 +38229,7 @@
       "5 HOUR ENERGY BERRY"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2012 (39% of total, spanning 2010\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2012 (39% of total, spanning 2010–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -39011,7 +39011,7 @@
       "ASCORBIC ACID"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -39289,7 +39289,7 @@
       "HYDROXYCUT WITH EPHEDRA"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2012 (50% of total, spanning 2010\u20132017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2012 (50% of total, spanning 2010–2017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -39557,7 +39557,7 @@
       "IONIX SUPREME"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132018 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2018 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -39823,7 +39823,7 @@
       "MNS 3"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2017 (39% of total, spanning 2015\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2017 (39% of total, spanning 2015–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -40080,7 +40080,7 @@
       "CENTRUM SILVER MULTIMINERALS, MULTIVITAMINS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (44% of total, spanning 2011\u20132017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (44% of total, spanning 2011–2017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -40341,7 +40341,7 @@
       "CITRACAL MAXIMUM CHOLECALCIFEROL  CALCIUM CITRATE FILM COATED TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2011 (48% of total, spanning 2011\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2011 (48% of total, spanning 2011–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -40595,7 +40595,7 @@
       "PRESERVISION LUTEIN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -40873,7 +40873,7 @@
       "unspecified multivitamin"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -41401,7 +41401,7 @@
       "CATALYST BOTTLE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132017 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2017 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -41661,7 +41661,7 @@
       "EXTENZE PLUS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (46% of total, spanning 2012\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (46% of total, spanning 2012–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -41932,7 +41932,7 @@
       "HERBALIFE AMINOGEN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132019 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2019 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -42201,7 +42201,7 @@
       "HERBALIFE FORMULA 1"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132015 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2015 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -42734,7 +42734,7 @@
       "CALTRATE 600 PLUS CHEWABLE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -43250,7 +43250,7 @@
       "HERBALIFE SNACK DEFENSE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -43518,7 +43518,7 @@
       "PRESERVISION"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -44046,7 +44046,7 @@
       "CALTRATE 600 +VITAMIN D(CALCIUM CARBONATE, CHOLECALCIFEROL) TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (44% of total, spanning 2012\u20132017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (44% of total, spanning 2012–2017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -44301,7 +44301,7 @@
       "CENTRUM ADULTS UNDER 50 (MULTIMINERALS, MULTIVITAMINS) TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -44561,7 +44561,7 @@
       "ACTALIN"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2025 (54% of total, spanning 2014\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2025 (54% of total, spanning 2014–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -44787,7 +44787,7 @@
       "BELLY TRIM XP"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (50% of total, spanning 2015\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (50% of total, spanning 2015–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -45298,7 +45298,7 @@
       "CELL ACTIVATOR"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2013\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2013–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -45744,7 +45744,7 @@
       "HERBALIFE FORMULA 2 MULTIVITAMIN COMPLEX"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -46011,7 +46011,7 @@
       "IC-5"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (50% of total, spanning 2014\u20132020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (50% of total, spanning 2014–2020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -46264,7 +46264,7 @@
       "JACK3D"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2012 (56% of total, spanning 2009\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2012 (56% of total, spanning 2009–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -46534,7 +46534,7 @@
       "PLEXUS BIOCLEANSE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018 (40% of total, spanning 2014\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2018 (40% of total, spanning 2014–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -46801,7 +46801,7 @@
       "VITAMIN C ASCORBIC ACID"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2011 (46% of total, spanning 2011\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2011 (46% of total, spanning 2011–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -47055,7 +47055,7 @@
       "CENTRUM MULTIGUMMIES (MULTIMINERALS, MULTIVITAMINS) CHEWABLE TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2015\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2015–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -47319,7 +47319,7 @@
       "ADVOCARE OMEGAPLEX"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2013\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2013–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -47582,7 +47582,7 @@
       "SUPPLEMENTS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2005\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2005–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -47853,7 +47853,7 @@
       "UNSPECIFIED SUPPLEMENTS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -48130,7 +48130,7 @@
       "AZO CRANBERRY SOFTGELS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -48383,7 +48383,7 @@
       "CENTRUM SILVER ULTRA MEN'S"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2011 (44% of total, spanning 2009\u20132020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2011 (44% of total, spanning 2009–2020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -48898,7 +48898,7 @@
       "BODYDYNAMIX SLIMVANCE THERMOGENIC"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2019 (50% of total, spanning 2018\u20132021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2019 (50% of total, spanning 2018–2021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -49150,7 +49150,7 @@
       "CITRACAL, MAXIMUM, BAYER"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2021 (36% of total, spanning 2016\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2021 (36% of total, spanning 2016–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -49330,7 +49330,7 @@
       "EOS LIP BALM"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2015\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2015–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -49593,7 +49593,7 @@
       "METAMUCIL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -49869,7 +49869,7 @@
       "NATUREMADE VITAMIN C"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2013\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2013–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -50133,7 +50133,7 @@
       "ESTER-C"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -50677,7 +50677,7 @@
       "CENTRUM MULTIGUMMIES WOMEN"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2019 (52% of total, spanning 2017\u20132021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2019 (52% of total, spanning 2017–2021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -50924,7 +50924,7 @@
       "ESTROVEN MAXIMUM STRENGTH"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132015 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2015 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -51182,7 +51182,7 @@
       "HYDROXYCUT REGULAR DRINK MIX SACHETS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2011 (38% of total, spanning 2010\u20132012), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2011 (38% of total, spanning 2010–2012), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -51441,7 +51441,7 @@
       "NUTRILITE SLIMMETRY"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -51702,7 +51702,7 @@
       "OCUVITE ADULT"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -52191,7 +52191,7 @@
       "VITAPEARL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2019\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2019–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -52389,7 +52389,7 @@
       "CBD oil"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2017\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2017–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -52661,7 +52661,7 @@
       "CLEANSE FOR LIFE LIQUID"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132018 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2018 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -53176,7 +53176,7 @@
       "DIGESTIVE ENZYMES"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -53452,7 +53452,7 @@
       "ESTROVEN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2004\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2004–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -53731,7 +53731,7 @@
       "FORMULA 2 MULTIVITAMIN COMPLEX"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2013\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2013–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -53993,7 +53993,7 @@
       "GREEN TEA FAT BURNER"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -54261,7 +54261,7 @@
       "GUNDRY MD TOTAL RESTORE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2024 (40% of total, spanning 2019\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2024 (40% of total, spanning 2019–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -54487,7 +54487,7 @@
       "ISAFLUSH"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -55403,7 +55403,7 @@
       "PLEXUS BOOST"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (36% of total, spanning 2014\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (36% of total, spanning 2014–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -55664,7 +55664,7 @@
       "THERMOPLUS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132017 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2017 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -56182,7 +56182,7 @@
       "BEANO (ALPHA-D-GALACTOSIDASE)"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2004\u20132013 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2004–2013 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -56447,7 +56447,7 @@
       "CALTRATE CALCIUM CARBONATE TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2012 (45% of total, spanning 2011\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2012 (45% of total, spanning 2011–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -56698,7 +56698,7 @@
       "CULTURELLE DIGESTIVE HEALTH"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2013 (35% of total, spanning 2011\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2013 (35% of total, spanning 2011–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -56961,7 +56961,7 @@
       "AGELESS MALE PERFORMANCE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018 (58% of total, spanning 2014\u20132020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2018 (58% of total, spanning 2014–2020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -57847,7 +57847,7 @@
       "HYDROXYCUT PRO CLINICAL CAPLETS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132018 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2018 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -58110,7 +58110,7 @@
       "MNS MAX 3"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132016 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2016 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -58365,7 +58365,7 @@
       "NAC"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2015\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2015–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -58634,7 +58634,7 @@
       "VITAMINS NOS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -58896,7 +58896,7 @@
       "Vit D3"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2017\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2017–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -59169,7 +59169,7 @@
       "ONE A DAY WOMEN'S PRENATAL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -59435,7 +59435,7 @@
       "ACIDOPHILUS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -60182,7 +60182,7 @@
       "BIO CLEANSE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (44% of total, spanning 2015\u20132017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (44% of total, spanning 2015–2017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -60432,7 +60432,7 @@
       "CELL-U-LOSS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2013\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2013–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -60691,7 +60691,7 @@
       "FLINTSTONES COMPLETE MULTIVITAMINS + MINERALS CHEWABLE TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2013 (50% of total, spanning 2012\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2013 (50% of total, spanning 2012–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -60928,7 +60928,7 @@
       "LIMBREL"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018 (46% of total, spanning 2015\u20132019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2018 (46% of total, spanning 2015–2019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -61197,7 +61197,7 @@
       "ONE A DAY VITAMIN"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (38% of total, spanning 2010\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (38% of total, spanning 2010–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -61458,7 +61458,7 @@
       "PLEXUS SLIM HUNGER CONTROL"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2022 (46% of total, spanning 2018\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2022 (46% of total, spanning 2018–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -61720,7 +61720,7 @@
       "RITUAL SYNBIOTIC PLUS PREBIOTIC PROBIOTIC POSTBIOTIC"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2024 (54% of total, spanning 2024\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2024 (54% of total, spanning 2024–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -61855,7 +61855,7 @@
       "STACKER 2"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2004 (43% of total, spanning 2004\u20132014), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2004 (43% of total, spanning 2004–2014), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -62393,7 +62393,7 @@
       "CENTRUM CARDIO"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2011 (44% of total, spanning 2008\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2011 (44% of total, spanning 2008–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -62644,7 +62644,7 @@
       "CENTRUM SPECIALIST HEART"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -63146,7 +63146,7 @@
       "BIOTRUST IC-5"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2014 (41% of total, spanning 2014\u20132021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2014 (41% of total, spanning 2014–2021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -63405,7 +63405,7 @@
       "CHOLECALCIFEROL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -63673,7 +63673,7 @@
       "CITRACAL PETITES BAYER"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (35% of total, spanning 2020\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (35% of total, spanning 2020–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -64585,7 +64585,7 @@
       "HONEY NUT CHEERIOS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (47% of total, spanning 2015\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (47% of total, spanning 2015–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -64828,7 +64828,7 @@
       "NATUREMADE FISH OIL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2014\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2014–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -65850,7 +65850,7 @@
       "ONE A DAY MEN'S MEN'S HEALTH FORMULA"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2020\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2020–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -66024,7 +66024,7 @@
       "ONE A DAY MEN'S MULTIVITAMIN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2020\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2020–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -66197,7 +66197,7 @@
       "PLEXUS SLIM MICROBIOME ACTIVATING"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2022 (37% of total, spanning 2019\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2022 (37% of total, spanning 2019–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -66458,7 +66458,7 @@
       "PROBIO 5"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (59% of total, spanning 2014\u20132017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (59% of total, spanning 2014–2017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -66717,7 +66717,7 @@
       "PURITAN'S PRIDE TURMERIC CURCUMIN"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018 (40% of total, spanning 2017\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2018 (40% of total, spanning 2017–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -66983,7 +66983,7 @@
       "ROYAL HONEY VIP"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2024 (37% of total, spanning 2017\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2024 (37% of total, spanning 2017–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -67507,7 +67507,7 @@
       "AGELOC TR90 FIT"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2014 (53% of total, spanning 2014\u20132019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2014 (53% of total, spanning 2014–2019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -67967,7 +67967,7 @@
       "CATALYST"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (38% of total, spanning 2011\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (38% of total, spanning 2011–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -68230,7 +68230,7 @@
       "CENTRUM WOMEN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2017\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2017–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -68856,7 +68856,7 @@
       "EMERGEN-C IMMUNE PLUS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (38% of total, spanning 2017\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (38% of total, spanning 2017–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -69610,7 +69610,7 @@
       "HERBAL CLEANSE WITH CITRUS FIBER DRINK"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2013 (35% of total, spanning 2011\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2013 (35% of total, spanning 2011–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -70121,7 +70121,7 @@
       "ISAFLUSH ARIZONA NUTRITIONAL SUPPLEMENTS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2014 (35% of total, spanning 2011\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2014 (35% of total, spanning 2011–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -70382,7 +70382,7 @@
       "ISAGENIX CLEANSE FOR LIFE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132019 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2019 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -70641,7 +70641,7 @@
       "NUTRILITE DOUBLE X"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -70901,7 +70901,7 @@
       "ONE A DAY WOMEN'S ACTIVE METABOLISM"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -71164,7 +71164,7 @@
       "PROSVENT ULTRA BLEND"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2016\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2016–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -71695,7 +71695,7 @@
       "UQORA FLUSH"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2023 (56% of total, spanning 2023\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2023 (56% of total, spanning 2023–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -71954,7 +71954,7 @@
       "VENTRICORE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2025 (56% of total, spanning 2019\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2025 (56% of total, spanning 2019–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -72161,7 +72161,7 @@
       "VITAMIN D ERGOCALCIFEROL"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2012 (37% of total, spanning 2011\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2012 (37% of total, spanning 2011–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -72371,7 +72371,7 @@
       "ZANTREX 3"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2004 (47% of total, spanning 2004\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2004 (47% of total, spanning 2004–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -72641,7 +72641,7 @@
       "ALIGN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -73078,7 +73078,7 @@
       "CALCIUM MAGNESIUM"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -73344,7 +73344,7 @@
       "CENTRUM ADULTS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2016\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2016–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -73805,7 +73805,7 @@
       "CENTRUM SILVER WOMENS 50 MULTIMINERALS MULTIVITAMINS TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132015 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2015 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -74041,7 +74041,7 @@
       "COCONUT OIL"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (40% of total, spanning 2010\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (40% of total, spanning 2010–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -74839,7 +74839,7 @@
       "DELTA 8"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2021\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2021–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -75104,7 +75104,7 @@
       "HERBALIFE HERBALIFELINE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132018 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2018 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -75367,7 +75367,7 @@
       "HERBALIFE PROLESSA DUO"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -75624,7 +75624,7 @@
       "MULTIPLE VITAMIN"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (50% of total, spanning 2009\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (50% of total, spanning 2009–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -76598,7 +76598,7 @@
       "SHAKEOLOGY CHOCOLATE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2017\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2017–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -77108,7 +77108,7 @@
       "AGELOC YOUTH (US)"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (57% of total, spanning 2016\u20132019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (57% of total, spanning 2016–2019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -77359,7 +77359,7 @@
       "AIRBORNE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2005\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2005–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -78842,7 +78842,7 @@
       "FLINTSTONES WITH IRON"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (36% of total, spanning 2017\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (36% of total, spanning 2017–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -79015,7 +79015,7 @@
       "GUNDRY MD MCT WELLNESS WATERMELON LEMONADE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2025 (57% of total, spanning 2024\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2025 (57% of total, spanning 2024–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -79204,7 +79204,7 @@
       "HERBALIFE 21-DAY HERBAL CLEANSING PROGRAM AM TABLETS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2009 (57% of total, spanning 2009\u20132013), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2009 (57% of total, spanning 2009–2013), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -80554,7 +80554,7 @@
       "RITUAL ESSENTIAL FOR WOMEN MULTIVITAMIN 18 PLUS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2025 (53% of total, spanning 2024\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2025 (53% of total, spanning 2024–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -80711,7 +80711,7 @@
       "TOTAL CONTROL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2013\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2013–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -80973,7 +80973,7 @@
       "UQORA DEFEND"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2024 (53% of total, spanning 2023\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2024 (53% of total, spanning 2023–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -81229,7 +81229,7 @@
       "AGELOC TR90 JUMPSTART (US)"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2014 (36% of total, spanning 2013\u20132019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2014 (36% of total, spanning 2013–2019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -81969,7 +81969,7 @@
       "CBD"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2021 (38% of total, spanning 2017\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2021 (38% of total, spanning 2017–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -82238,7 +82238,7 @@
       "CITRACAL PLUS MAGNESIUM"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -82443,7 +82443,7 @@
       "CLEANSE FOR LIFE NATURAL RICH BERRY"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2014 (38% of total, spanning 2012\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2014 (38% of total, spanning 2012–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -82807,7 +82807,7 @@
       "HERBALIFE 21-DAY HERBAL CLEANSING PROGRAM PM TABLETS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2009 (54% of total, spanning 2009\u20132013), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2009 (54% of total, spanning 2009–2013), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -83064,7 +83064,7 @@
       "HERBALIFE ACTIVE FIBER COMPLEX"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -83327,7 +83327,7 @@
       "ISAGENIX IONIX SUPREME"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132019 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2019 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -83594,7 +83594,7 @@
       "LECITHIN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2005\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2005–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -83875,7 +83875,7 @@
       "LIFEPAK NANO"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2014 (38% of total, spanning 2013\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2014 (38% of total, spanning 2013–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -84141,7 +84141,7 @@
       "LIPOZENE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132018 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2018 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -84897,7 +84897,7 @@
       "ONE A DAY ENERGY"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -85162,7 +85162,7 @@
       "ONE A DAY MEN'S HEALTH"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018 (50% of total, spanning 2009\u20132022), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2018 (50% of total, spanning 2009–2022), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -85369,7 +85369,7 @@
       "ONE A DAY MENS 50 PLUS HEATHLY ADVANTAGE BAYER"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2020\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2020–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -85588,7 +85588,7 @@
       "ONE A DAY WEIGHT SMART ADVANCED"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2009 (40% of total, spanning 2007\u20132010), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2009 (40% of total, spanning 2007–2010), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -85852,7 +85852,7 @@
       "ONE A DAY WOMEN'S PETITES"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2017\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2017–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -86007,7 +86007,7 @@
       "ONE A DAY WOMENS VITACRAVES GUMMIES"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (38% of total, spanning 2016\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (38% of total, spanning 2016–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -86328,7 +86328,7 @@
       "SUPER B COMPLEX"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -86598,7 +86598,7 @@
       "XENADRINE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2004 (50% of total, spanning 2004\u20132018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2004 (50% of total, spanning 2004–2018), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -86873,7 +86873,7 @@
       "ALOE VERA"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -87149,7 +87149,7 @@
       "ARBONNE CLEANTOX HERBAL DETOX TEA"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2022 (42% of total, spanning 2021\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2022 (42% of total, spanning 2021–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -87404,7 +87404,7 @@
       "B VITAMINS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (42% of total, spanning 2014\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (42% of total, spanning 2014–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -87894,7 +87894,7 @@
       "CAFFEINE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -88618,7 +88618,7 @@
       "CENTRUM MULTIGUMMIES ADULTS 50+"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (50% of total, spanning 2019\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (50% of total, spanning 2019–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -88838,7 +88838,7 @@
       "CENTRUM SILVER FOR WOMEN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2015\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2015–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -88983,7 +88983,7 @@
       "CENTRUM SILVER ULTRA WOMEN'S MULTIMINERALS, MULTIVITAMINS TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132015 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2015 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -89122,7 +89122,7 @@
       "CHEERIOS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (58% of total, spanning 2015\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (58% of total, spanning 2015–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -89515,7 +89515,7 @@
       "CITRICAL MAXIMUM"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2019 (58% of total, spanning 2019\u20132021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2019 (58% of total, spanning 2019–2021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -89674,7 +89674,7 @@
       "DIGESTIVE FREEDOM PLUS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018 (58% of total, spanning 2017\u20132020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2018 (58% of total, spanning 2017–2020), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -90110,7 +90110,7 @@
       "EQUELLE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2023 (42% of total, spanning 2019\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2023 (42% of total, spanning 2019–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -90326,7 +90326,7 @@
       "ESTER-C 24 HOUR IMMUNE SUPPORT"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2017\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2017–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -90524,7 +90524,7 @@
       "FLAX OIL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -90980,7 +90980,7 @@
       "FLUSH"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2021 (50% of total, spanning 2016\u20132021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2021 (50% of total, spanning 2016–2021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -92041,7 +92041,7 @@
       "MNS MAX C (MAXIMUM APPETITE CONTROL)"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2013\u20132017 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2013–2017 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -92626,7 +92626,7 @@
       "ONE-A-DAY PROACTIVE 65+"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2018\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2018–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -92835,7 +92835,7 @@
       "SLOW-MAG (MAGNESIUM, CALCIUM) GASTRO-RESISTANT TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132019 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2019 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -93764,7 +93764,7 @@
       "14-DAY ACAI BERRY CLEANSE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2010 (46% of total, spanning 2009\u20132016), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2010 (46% of total, spanning 2009–2016), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -94022,7 +94022,7 @@
       "5-HOUR ENERGY EXTRA STRENGTH BERRY"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132018 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2018 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -94288,7 +94288,7 @@
       "ACCELERATE WITH THERMOLIT"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (46% of total, spanning 2020\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (46% of total, spanning 2020–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -94492,7 +94492,7 @@
       "AGELOC TR90 CONTROL (US)"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2014 (54% of total, spanning 2013\u20132019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2014 (54% of total, spanning 2013–2019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -94746,7 +94746,7 @@
       "ARBONNE BEWELL SUPERFOOD GREENS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2021 (36% of total, spanning 2021\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2021 (36% of total, spanning 2021–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -95001,7 +95001,7 @@
       "ASPARTAME"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -95528,7 +95528,7 @@
       "BEYOND RAW LIT"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2017\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2017–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -96046,7 +96046,7 @@
       "CALTRATE 600 + D SOFT CHEWS (CALCIUM CARBONATE, CHOLECALCIFEROL) CHEWABLE TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2013 (36% of total, spanning 2011\u20132017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2013 (36% of total, spanning 2011–2017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -96510,7 +96510,7 @@
       "CHEAT"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2021 (54% of total, spanning 2020\u20132021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2021 (54% of total, spanning 2020–2021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -96704,7 +96704,7 @@
       "CITRACAL CALCIUM + D"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018 (54% of total, spanning 2017\u20132019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2018 (54% of total, spanning 2017–2019), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -96870,7 +96870,7 @@
       "CITRACAL CALCIUM + D3 GUMMIES"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2018 (46% of total, spanning 2017\u20132021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2018 (46% of total, spanning 2017–2021), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -97027,7 +97027,7 @@
       "CITRACAL CALCIUM CITRATE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132023 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2023 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -97363,7 +97363,7 @@
       "ENDLESS YOUTH VITAMIN SUPPLEMENT"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2014 (36% of total, spanning 2012\u20132015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2014 (36% of total, spanning 2012–2015), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -97607,7 +97607,7 @@
       "ESTROVEN WEIGHT MANAGEMENT"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2015 (54% of total, spanning 2013\u20132017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2015 (54% of total, spanning 2013–2017), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -97862,7 +97862,7 @@
       "HERBALIFE RELAX NOW"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2004\u20132015 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2004–2015 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -98124,7 +98124,7 @@
       "HYDROXYCUT HARDCORE ELITE CAPSULES"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -98388,7 +98388,7 @@
       "MEAL REPLACEMENT SHAKE - CHOCOLATE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132017 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2017 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -98896,7 +98896,7 @@
       "NUTRILITE CAL MAG D"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -99157,7 +99157,7 @@
       "ONE A DAY VITAMINS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -99427,7 +99427,7 @@
       "PLEXUS BLOCK"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2015\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2015–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -100121,7 +100121,7 @@
       "UQORA PROMOTE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2023 (47% of total, spanning 2021\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2023 (47% of total, spanning 2021–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -100628,7 +100628,7 @@
       "AGELOC VITALITY"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2011\u20132018 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2011–2018 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -100890,7 +100890,7 @@
       "ALPHA BRAIN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2018\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2018–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -101329,7 +101329,7 @@
       "BEACHBODY SHAKEOLOGY CHOCOLATE"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2019 (40% of total, spanning 2017\u20132022), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2019 (40% of total, spanning 2017–2022), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -101896,7 +101896,7 @@
       "CALCIUM SUPPLEMENTS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -102164,7 +102164,7 @@
       "CENTRUM MEN UNDER 50 (MULTIMINERALS, MULTIVITAMINS) TABLET"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2013\u20132017 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2013–2017 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -102417,7 +102417,7 @@
       "CENTRUM MULTIGUMMIES WOMEN 50+"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (40% of total, spanning 2019\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (40% of total, spanning 2019–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -102628,7 +102628,7 @@
       "CENTRUM MULTIMINERALS, MULTIVITAMINS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2013 (50% of total, spanning 2012\u20132014), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2013 (50% of total, spanning 2012–2014), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -102761,7 +102761,7 @@
       "CENTRUM SILVER FOR MEN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2015\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2015–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -102920,7 +102920,7 @@
       "CENTRUM SPECIALIST ENERGY"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -103143,7 +103143,7 @@
       "CENTRUM VITAMINS"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (40% of total, spanning 2012\u20132024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (40% of total, spanning 2012–2024), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -103367,7 +103367,7 @@
       "CITRACAL REGULAR"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (40% of total, spanning 2017\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (40% of total, spanning 2017–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -103506,7 +103506,7 @@
       "CLA"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2004\u20132022 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2004–2022 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -103774,7 +103774,7 @@
       "CORAL CALCIUM"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2004\u20132018 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2004–2018 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -104246,7 +104246,7 @@
       "EVENING PRIMROSE"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132017 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2017 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -104512,7 +104512,7 @@
       "HERBAL EQUILIBRIUM"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2010\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2010–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -104764,7 +104764,7 @@
       "HERBALIFE GARDEN 7"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2007\u20132012 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2007–2012 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -105030,7 +105030,7 @@
       "HERBALIFE HERBAL ALOE CONCENTRATE MANGO"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2012 (54% of total, spanning 2011\u20132022), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2012 (54% of total, spanning 2011–2022), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -105524,7 +105524,7 @@
       "HYALURONIC ACID"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2024 (46% of total, spanning 2013\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2024 (46% of total, spanning 2013–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -105789,7 +105789,7 @@
       "MULTIPLE VITAMINS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2008\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2008–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -106062,7 +106062,7 @@
       "MVI"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2005\u20132020 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2005–2020 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -106588,7 +106588,7 @@
       "NATURE MADE FISH OIL"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132024 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2024 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -107085,7 +107085,7 @@
       "ONE A DAY TEEN ADVANTAGE FOR HER"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2010 (54% of total, spanning 2009\u20132010), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2010 (54% of total, spanning 2009–2010), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -107330,7 +107330,7 @@
       "OTHER SUPPLEMENTS"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2012\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2012–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -107823,7 +107823,7 @@
       "PHILLIPS' LAXATIVE DIETARY SUPPLEMENT (MAGNESIUM OXIDE) COATED TABLET"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2016 (50% of total, spanning 2011\u20132016), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2016 (50% of total, spanning 2011–2016), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -108063,7 +108063,7 @@
       "PINK PUSSYCAT"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2022 (38% of total, spanning 2018\u20132025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2022 (38% of total, spanning 2018–2025), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -108549,7 +108549,7 @@
       "PROLESSA DUO"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2014\u20132021 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2014–2021 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -108811,7 +108811,7 @@
       "SIMILAC PROBIOTIC TRIBLEND"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2023 (46% of total, spanning 2020\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2023 (46% of total, spanning 2020–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -109215,7 +109215,7 @@
       "WOMEN'S MULTIVITAMIN"
     ],
     "data_character": "organic",
-    "cluster_context": "Reports distributed across 2009\u20132025 consistent with organic consumer reporting.",
+    "cluster_context": "Reports distributed across 2009–2025 consistent with organic consumer reporting.",
     "reactions": {
       "top_reactions": [
         {
@@ -109481,7 +109481,7 @@
       "XYNGULAR FLUSH"
     ],
     "data_character": "event_cluster",
-    "cluster_context": "Reports concentrated in 2020 (42% of total, spanning 2020\u20132023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
+    "cluster_context": "Reports concentrated in 2020 (42% of total, spanning 2020–2023), suggesting a reporting event during that period rather than evenly distributed consumer use.",
     "reactions": {
       "top_reactions": [
         {
@@ -109682,5 +109682,232 @@
     },
     "data_source": "bulk_local_match",
     "query_timestamp": "2026-06-04T20:56:35.541337Z"
+  },
+  "Melatonin": {
+    "canonical_display_name": "Melatonin",
+    "normalized_key": "melatonin",
+    "type": "branded",
+    "brand_family": null,
+    "contamination_flag": "",
+    "total_reports": 652,
+    "total_reports_csv": 652,
+    "page_eligible": true,
+    "raw_strings": [
+      "MELATONIN",
+      "Melatonin",
+      "MELATONIN (DIETARY SUPPLEMENT)",
+      "MELATONIN LIQUID",
+      "MELATONIN 3 MG"
+    ],
+    "data_character": "organic_recent_emerging",
+    "cluster_context": "Reports have climbed steadily since 2013, with a notable jump in 2020 and a peak around 2022–23. The pattern tracks the mainstream boom in melatonin use as a sleep supplement — it is not associated with a recall or single regulatory event.",
+    "reactions": {
+      "top_reactions": [
+        {
+          "term": "Nausea",
+          "count": 72,
+          "pct": 11.04
+        },
+        {
+          "term": "Diarrhoea",
+          "count": 69,
+          "pct": 10.58
+        },
+        {
+          "term": "Vomiting",
+          "count": 62,
+          "pct": 9.51
+        },
+        {
+          "term": "Dizziness",
+          "count": 53,
+          "pct": 8.13
+        },
+        {
+          "term": "Dyspnoea",
+          "count": 43,
+          "pct": 6.6
+        },
+        {
+          "term": "Insomnia",
+          "count": 42,
+          "pct": 6.44
+        },
+        {
+          "term": "Pruritus",
+          "count": 40,
+          "pct": 6.13
+        },
+        {
+          "term": "Headache",
+          "count": 38,
+          "pct": 5.83
+        },
+        {
+          "term": "Pain",
+          "count": 31,
+          "pct": 4.75
+        },
+        {
+          "term": "Malaise",
+          "count": 31,
+          "pct": 4.75
+        },
+        {
+          "term": "Hypersensitivity",
+          "count": 29,
+          "pct": 4.45
+        },
+        {
+          "term": "Anxiety",
+          "count": 29,
+          "pct": 4.45
+        },
+        {
+          "term": "Urticaria",
+          "count": 27,
+          "pct": 4.14
+        },
+        {
+          "term": "Hallucination",
+          "count": 24,
+          "pct": 3.68
+        },
+        {
+          "term": "Blood pressure increased",
+          "count": 22,
+          "pct": 3.37
+        },
+        {
+          "term": "Abdominal pain",
+          "count": 21,
+          "pct": 3.22
+        },
+        {
+          "term": "Fatigue",
+          "count": 19,
+          "pct": 2.91
+        },
+        {
+          "term": "Chest pain",
+          "count": 19,
+          "pct": 2.91
+        },
+        {
+          "term": "Paraesthesia",
+          "count": 19,
+          "pct": 2.91
+        },
+        {
+          "term": "Rash",
+          "count": 18,
+          "pct": 2.76
+        }
+      ]
+    },
+    "outcomes": {
+      "Other Serious or Important Medical Event": {
+        "count": 404,
+        "pct": 61.96
+      },
+      "Hospitalization": {
+        "count": 156,
+        "pct": 23.93
+      },
+      "Visited Emergency Room": {
+        "count": 116,
+        "pct": 17.79
+      },
+      "Visited a Health Care Provider": {
+        "count": 110,
+        "pct": 16.87
+      },
+      "Other Serious Outcome": {
+        "count": 75,
+        "pct": 11.5
+      },
+      "Disability": {
+        "count": 68,
+        "pct": 10.43
+      },
+      "Other Outcome": {
+        "count": 59,
+        "pct": 9.05
+      },
+      "Life Threatening": {
+        "count": 44,
+        "pct": 6.75
+      },
+      "Death": {
+        "count": 13,
+        "pct": 1.99
+      },
+      "Allergic Reaction": {
+        "count": 6,
+        "pct": 0.92
+      },
+      "Required Intervention": {
+        "count": 3,
+        "pct": 0.46
+      },
+      "Injury": {
+        "count": 1,
+        "pct": 0.15
+      },
+      "Congenital Anomaly": {
+        "count": 1,
+        "pct": 0.15
+      }
+    },
+    "demographics": {
+      "gender": {
+        "Female": 422,
+        "Male": 189,
+        "Unknown/Not Reported": 41
+      },
+      "age_bands": {
+        "under_18": 49,
+        "18_34": 83,
+        "35_49": 104,
+        "50_64": 146,
+        "65_79": 124,
+        "80_plus": 51,
+        "unknown": 95,
+        "median_age": 55.0,
+        "mean_age": 51.3,
+        "n_with_age": 557
+      },
+      "age_note": "aggregated across all melatonin product variants in CAERS"
+    },
+    "yearly_trend": {
+      "2004": 3,
+      "2005": 1,
+      "2006": 0,
+      "2007": 2,
+      "2008": 7,
+      "2009": 7,
+      "2010": 6,
+      "2011": 10,
+      "2012": 14,
+      "2013": 26,
+      "2014": 38,
+      "2015": 45,
+      "2016": 41,
+      "2017": 47,
+      "2018": 45,
+      "2019": 48,
+      "2020": 64,
+      "2021": 49,
+      "2022": 60,
+      "2023": 65,
+      "2024": 43,
+      "2025": 31,
+      "2026": 0
+    },
+    "sanity_checks": {
+      "deaths": 13,
+      "total_reports": 652,
+      "deaths_lte_total_reports": true
+    }
   }
 }

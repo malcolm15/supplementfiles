@@ -53,6 +53,8 @@ const CATEGORY_MAP = [
   ['Extenze',               'Men\'s Health Supplement'],
   ['Virility',              'Men\'s Health Supplement'],
   ['Triverex',              'Men\'s Health Supplement'],
+  // Sleep
+  ['Melatonin',             'Sleep Supplement'],
   // Botanical / herbal
   ['Kratom',                'Botanical Supplement'],
   ['Reumofan',              'Herbal Supplement'],
@@ -130,6 +132,13 @@ const REACTIONS_DENYLIST = new Set([
 // Map: canonical_display_name → function(product) → HTML string | ''
 // <!-- REVIEW --> comments flag notes for copy refinement before launch.
 const PRODUCT_CONTEXT_NOTES = {
+  'Melatonin': () => `<div class="guide-link-card" data-pagefind-ignore>
+    <h3>More on melatonin</h3>
+    <div class="link-list">
+      <a href="/guides/melatonin-side-effects-fda-reports/">Melatonin Side Effects: What the FDA's Reports Actually Show →</a>
+    </div>
+    <p style="margin-top:.625rem;font-size:.8rem;color:var(--muted)">Note: this page aggregates reports across all melatonin products — branded and generic — as named in FDA submissions. It does not represent a single SKU.</p>
+  </div>`,
   'Flintstones Complete': (p) => {
     const childTerms = new Set([
       'ACCIDENTAL DRUG INTAKE BY CHILD',
@@ -1489,8 +1498,9 @@ function generateSitemap(productSlugs, hubSlugs) {
     { loc: `${BASE_URL}/terms/`,       priority: '0.3', freq: 'yearly'  },
     { loc: `${BASE_URL}/contact/`,     priority: '0.4', freq: 'monthly' },
     { loc: `${BASE_URL}/guides/`,      priority: '0.7', freq: 'monthly' },
-    { loc: `${BASE_URL}/guides/how-to-read-fda-adverse-event-reports/`, priority: '0.8', freq: 'monthly' },
-    { loc: `${BASE_URL}/guides/are-supplements-safe-what-fda-reports-show/`,  priority: '0.8', freq: 'monthly' },
+    { loc: `${BASE_URL}/guides/how-to-read-fda-adverse-event-reports/`,      priority: '0.8', freq: 'monthly' },
+    { loc: `${BASE_URL}/guides/are-supplements-safe-what-fda-reports-show/`, priority: '0.8', freq: 'monthly' },
+    { loc: `${BASE_URL}/guides/melatonin-side-effects-fda-reports/`,         priority: '0.8', freq: 'monthly' },
     ...productSlugs.map(s => ({ loc: `${BASE_URL}/supplements/${s}/`, priority: '0.8', freq: 'monthly' })),
     ...hubSlugs.map(s    => ({ loc: `${BASE_URL}/supplements/${s}/`, priority: '0.7', freq: 'monthly' })),
   ];
@@ -1679,6 +1689,89 @@ function renderAreSupplementsSafeGuide() {
   });
 }
 
+// ─── Guide: Melatonin Side Effects ────────────────────────────────────────────
+function renderMelatoninGuide() {
+  const canonical = `${BASE_URL}/guides/melatonin-side-effects-fda-reports/`;
+  const PUB_DATE  = '2026-06-05';
+
+  const jsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: 'Melatonin Side Effects: What the FDA\'s Reports Actually Show',
+    description: '652 FDA adverse-event reports for melatonin — the reactions, outcomes, pediatric signal, and what insomnia appearing at #6 actually tells you.',
+    url: canonical,
+    datePublished: PUB_DATE,
+    dateModified:  CURRENT_DATE,
+    author:    { '@type': 'Organization', name: 'SupplementFiles', url: BASE_URL },
+    publisher: { '@type': 'Organization', name: 'SupplementFiles', url: BASE_URL },
+    mainEntityOfPage: canonical
+  });
+
+  const body = `
+  <main data-pagefind-body>
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
+      <nav data-pagefind-ignore>
+        <p class="breadcrumb"><a href="/">SupplementFiles</a> › <a href="/guides/">Guides</a> › Melatonin side effects</p>
+      </nav>
+
+      <div class="product-hero" style="margin-bottom:1.5rem">
+        <span class="cat-pill">Guide</span>
+        <h1 data-pagefind-meta="title" style="font-size:clamp(1.5rem,3.5vw,2.1rem)">Melatonin Side Effects: What the FDA's Reports Actually Show</h1>
+        <p class="article-byline">By SupplementFiles · ${PUB_DATE}</p>
+      </div>
+
+      <div class="article-body">
+        <p class="article-lede">Among the most frequently reported problems people send the FDA about melatonin is one that stops you short: <strong>insomnia.</strong> The exact thing it's sold to fix turns up as the sixth most-common reaction in the reports. We found that going through all 652 melatonin adverse-event reports in the FDA's database, and it previews the larger point — melatonin isn't quite the uniformly gentle, harmless-if-it-doesn't-work supplement its "natural sleep aid" reputation suggests.</p>
+        <p>The usual caveat has to come first, because it governs everything below: these are reports of problems people experienced while taking melatonin, not proof it caused them, and the counts reflect how often something gets <em>reported</em>, not your personal odds. (We have a <a href="/guides/how-to-read-fda-adverse-event-reports/">separate guide on reading these reports without being misled</a>.) With that in mind, here's what 652 reports actually show.</p>
+
+        <h2>Most reactions are mundane — and a few aren't</h2>
+        <p>The bulk of melatonin's reported effects are the same ordinary complaints that dominate supplement data generally: nausea, diarrhea, vomiting, dizziness. Nothing exotic, mostly the stuff that makes for a bad night rather than an emergency.</p>
+        <p>But two stand out. Insomnia, as noted, is the sixth most-reported reaction — people taking a sleep aid and reporting that they couldn't sleep. And <strong>hallucination</strong> lands at number fourteen. Melatonin is a hormone that acts on the brain, and vivid dreams and nightmares are a recognized effect, but seeing it logged repeatedly as "hallucination" in federal reports is genuinely striking, and it shows up alongside anxiety in the top twenty. For a product marketed as gentle, the reported effects skew more neurological than you'd expect.</p>
+
+        <h2>It's a hormone, not a vitamin</h2>
+        <p>This is the reframe most people are missing: melatonin isn't a nutrient, it's a hormone your body produces — sold over the counter with no FDA pre-approval for safety, because supplements aren't regulated like medicines. One consequence is that the amount in the bottle isn't guaranteed; studies have repeatedly found the actual melatonin content of products, gummies especially, varying widely from what the label claims. That uncertainty matters most for the group the data flags hardest.</p>
+
+        <h2>The pediatric signal is the one to watch</h2>
+        <p>This is the clearest, most actionable finding in the dataset. Of the 652 reports, 49 involve children — including three toddlers under the age of two, where accidental ingestion is the near-certain explanation. Gummy melatonin looks and tastes like candy, and poison-control centers have reported steep increases in young children swallowing it.</p>
+        <p>And in the pediatric reports specifically, the reactions skew more alarming than in adults. Alongside vomiting, the children's reports include hallucination, convulsions, and aggression, plus several coded as overdose. None of that establishes that melatonin alone caused these — but the pattern is exactly what you'd worry about with a sweet-tasting hormone left within a child's reach.</p>
+        <p>For parents, the takeaways are the same as for any medicine: keep it up high and out of sight, don't present gummies as a treat, and talk to a pediatrician before giving melatonin to a child — many have real reservations about routine use in kids. If a child swallows a large amount, in the U.S. you can reach Poison Control any time at 1-800-222-1222.</p>
+
+        <h2>A steady rise, not a scare</h2>
+        <p>The report counts have climbed steadily over the years, with a clear bump in 2020 and a high-water mark around 2022–23. That isn't the fingerprint of a recall or a single bad batch — it tracks melatonin's mainstream boom, the pandemic-era surge in sleep supplements and the years of peak adoption that followed. More reports here mean more people taking it, not a product that suddenly turned dangerous. It's the counts-not-rates lesson in plain view.</p>
+
+        <h2>About the serious end</h2>
+        <p>Thirteen of the 652 reports involved a death. We include that the way we include it everywhere on this site: as a count, with the firm caveat that the FDA's database doesn't establish causation, and that reports like these almost always involve other medications or underlying health conditions. It's worth stating only because "natural sleep aid" branding can imply a product with no serious end of the spectrum at all — and the honest picture has more texture than that.</p>
+
+        <h2>So, is melatonin safe?</h2>
+        <p>For most adults, the reported problems are minor, and melatonin is taken by millions without incident — the data can't tell you your odds, and nothing here says otherwise. But the honest reading is more useful than a blanket yes. Melatonin is a hormone, not a candy; the dose in the bottle isn't guaranteed; some people report the opposite of the sleep they were after; and the data's sharpest signal is around children, where the right move is a conversation with a pediatrician and keeping the gummies locked away.</p>
+        <p>Look up the full melatonin breakdown on its <a href="/supplements/melatonin/">data page</a>, read it counts-not-rates, and take any concern to a doctor or pharmacist. "Natural" was never the same thing as "inert."</p>
+      </div>
+
+      <div class="guide-link-card" data-pagefind-ignore>
+        <h3>Melatonin data page</h3>
+        <div class="link-list">
+          <a href="/supplements/melatonin/">Melatonin — 652 FDA adverse event reports</a>
+        </div>
+        <p style="margin-top:.875rem;font-size:.875rem;color:var(--muted)">
+          Also in this series:
+          <a href="/guides/are-supplements-safe-what-fda-reports-show/" style="font-weight:500;color:var(--primary)">Are Supplements Safe? What 54,000 FDA Reports Actually Show →</a>
+          &nbsp;·&nbsp;
+          <a href="/guides/how-to-read-fda-adverse-event-reports/" style="font-weight:500;color:var(--primary)">How to Read FDA Adverse Event Reports →</a>
+        </p>
+        <p style="margin-top:.5rem;font-size:.8rem;color:var(--muted)">
+          For full data methodology: <a href="/methodology/">About the data</a>
+        </p>
+      </div>
+    </div>
+  </main>`;
+
+  return pageShell({
+    title: 'Melatonin Side Effects: What the FDA\'s Reports Actually Show — SupplementFiles',
+    description: '652 FDA adverse-event reports for melatonin: insomnia appears at #6, hallucination at #14, and 49 reports involve children. What the data shows — and doesn\'t.',
+    canonical, jsonLd, body
+  });
+}
+
 // ─── Guides index page ─────────────────────────────────────────────────────────
 function renderGuidesIndex() {
   const canonical = `${BASE_URL}/guides/`;
@@ -1699,6 +1792,11 @@ function renderGuidesIndex() {
         <p class="product-meta">Plain-English guides to reading and understanding FDA supplement adverse event data.</p>
       </div>
       <div class="guides-list">
+        <div class="guide-card">
+          <div class="guide-card-meta">June 5, 2026</div>
+          <h2><a href="/guides/melatonin-side-effects-fda-reports/">Melatonin Side Effects: What the FDA's Reports Actually Show</a></h2>
+          <p class="guide-card-desc">652 FDA reports for melatonin — why insomnia appears at #6, what the pediatric signal says, and what hallucination in the top 20 tells you about a hormone sold as a sleep aid.</p>
+        </div>
         <div class="guide-card">
           <div class="guide-card-meta">June 4, 2026</div>
           <h2><a href="/guides/are-supplements-safe-what-fda-reports-show/">Are Supplements Safe? What 54,000 FDA Reports Actually Show</a></h2>
@@ -1784,8 +1882,9 @@ function main() {
 
   // Guide articles (each lives under /guides/<slug>/)
   const GUIDE_ARTICLES = [
-    ['how-to-read-fda-adverse-event-reports',  renderHowToReadGuide],
-    ['are-supplements-safe-what-fda-reports-show', renderAreSupplementsSafeGuide],
+    ['how-to-read-fda-adverse-event-reports',        renderHowToReadGuide],
+    ['are-supplements-safe-what-fda-reports-show',   renderAreSupplementsSafeGuide],
+    ['melatonin-side-effects-fda-reports',           renderMelatoninGuide],
   ];
   for (const [slug, fn] of GUIDE_ARTICLES) {
     ensure(path.join(OUT_DIR, 'guides', slug));
