@@ -474,15 +474,26 @@ const INLINE_CSS = `
 // ─── Inline JS ────────────────────────────────────────────────────────────────
 const INLINE_JS = `
 <script>
-  // Theme toggle
+  // Theme toggle — GA4: dark_mode_toggle
   document.querySelector('.theme-toggle')?.addEventListener('click',function(){
     var h=document.documentElement,t=h.getAttribute('data-theme')==='dark'?'light':'dark';
     h.setAttribute('data-theme',t);localStorage.setItem('ss-theme',t);
+    if(window.gtag)gtag('event','dark_mode_toggle',{new_theme:t});
   });
   // Banner dismiss
   document.getElementById('banner-btn')?.addEventListener('click',function(){
     localStorage.setItem('ss-banner-seen','1');
     document.documentElement.classList.add('banner-seen');
+  });
+  // GA4: fda_source_click — any FDA/CAERS/Safety Reporting Portal external link
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a');
+    if(!a||!a.href)return;
+    var u=a.href;
+    if(u.indexOf('open.fda.gov')>-1||u.indexOf('api.fda.gov')>-1||u.indexOf('safetyreporting.hhs.gov')>-1){
+      var h1=document.querySelector('.product-hero h1');
+      if(window.gtag)gtag('event','fda_source_click',{item_name:h1?h1.textContent.trim():'',destination_url:u});
+    }
   });
 </script>`;
 
@@ -828,7 +839,18 @@ function renderProductPage(product, allProducts, slugMap) {
       <a href="${esc(openFdaProductUrl(name))}" target="_blank" rel="noopener noreferrer" style="font-size:.875rem;font-weight:600">Explore raw FDA reports for this product ↗</a>
       <p class="section-note" style="margin-top:.5rem;margin-bottom:0">Raw query results may differ from page counts — this page applies name normalization across product variants. <a href="/methodology/" style="font-size:.8rem">About our methodology</a> · <a href="/guides/how-to-read-fda-adverse-event-reports/" style="font-size:.8rem">How to read this data</a></p>
     </div>
-  </main>`;
+  </main>
+  <script>
+    // GA4: related_item_click
+    (function(){
+      var src=${JSON.stringify(name)};
+      document.querySelectorAll('.rel-chip').forEach(function(el){
+        el.addEventListener('click',function(){
+          if(window.gtag)gtag('event','related_item_click',{source_item:src,target_item:el.textContent.trim()});
+        });
+      });
+    })();
+  <\/script>`;
 
   return pageShell({
     title: `${name} — FDA Adverse Event Reports | SupplementFiles`,
@@ -1434,6 +1456,12 @@ function renderBrowsePage(allProducts, slugMap, families) {
         document.getElementById('view-'+tab.dataset.view).classList.add('active');
       });
     });
+    // GA4: browse_letter_click
+    document.querySelectorAll('.az-letter').forEach(function(el){
+      el.addEventListener('click',function(){
+        if(window.gtag)gtag('event','browse_letter_click',{letter:el.textContent.trim()});
+      });
+    });
   </script>`;
 
   return pageShell({
@@ -1481,6 +1509,23 @@ function renderSearchPage() {
         var inp = document.querySelector('.pagefind-ui__search-input');
         if (inp) { inp.value = q; inp.dispatchEvent(new Event('input', { bubbles: true })); }
       }
+      // GA4: search_query — 500ms debounce, 3+ chars, dedupe per term
+      var _lastQ='', _qTimer=null;
+      document.addEventListener('input',function(e){
+        if(!e.target.matches('.pagefind-ui__search-input'))return;
+        clearTimeout(_qTimer);
+        _qTimer=setTimeout(function(){
+          var v=e.target.value.trim();
+          if(v.length>=3&&v!==_lastQ){_lastQ=v;if(window.gtag)gtag('event','search_query',{search_term:v});}
+        },500);
+      });
+      // GA4: search_result_click
+      document.getElementById('search')?.addEventListener('click',function(e){
+        var a=e.target.closest('.pagefind-ui__result-link');
+        if(!a)return;
+        var slug=a.pathname.replace(/\/$/,'').split('/').pop();
+        if(window.gtag)gtag('event','search_result_click',{item_name:a.textContent.trim(),item_slug:slug});
+      });
     });
   <\/script>`;
 
