@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 'use strict';
 
-const fs   = require('fs');
-const path = require('path');
+const fs                    = require('fs');
+const path                  = require('path');
+const { execFileSync }      = require('child_process');
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 const BASE_URL       = 'https://supplementfiles.com';
@@ -1943,6 +1944,10 @@ function renderGuidesIndex() {
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 function main() {
+  // Generate brand assets (favicons, OG images, manifest) before writing pages,
+  // so they exist in docs/ regardless of which build command is used.
+  execFileSync(process.execPath, [path.join(__dirname, 'generate-assets.js')], { stdio: 'inherit' });
+
   const raw = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
   const allProducts = Object.values(raw).filter(p => p.page_eligible !== false);
 
