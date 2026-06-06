@@ -1462,7 +1462,27 @@ function renderBrowsePage(allProducts, slugMap, families) {
         if(window.gtag)gtag('event','browse_letter_click',{letter:el.textContent.trim()});
       });
     });
-  </script>`;
+  </script>
+
+  <style>
+    #btt{position:fixed;bottom:1.5rem;right:1.5rem;width:2.5rem;height:2.5rem;border-radius:50%;border:1px solid var(--border);background:rgba(var(--btt-rgb),.55);color:var(--text);font-size:1.1rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .25s,background .15s;z-index:99;font-family:var(--font)}
+    #btt.visible{opacity:1;pointer-events:auto}
+    #btt:hover{background:rgba(var(--btt-rgb),.85)}
+    :root,[data-theme="light"]{--btt-rgb:100,116,139}
+    [data-theme="dark"]{--btt-rgb:148,163,184}
+  </style>
+  <button id="btt" aria-label="Back to top">↑</button>
+  <script>
+    (function(){
+      var btn=document.getElementById('btt');
+      window.addEventListener('scroll',function(){
+        btn.classList.toggle('visible',window.scrollY>500);
+      },{passive:true});
+      btn.addEventListener('click',function(){
+        window.scrollTo({top:0,behavior:'smooth'});
+      });
+    })();
+  <\/script>`;
 
   return pageShell({
     title: 'All Dietary Supplements — FDA Adverse Event Reports | SupplementFiles',
