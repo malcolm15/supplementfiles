@@ -17,8 +17,8 @@ const path  = require('path');
 
 const DOCS = path.join(__dirname, '..', 'docs');
 
-const BRAND   = '#00A67E';   // --primary  (matches site CSS)
-const BRAND_D = '#008F6B';   // --primary-h (darker half of two-tone capsule)
+const BRAND   = '#4F7942';   // --primary  (matches site CSS)
+const BRAND_D = '#3E6233';   // --primary-h (darker half of two-tone capsule)
 
 // ─── Icon SVG ─────────────────────────────────────────────────────────────────
 // Concept: brand-green rounded-square bg; bold white folder (body + tab);

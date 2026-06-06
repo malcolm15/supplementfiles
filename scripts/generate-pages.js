@@ -218,23 +218,23 @@ const INLINE_CSS = `
   :root,[data-theme="light"]{
     --bg:#ffffff;--surface:#f8fafc;--border:#e2e8f0;
     --text:#0f172a;--muted:#64748b;
-    --primary:#00A67E;--primary-h:#008F6B;--primary-l:#e6f9f1;
+    --primary:#4F7942;--primary-h:#3E6233;--primary-l:#eaf2e8;
     --caveat-bg:#fffbeb;--caveat-b:#f59e0b;--caveat-t:#92400e;
     --cluster-bg:#eff6ff;--cluster-b:#3b82f6;--cluster-t:#1e40af;
     --banner-bg:#fffbeb;--banner-t:#92400e;--banner-b:rgba(146,64,14,.3);
     --aff-bg:#f0fdf4;--aff-b:#86efac;--aff-t:#166534;
-    --bar:#00A67E;--track:#e2e8f0;
+    --bar:#4F7942;--track:#e2e8f0;
     --font:system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
   }
   [data-theme="dark"]{
     --bg:#0f172a;--surface:#1e293b;--border:#334155;
     --text:#f1f5f9;--muted:#94a3b8;
-    --primary:#34d1a0;--primary-h:#2bbd8e;--primary-l:#0d3d2e;
+    --primary:#86be75;--primary-h:#74ae62;--primary-l:#182b15;
     --caveat-bg:#1c1508;--caveat-b:#d97706;--caveat-t:#fcd34d;
     --cluster-bg:#172554;--cluster-b:#3b82f6;--cluster-t:#93c5fd;
     --banner-bg:#1c1508;--banner-t:#d4b896;--banner-b:rgba(212,184,150,.25);
     --aff-bg:#052e16;--aff-b:#166534;--aff-t:#86efac;
-    --bar:#34d1a0;--track:#273344;
+    --bar:#86be75;--track:#273344;
   }
 
   /* ── Reset ─────────────────────────────────────────────────────────────── */
@@ -501,7 +501,7 @@ function pageShell({ title, description, canonical, jsonLd, body }) {
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <meta name="theme-color" content="#00A67E">
+  <meta name="theme-color" content="#4F7942">
   <meta property="og:type" content="website">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
