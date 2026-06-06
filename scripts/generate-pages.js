@@ -353,10 +353,10 @@ const INLINE_CSS = `
 
   /* ── Site footer ─────────────────────────────────────────────────────────── */
   .site-footer{border-top:1px solid var(--border);padding:1.5rem 1rem;background:var(--surface)}
-  .footer-inner{max-width:960px;margin:0 auto;display:flex;flex-direction:column;gap:.5rem;font-size:.8rem;color:var(--muted)}
+  .footer-inner{max-width:960px;margin:0 auto;display:flex;flex-direction:column;gap:.5rem;font-size:.8rem;color:var(--muted);text-align:center}
   .footer-inner a{color:var(--muted)}
   .footer-inner a:hover{color:var(--primary)}
-  .footer-links{display:flex;flex-wrap:wrap;gap:.875rem;margin-bottom:.25rem}
+  .footer-links{display:flex;flex-wrap:wrap;gap:.875rem;margin-bottom:.25rem;justify-content:center}
 
   /* ── Content pages (methodology, about, privacy, terms, faq, contact) ────── */
   .meth-body h2{font-size:1.05rem;font-weight:600;color:var(--text);margin:1.75rem 0 .4rem}
