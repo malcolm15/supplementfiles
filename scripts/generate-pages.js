@@ -240,7 +240,7 @@ const INLINE_CSS = `
 
   /* ── Reset ─────────────────────────────────────────────────────────────── */
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:var(--font);font-size:1rem;line-height:1.6;color:var(--text);background:var(--bg);transition:background .2s,color .2s}
+  body{font-family:var(--font);font-size:1rem;line-height:1.6;color:var(--text);background:var(--bg);transition:background .2s,color .2s;overflow-wrap:anywhere}
   a{color:var(--primary);text-decoration:none}
   a:hover{text-decoration:underline;color:var(--primary-h)}
   h1,h2,h3{line-height:1.25;font-family:var(--font-heading)}
@@ -270,6 +270,9 @@ const INLINE_CSS = `
   .header-nav{display:flex;align-items:center;gap:.75rem}
   .header-link{font-size:.875rem;color:var(--muted)}
   .header-link:hover{color:var(--primary);text-decoration:none}
+  /* On narrow screens, drop Methodology (footer has it); drop About too on very small screens */
+  @media(max-width:540px){.header-nav a:last-of-type{display:none}}
+  @media(max-width:340px){.header-nav a:nth-of-type(2){display:none}}
 
   /* ── Layout ─────────────────────────────────────────────────────────────── */
   main{max-width:960px;margin:0 auto;padding:2rem 1rem 4rem}
@@ -601,7 +604,7 @@ function reactionBarsHTML(reactions) {
 // ─── Outcomes table ───────────────────────────────────────────────────────────
 function outcomesTableHTML(outcomes) {
   const sorted = Object.entries(outcomes).sort((a, b) => b[1].count - a[1].count);
-  return `<table class="outcomes-table">
+  return `<div style="overflow-x:auto"><table class="outcomes-table">
   <thead><tr><th>Outcome</th><th style="text-align:right">Reports</th></tr></thead>
   <tbody>
   ${sorted.map(([name, { count }]) => `<tr>
@@ -609,7 +612,7 @@ function outcomesTableHTML(outcomes) {
     <td class="count-cell">${fmt(count)}</td>
   </tr>`).join('\n  ')}
   </tbody>
-</table>`;
+</table></div>`;
 }
 
 // ─── Demographics ─────────────────────────────────────────────────────────────
