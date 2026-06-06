@@ -224,7 +224,8 @@ const INLINE_CSS = `
     --banner-bg:#fffbeb;--banner-t:#92400e;--banner-b:rgba(146,64,14,.3);
     --aff-bg:#f0fdf4;--aff-b:#86efac;--aff-t:#166534;
     --bar:#4F7942;--track:#e2e8f0;
-    --font:system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+    --font:'Public Sans',system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+    --font-heading:'Newsreader',Georgia,serif;
   }
   [data-theme="dark"]{
     --bg:#0f172a;--surface:#1e293b;--border:#334155;
@@ -242,7 +243,7 @@ const INLINE_CSS = `
   body{font-family:var(--font);font-size:1rem;line-height:1.6;color:var(--text);background:var(--bg);transition:background .2s,color .2s}
   a{color:var(--primary);text-decoration:none}
   a:hover{text-decoration:underline;color:var(--primary-h)}
-  h1,h2,h3{line-height:1.25}
+  h1,h2,h3{line-height:1.25;font-family:var(--font-heading)}
   ::-webkit-scrollbar{width:8px;height:8px}
   ::-webkit-scrollbar-track{background:var(--surface)}
   ::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}
@@ -275,7 +276,7 @@ const INLINE_CSS = `
 
   /* ── Product hero ────────────────────────────────────────────────────────── */
   .product-hero{margin-bottom:1.5rem}
-  .product-hero h1{font-size:clamp(1.6rem,4vw,2.1rem);font-weight:800;letter-spacing:-.03em;color:var(--text);margin-top:.4rem}
+  .product-hero h1{font-size:clamp(1.6rem,4vw,2.1rem);font-weight:600;letter-spacing:-.01em;color:var(--text);margin-top:.4rem}
   .cat-pill{display:inline-flex;align-items:center;background:var(--primary-l);color:var(--primary-h);font-size:.72rem;font-weight:700;padding:.2rem .7rem;border-radius:6px;letter-spacing:.04em;text-transform:uppercase}
   [data-theme="dark"] .cat-pill{color:var(--primary)}
   .product-meta{margin-top:.5rem;font-size:.875rem;color:var(--muted);line-height:1.6}
@@ -289,7 +290,7 @@ const INLINE_CSS = `
 
   /* ── Section cards ───────────────────────────────────────────────────────── */
   .card{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin-bottom:1.25rem}
-  .card h2{font-size:1.05rem;font-weight:700;color:var(--text);margin-bottom:.3rem}
+  .card h2{font-size:1.05rem;font-weight:600;color:var(--text);margin-bottom:.3rem}
   .section-note{font-size:.8rem;color:var(--muted);line-height:1.5;margin-bottom:1.25rem}
 
   /* ── Reaction bars ───────────────────────────────────────────────────────── */
@@ -355,7 +356,7 @@ const INLINE_CSS = `
   .footer-links{display:flex;flex-wrap:wrap;gap:.875rem;margin-bottom:.25rem}
 
   /* ── Content pages (methodology, about, privacy, terms, faq, contact) ────── */
-  .meth-body h2{font-size:1.05rem;font-weight:700;color:var(--text);margin:1.75rem 0 .4rem}
+  .meth-body h2{font-size:1.05rem;font-weight:600;color:var(--text);margin:1.75rem 0 .4rem}
   .meth-body p{font-size:.9375rem;color:var(--text);margin-bottom:.875rem;max-width:64ch}
   .meth-body ul{padding-left:1.25rem;margin-bottom:.875rem}
   .meth-body li{font-size:.9375rem;color:var(--text);margin-bottom:.3rem;max-width:64ch}
@@ -373,7 +374,7 @@ const INLINE_CSS = `
 
   /* ── Article / guides ────────────────────────────────────────────────────── */
   .article-body{max-width:68ch}
-  .article-body h2{font-size:1.1rem;font-weight:700;color:var(--text);margin:2rem 0 .5rem;line-height:1.3}
+  .article-body h2{font-size:1.1rem;font-weight:600;color:var(--text);margin:2rem 0 .5rem;line-height:1.3}
   .article-body p{font-size:1rem;color:var(--text);line-height:1.78;margin-bottom:1.1rem}
   .article-body strong{font-weight:700;color:var(--text)}
   .article-body a{color:var(--primary);font-weight:500}
@@ -386,7 +387,7 @@ const INLINE_CSS = `
   .guides-list{display:flex;flex-direction:column;gap:.875rem}
   .guide-card{border:1px solid var(--border);border-radius:10px;padding:1.25rem;background:var(--bg);transition:border-color .15s,box-shadow .15s}
   .guide-card:hover{border-color:var(--primary);box-shadow:0 2px 10px rgba(79,121,66,.08)}
-  .guide-card h2{font-size:1rem;font-weight:700;margin-bottom:.3rem}
+  .guide-card h2{font-size:1rem;font-weight:600;margin-bottom:.3rem}
   .guide-card h2 a{color:var(--text)}
   .guide-card h2 a:hover{color:var(--primary);text-decoration:none}
   .guide-card-meta{font-size:.78rem;color:var(--muted);margin-bottom:.4rem}
@@ -394,7 +395,7 @@ const INLINE_CSS = `
 
   /* ── Homepage hero ───────────────────────────────────────────────────────── */
   .home-hero{text-align:center;padding:3rem 1rem 2.5rem;max-width:680px;margin:0 auto}
-  .home-hero h1{font-size:clamp(1.75rem,4vw,2.5rem);font-weight:800;letter-spacing:-.03em;color:var(--text);margin-bottom:.75rem}
+  .home-hero h1{font-size:clamp(1.75rem,4vw,2.5rem);font-weight:600;letter-spacing:-.01em;color:var(--text);margin-bottom:.75rem}
   .home-sub{font-size:1.0625rem;color:var(--muted);max-width:520px;margin:0 auto 2rem;line-height:1.6}
   .search-form{display:flex;gap:.5rem;max-width:520px;margin:0 auto;flex-wrap:nowrap}
   .search-input{flex:1;min-width:0;padding:.75rem 1rem;border:2px solid var(--border);border-radius:8px;font-size:1rem;font-family:var(--font);background:var(--bg);color:var(--text);outline:none;transition:border-color .15s}
@@ -460,7 +461,7 @@ const INLINE_CSS = `
 
   /* ── 404 page ────────────────────────────────────────────────────────────── */
   .error-hero{text-align:center;padding:4rem 1rem 2rem}
-  .error-hero h1{font-size:4rem;font-weight:800;color:var(--border);margin-bottom:.5rem;letter-spacing:-.04em}
+  .error-hero h1{font-size:4rem;font-weight:600;color:var(--border);margin-bottom:.5rem;letter-spacing:-.02em}
   .error-hero p{color:var(--muted);margin-bottom:1.5rem}
   .error-links{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap}
   .error-links a{padding:.6rem 1.25rem;border:1px solid var(--border);border-radius:8px;font-size:.9rem;color:var(--text);font-weight:500;transition:border-color .15s,color .15s}
@@ -493,6 +494,9 @@ function pageShell({ title, description, canonical, jsonLd, body }) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;600&family=Public+Sans:wght@400;600&display=swap">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
   <link rel="canonical" href="${esc(canonical)}">
