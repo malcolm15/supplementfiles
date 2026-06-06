@@ -276,7 +276,7 @@ const INLINE_CSS = `
   /* ── Product hero ────────────────────────────────────────────────────────── */
   .product-hero{margin-bottom:1.5rem}
   .product-hero h1{font-size:clamp(1.6rem,4vw,2.1rem);font-weight:800;letter-spacing:-.03em;color:var(--text);margin-top:.4rem}
-  .cat-pill{display:inline-flex;align-items:center;background:var(--primary-l);color:var(--primary-h);font-size:.72rem;font-weight:700;padding:.2rem .7rem;border-radius:20px;letter-spacing:.04em;text-transform:uppercase}
+  .cat-pill{display:inline-flex;align-items:center;background:var(--primary-l);color:var(--primary-h);font-size:.72rem;font-weight:700;padding:.2rem .7rem;border-radius:6px;letter-spacing:.04em;text-transform:uppercase}
   [data-theme="dark"] .cat-pill{color:var(--primary)}
   .product-meta{margin-top:.5rem;font-size:.875rem;color:var(--muted);line-height:1.6}
   .product-meta .big-count{font-size:1.4rem;font-weight:800;color:var(--text);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
@@ -385,7 +385,7 @@ const INLINE_CSS = `
   .guide-link-card a{color:var(--primary);font-weight:500}
   .guides-list{display:flex;flex-direction:column;gap:.875rem}
   .guide-card{border:1px solid var(--border);border-radius:10px;padding:1.25rem;background:var(--bg);transition:border-color .15s,box-shadow .15s}
-  .guide-card:hover{border-color:var(--primary);box-shadow:0 2px 10px rgba(0,166,126,.08)}
+  .guide-card:hover{border-color:var(--primary);box-shadow:0 2px 10px rgba(79,121,66,.08)}
   .guide-card h2{font-size:1rem;font-weight:700;margin-bottom:.3rem}
   .guide-card h2 a{color:var(--text)}
   .guide-card h2 a:hover{color:var(--primary);text-decoration:none}
@@ -424,7 +424,7 @@ const INLINE_CSS = `
   @media(max-width:640px){.featured-grid{grid-template-columns:repeat(2,1fr)}}
   @media(max-width:380px){.featured-grid{grid-template-columns:1fr}}
   .featured-card{border:1px solid var(--border);border-radius:10px;padding:1.125rem;background:var(--bg);transition:border-color .15s,box-shadow .15s;text-decoration:none;display:flex;flex-direction:column;gap:.3rem}
-  .featured-card:hover{border-color:var(--primary);box-shadow:0 2px 12px rgba(0,166,126,.1);text-decoration:none}
+  .featured-card:hover{border-color:var(--primary);box-shadow:0 2px 12px rgba(79,121,66,.1);text-decoration:none}
   .featured-card-name{font-size:.9rem;font-weight:600;color:var(--text);line-height:1.3}
   .featured-card-count{font-size:.8rem;color:var(--muted)}
   .featured-card-count strong{color:var(--text);font-variant-numeric:tabular-nums}
@@ -433,7 +433,7 @@ const INLINE_CSS = `
   .browse-view{display:none}
   .browse-view.active{display:block}
   .browse-tabs{display:flex;gap:.5rem;margin-bottom:1.5rem;flex-wrap:wrap}
-  .browse-tab{padding:.4rem 1rem;border:1px solid var(--border);border-radius:20px;font-size:.875rem;color:var(--muted);cursor:pointer;background:none;font-family:var(--font);transition:color .15s,border-color .15s,background .15s;font-weight:500}
+  .browse-tab{padding:.4rem 1rem;border:1px solid var(--border);border-radius:6px;font-size:.875rem;color:var(--muted);cursor:pointer;background:none;font-family:var(--font);transition:color .15s,border-color .15s,background .15s;font-weight:500}
   .browse-tab.active,.browse-tab:hover{color:var(--primary);border-color:var(--primary);background:var(--primary-l)}
   .az-group{margin-bottom:1.5rem}
   .az-letter{font-size:1rem;font-weight:800;color:var(--muted);letter-spacing:.04em;margin-bottom:.4rem;border-bottom:1px solid var(--border);padding-bottom:.25rem}
