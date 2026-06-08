@@ -133,6 +133,13 @@ trend; cluster-context line if applicable; FDA disclaimer; FDA source link; rela
 **Guide:** data-first lead (a finding, not a definition); factual voice; the disclaimers;
 bidirectional links to relevant products + methodology + related guides.
 
+**Prose type scale (guides, About, Methodology — `.article-body` and `.meth-body` containers):**
+h2: 1.7rem / weight 600 / Newsreader / margin-top 2.5rem, margin-bottom 0.6rem / hairline
+border-bottom. h3: 1.3rem / weight 600 / margin-top 1.8rem, margin-bottom 0.4rem. Body: 1.0625rem,
+line-height 1.65–1.78, paragraph margin-bottom 1.1rem. Prose measure: 68ch (already on both
+containers). Mobile (≤540px): h2→1.5rem, h3→1.15rem. Do NOT apply this scale to product-page
+elements (hero, stat figures, outcomes table).
+
 ## Editorial / Content
 
 - **Data-first:** lead with findings from our own data, not generic definitions. This is the
