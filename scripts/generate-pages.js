@@ -447,6 +447,10 @@ const INLINE_CSS = `
   .az-item a{font-size:.9rem;font-weight:500;color:var(--text)}
   .az-item a:hover{color:var(--primary);text-decoration:none}
   .az-item-meta{font-size:.78rem;color:var(--muted);white-space:nowrap;flex-shrink:0}
+  @media(max-width:540px){
+    .az-item{flex-direction:column;align-items:flex-start;gap:.15rem}
+    .az-item-meta{white-space:normal}
+  }
   .family-block{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.125rem;margin-bottom:.875rem}
   .family-block-hd{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:.75rem;flex-wrap:wrap}
   .family-block h3{font-size:.9375rem;font-weight:700;color:var(--text);margin:0}
