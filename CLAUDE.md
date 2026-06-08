@@ -136,12 +136,15 @@ bidirectional links to relevant products + methodology + related guides.
 **Prose type scale (guides, About, Methodology — `.article-body` and `.meth-body` containers):**
 h2: 1.7rem / weight 600 / Newsreader / margin-top 2.5rem, margin-bottom 0.6rem / hairline
 border-bottom. h3: 1.3rem / weight 600 / margin-top 1.8rem, margin-bottom 0.4rem. Body: 1.0625rem,
-line-height 1.65–1.78, paragraph margin-bottom 1.1rem. Prose measure: 68ch. Mobile (≤540px):
-h2→1.5rem, h3→1.15rem. Do NOT apply this scale to product-page elements (hero, stat figures,
-outcomes table). **All guide article elements** (badge, title, byline, caveat callout, body
-paragraphs, headings) share the same 68ch column — the outer wrapper is set to `max-width:68ch`,
-not just `.article-body`. For `.meth-body` pages (About, Methodology), h2 and h3 also carry
-`max-width:68ch` so headings align with paragraphs.
+line-height 1.65–1.78, paragraph margin-bottom 1.1rem. Mobile (≤540px): h2→1.5rem, h3→1.15rem.
+Do NOT apply this scale to product-page elements (hero, stat figures, outcomes table).
+
+**Unified editorial column:** All editorial pages (guides, About, Methodology, FAQ, and other prose
+pages) use a `max-width:960px` outer wrapper — the same frame as the rest of the site. Within that
+frame, prose text is constrained to `max-width:68ch` via `.article-body` (guides) or per-element
+rules (`.meth-body p/h2/h3/li`). This keeps guide and About/Methodology text at the same left
+edge and the same line-wrap width. Do NOT center guides in a narrow 68ch outer wrapper — that
+pushes the column right and makes guides look narrower than About.
 
 ## Editorial / Content
 

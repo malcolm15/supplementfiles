@@ -378,7 +378,7 @@ const INLINE_CSS = `
   [data-theme="dark"] .todo{background:#332d00;color:#ffc107;border-color:#664f00}
 
   /* ── Article / guides ────────────────────────────────────────────────────── */
-  .article-body{}
+  .article-body{max-width:68ch}
   .article-body h2{font-size:1.7rem;font-weight:600;color:var(--text);margin:2.5rem 0 .6rem;line-height:1.25;border-bottom:1px solid var(--border);padding-bottom:.4rem}
   .article-body h3{font-size:1.3rem;font-weight:600;color:var(--text);margin:1.8rem 0 .4rem;line-height:1.25}
   .article-body p{font-size:1.0625rem;color:var(--text);line-height:1.78;margin-bottom:1.1rem}
@@ -1632,7 +1632,7 @@ function renderHowToReadGuide() {
 
   const body = `
   <main data-pagefind-body>
-    <div style="max-width:68ch;margin:0 auto;padding:2rem 1rem 4rem">
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
       <nav data-pagefind-ignore>
         <p class="breadcrumb"><a href="/">SupplementFiles</a> › <a href="/guides/">Guides</a> › How to read FDA adverse event reports</p>
       </nav>
@@ -1727,7 +1727,7 @@ function renderAreSupplementsSafeGuide() {
 
   const body = `
   <main data-pagefind-body>
-    <div style="max-width:68ch;margin:0 auto;padding:2rem 1rem 4rem">
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
       <nav data-pagefind-ignore>
         <p class="breadcrumb"><a href="/">SupplementFiles</a> › <a href="/guides/">Guides</a> › Are supplements safe?</p>
       </nav>
@@ -1817,7 +1817,7 @@ function renderMelatoninGuide() {
 
   const body = `
   <main data-pagefind-body>
-    <div style="max-width:68ch;margin:0 auto;padding:2rem 1rem 4rem">
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
       <nav data-pagefind-ignore>
         <p class="breadcrumb"><a href="/">SupplementFiles</a> › <a href="/guides/">Guides</a> › Melatonin side effects</p>
       </nav>
@@ -1906,7 +1906,7 @@ function renderHowToReportGuide() {
 
   const body = `
   <main data-pagefind-body>
-    <div style="max-width:68ch;margin:0 auto;padding:2rem 1rem 4rem">
+    <div style="max-width:960px;margin:0 auto;padding:2rem 1rem 4rem">
       <nav data-pagefind-ignore>
         <p class="breadcrumb"><a href="/">SupplementFiles</a> › <a href="/guides/">Guides</a> › How to report a supplement problem</p>
       </nav>
