@@ -359,10 +359,12 @@ const INLINE_CSS = `
   .footer-links{display:flex;flex-wrap:wrap;gap:.875rem;margin-bottom:.25rem;justify-content:center}
 
   /* ── Content pages (methodology, about, privacy, terms, faq, contact) ────── */
-  .meth-body h2{font-size:1.05rem;font-weight:600;color:var(--text);margin:1.75rem 0 .4rem}
-  .meth-body p{font-size:.9375rem;color:var(--text);margin-bottom:.875rem;max-width:64ch}
-  .meth-body ul{padding-left:1.25rem;margin-bottom:.875rem}
-  .meth-body li{font-size:.9375rem;color:var(--text);margin-bottom:.3rem;max-width:64ch}
+  .meth-body h2{font-size:1.7rem;font-weight:600;color:var(--text);margin:2.5rem 0 .6rem;line-height:1.25;border-bottom:1px solid var(--border);padding-bottom:.4rem}
+  .meth-body h2:first-child{margin-top:.25rem}
+  .meth-body h3{font-size:1.3rem;font-weight:600;color:var(--text);margin:1.8rem 0 .4rem;line-height:1.25}
+  .meth-body p{font-size:1.0625rem;color:var(--text);line-height:1.65;margin-bottom:1.1rem;max-width:68ch}
+  .meth-body ul{padding-left:1.25rem;margin-bottom:1.1rem}
+  .meth-body li{font-size:1.0625rem;color:var(--text);margin-bottom:.3rem;max-width:68ch}
   .meth-body a{color:var(--primary)}
   .meth-body strong{font-weight:700}
 
@@ -377,11 +379,13 @@ const INLINE_CSS = `
 
   /* ── Article / guides ────────────────────────────────────────────────────── */
   .article-body{max-width:68ch}
-  .article-body h2{font-size:1.1rem;font-weight:600;color:var(--text);margin:2rem 0 .5rem;line-height:1.3}
-  .article-body p{font-size:1rem;color:var(--text);line-height:1.78;margin-bottom:1.1rem}
+  .article-body h2{font-size:1.7rem;font-weight:600;color:var(--text);margin:2.5rem 0 .6rem;line-height:1.25;border-bottom:1px solid var(--border);padding-bottom:.4rem}
+  .article-body h3{font-size:1.3rem;font-weight:600;color:var(--text);margin:1.8rem 0 .4rem;line-height:1.25}
+  .article-body p{font-size:1.0625rem;color:var(--text);line-height:1.78;margin-bottom:1.1rem}
   .article-body strong{font-weight:700;color:var(--text)}
   .article-body a{color:var(--primary);font-weight:500}
   .article-lede{font-size:1.0625rem;color:var(--muted);line-height:1.75;margin-bottom:1.75rem;font-style:italic}
+  @media(max-width:540px){.article-body h2,.meth-body h2{font-size:1.5rem}.article-body h3,.meth-body h3{font-size:1.15rem}}
   .article-byline{font-size:.8rem;color:var(--muted);margin-top:.4rem}
   .guide-link-card{border:1px solid var(--border);border-radius:8px;padding:1rem 1.25rem;margin-top:2rem;font-size:.875rem}
   .guide-link-card h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:.6rem}
