@@ -1,82 +1,35 @@
 # SupplementFiles
 
-**[supplementfiles.com](https://supplementfiles.com)** — FDA dietary supplement adverse event reports, made legible.
+FDA dietary supplement adverse event reports, made legible.
 
-SupplementFiles takes raw data from the FDA's CFSAN Adverse Event Reporting System (CAERS) and turns it into clean, searchable pages for consumers. When someone searches a supplement, they see what real people have reported to the FDA: reactions, outcomes, who was affected, and how reports have changed over time — in plain language with the proper context.
+SupplementFiles makes data from the FDA's CFSAN Adverse Event Reporting System (CAERS) understandable to regular people. Search any supplement and see what people have actually reported to the FDA — reactions, outcomes, demographics, and trends over time — presented in plain English with clear context.
 
----
+This is different from what WebMD or retailer sites provide. Those show label information and marketing claims. SupplementFiles shows real-world reported events from the public CAERS database.
 
-## What's in the site
+## Important Disclaimer
 
-- **123 product pages** — one per supplement with ≥25 FDA reports, covering ~22,800 adverse event reports across 444 tracked products
-- **A–Z browse index** with category filters
-- **Full-text search** powered by [Pagefind](https://pagefind.app) (runs entirely client-side, no server)
-- **Editorial guides** explaining the data (how to read an FDA report, melatonin side effects, how to report to the FDA)
-- **Sitemap, robots.txt, Open Graph / Twitter cards, favicons** — all generated at build time
+SupplementFiles presents voluntary reports submitted to the FDA. A report does not mean a supplement caused any adverse event. This data may be incomplete or contain errors. SupplementFiles is not a substitute for professional medical advice. Always consult your healthcare provider.
 
----
+## Status
 
-## How it works
+Live at [supplementfiles.com](https://supplementfiles.com).
 
-This is a static site generator, not a CMS or web app.
+## Tech Stack
 
-```
-data/supplement_full_catalog.json   ← source of truth (processed FDA bulk data)
-        ↓
-scripts/generate-pages.js           ← reads catalog, writes docs/*.html
-        ↓
-npx pagefind --site docs            ← builds client-side search index
-        ↓
-docs/                               ← output pushed to Cloudflare Pages
-```
-
-Every page is plain HTML. No client-side rendering, no database. Fully crawlable without JavaScript.
-
-### Build
-
-```bash
-npm install
-npm run build
-# or: node scripts/generate-pages.js && npx pagefind --site docs
-```
-
-Output goes to `docs/` (gitignored — regenerated on every build). Favicons and OG images are generated automatically at the start of the build step via `scripts/generate-assets.js`.
-
----
-
-## Data source
-
-Raw data: [FDA CAERS bulk download](https://www.fda.gov/food/compliance-enforcement-regulatory-information/cfsan-adverse-event-reporting-system-caers) — the dietary supplement subset of the food/cosmetics adverse event database.
-
-The `pipeline/` scripts handle ingestion: download the bulk file, filter to dietary supplements, normalize brand names, compute reactions/outcomes/demographics/yearly trends, and write `data/supplement_full_catalog.json`. This step runs offline; the committed JSON file is the build input.
-
-**Important framing:** CAERS data reflects *voluntary reports*, not clinical trials. A report doesn't mean the supplement caused the event. All pages carry this disclaimer.
-
----
-
-## Deployment
-
-Hosted on [Cloudflare Pages](https://pages.cloudflare.com), auto-deployed on push to `main`.
-
-| Setting | Value |
-|---|---|
-| Build command | `node scripts/generate-pages.js && npx pagefind --site docs` |
-| Output directory | `docs` |
-| Node.js version | 18+ |
-
----
-
-## Tech
-
-- **Generator:** Node.js (CommonJS), no framework
-- **Search:** Pagefind (static index)
+- **Data:** FDA CAERS bulk download
+- **Build scripts:** Node.js
+- **Search:** Pagefind (client-side, static)
+- **Frontend:** Vanilla HTML, CSS, JavaScript — no frameworks
 - **Hosting:** Cloudflare Pages
-- **Analytics:** GA4
-- **Assets:** [sharp](https://sharp.pixelplumbing.com) for favicon/OG image generation
-- **Fonts:** Newsreader (headings) + Public Sans (body) via Google Fonts
 
----
+## How It Works
 
-## Sibling project
+A Node.js pipeline ingests the FDA CAERS bulk data, filters it to dietary supplements, and normalizes it into a local JSON catalog. A second script reads that catalog and generates static HTML pages — one per supplement. Pagefind then builds a client-side search index over the output.
 
-[PillSignal](https://pillsignal.com) — same model, same architecture, FDA drug adverse event data (FAERS).
+## Data Source
+
+All data is sourced from the FDA's CFSAN Adverse Event Reporting System via the openFDA API and bulk downloads. SupplementFiles is not affiliated with the FDA.
+
+## Sibling Project
+
+[PillSignal](https://pillsignal.com) — same model, FDA drug adverse event data (FAERS).
