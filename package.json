@@ -6,13 +6,16 @@
     "assets": "node scripts/generate-assets.js",
     "generate": "node scripts/generate-pages.js",
     "index": "npx pagefind --site docs",
-    "build": "node scripts/generate-assets.js && node scripts/generate-pages.js && npx pagefind --site docs"
+    "build": "node scripts/generate-assets.js && node scripts/generate-pages.js && npx pagefind --site docs",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "engines": {
     "node": ">=18"
   },
   "devDependencies": {
     "pagefind": "^1.5.2",
-    "sharp": "^0.34.5"
+    "sharp": "^0.34.5",
+    "wrangler": "^4.98.0"
   }
 }
