@@ -77,6 +77,13 @@ not to page titles. Do not strip "side effects" from titles.
   industry category.
 - **Data store:** local bulk CAERS file committed to the repo (no external DB). Deliberate —
   fixes `+`/encoding query bugs and keeps builds offline-stable.
+- **CAERS naming note (2026):** The FDA retired its consumer-facing CAERS info page
+  (fda.gov/…/cfsan-adverse-event-reporting-system-caers → now 404/redirects to HFCS).
+  The FDA's new consumer-facing name for this data is **HFCS** (Human Foods Complaint System);
+  the backend consolidation is called **AEMS** (Adverse Event Management System, launched
+  March 2026). However, the openFDA API (`/food/event.json`) and its docs still self-identify
+  the source as "CAERS" with current data (last updated May 2026). Keep all site copy as
+  "CAERS" until openFDA itself renames or redirects the endpoint — revisit at that point.
 - **Build:** Node.js — `node scripts/generate-pages.js && npx pagefind --site docs`. Page generation calls `generate-assets.js` as its first step (via `execFileSync`), so favicons and OG images are always produced before pages are written — no separate assets step needed. `npm run build` runs the same command and also works.
 - **Search:** Pagefind (static index over `docs/`).
 - **Frontend:** static HTML/CSS/JS — no SPA, no client-side rendering of main content. Every
